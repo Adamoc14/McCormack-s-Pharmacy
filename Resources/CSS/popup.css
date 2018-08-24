@@ -1,0 +1,175 @@
+*{
+  margin:0;
+  padding:0;
+  text-decoration:none;
+}
+
+html{
+  width:100%;
+  height:100%;
+}
+
+
+
+
+#Subcription_Pop_Up_Image{
+  position:absolute;
+  border: 1px solid #BDBDBD;
+  border-radius:50%;
+  height: 80px;
+  width:74px;
+  top:-8%;
+  left:-5%;
+}
+
+#Subscription_Pop_Up{
+  position:absolute;
+  top:30%;
+  height:40%;
+  width:30%;
+  border: 1px solid #77FF03;
+  background:white;
+  left:35%;
+  z-index:8000;
+  -webkit-transition:all 8.5s ease;
+  transition : all 8.5s ease;
+  box-shadow: 20px 20px 10px 8000px rgba(0,0,0,0.8) ;
+  min-width:360px;
+  min-height: 370px;
+}
+
+#Subscription_Pop_Up.hidden {
+  display: none;
+}
+
+#Subscription_Pop_Up_Content{
+  position:relative;
+  top:15%;
+}
+
+#Subscription_Heading_Pop_Up{
+  position:relative;
+  text-align:center;
+  margin-bottom:5%;
+  color: #1a1a1a;
+  font-family: caveat;
+  font-weight:200;
+  font-size: 30px;
+}
+
+#Sign_Up_Plea, #Sign_Up_Incentive{
+  position:relative;
+  text-align:center;
+  font-size:12px;
+  top: 15%;
+  color: #1a1a1a;
+  font-family: PT serif;
+}
+
+#Sign_Up_Incentive{
+  margin-top:3%;
+}
+
+#Pop_Up_Form{
+  position:relative;
+  margin-top:10%;
+  top: 25%;
+  left:8%;
+  margin-left:1%;
+}
+
+#subscription_email{
+  padding:10px;
+  margin-right: 5%;
+  width:40%;
+}
+
+#subscription_email_button{
+  position:relative;
+  width: 30%;
+  padding:3%;
+  border: 1px solid #77F003;
+  z-index:1000;
+  background:white;
+  opacity: .8;
+ 
+}
+
+#subscription_email_button:active{
+  position:relative;
+  width: 30%;
+  padding:3%;
+  border: 1px solid #77F003;
+  z-index:1000;
+  background:white;
+  opacity: .8;
+}
+
+
+
+#Opt_Out_Link{
+  position:absolute;
+  left:43%;
+  top: 120%;
+  cursor: pointer;
+}
+
+
+#Opt_Out_Link:hover{
+  color:#77FF03;
+  cursor: pointer;
+  border-bottom: 1px solid #77F003;
+}
+
+@media screen and (max-width:768px) {
+  #Subscription_Pop_Up{
+    width:100%;
+    left:10%;
+    height:60%;
+  }
+
+  #Subcription_Pop_Up_Image{
+    width: 20%;
+    height:30%;
+  }
+  #Subscription_Heading_Pop_Up{
+    font-size: 50px;
+  }
+  
+  #Sign_Up_Plea{
+    margin-top:-2%;
+  }
+  #Sign_Up_Plea, #Sign_Up_Incentive{
+    font-size:17px;
+  }
+  #Sign_Up_Incentive:nth-of-type(2){
+    font-size:28px
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  #Subscription_Pop_Up{
+    width:160%;
+    left:10%;
+    height:100%;
+  }
+
+  #Subcription_Pop_Up_Image{
+    width: 20%;
+    height:30%;
+  }
+  #Subscription_Heading_Pop_Up{
+    font-size: 50px;
+  }
+  
+  #Sign_Up_Plea{
+    margin-top:-2%;
+  }
+  #Sign_Up_Plea, #Sign_Up_Incentive{
+    font-size:17px;
+  }
+  #Sign_Up_Incentive:nth-of-type(2){
+    font-size:28px
+  }
+}

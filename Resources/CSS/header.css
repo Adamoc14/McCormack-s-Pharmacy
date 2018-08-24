@@ -1,0 +1,579 @@
+
+#Tel_Number{
+    color:#76FF03;
+    text-decoration: none;
+}
+
+#Authorization_Link_Log_In{
+
+    color:#000;
+    font-family: montserrat;
+    font-size: 20px;
+    z-index: 999;
+    text-decoration: none;
+    margin-left: 6vw;
+    
+}
+
+#Authorization_Link_Log_In:after{
+    content: " | ";
+    
+}
+
+#Authorization_Link_Register{
+    color:#000;
+    font-family: montserrat;
+    font-size: 20px;
+    z-index: 999;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+/* This is the code for the Top Section of the header */
+
+
+/* This is the code for the header info in the top section of the header */
+
+
+#Header_Opening_Hours{
+    font-size:12.75px;
+    font-family: Raleway;
+    color: #76FF03;
+    float:left;
+}
+
+
+
+
+/* This is the end of the  code for the header info in the top section of the header */
+
+
+/* This is the code for the icons in the top scetion of the header */
+
+#Social_Icon_Container .fa-facebook-f{
+    margin-left:12%;
+    color:#76FF03;
+}
+#Social_Icon_Container .fa-instagram{
+    margin-left:12%;
+    color:#76FF03;
+}
+#Social_Icon_Container .fa-snapchat-ghost{
+    margin-left:10%;
+    color:#76FF03;
+}
+ /* This is the end of the  code for the icons in the top section of the header */
+
+/* This is the code for the dividing line to divide the header into two parts  */
+#Header_Divider{
+    border: 1.5px solid #76FF03;
+    position:relative;
+}
+
+/* This is the code to end the dividing line to divide the header into two parts  */
+
+
+/* This is the code for the Middle Section of the header */
+
+
+
+#Middle_Section_Image_Logo{
+	float:left;
+    margin-top:-2vh;
+    width:12%;
+    height:30%;
+    border-radius: 50%;
+    border: 1px solid #BDBDBD; 
+    margin-left: 3vw;
+
+
+}
+
+
+
+#McCormacks_Logo_Middle_Section{
+	float:right;
+    font-size: 44.5px;
+    font-family: Bitter;
+    color:#76FF03;
+    margin-top: 1vh;
+    margin-right: 10vw;
+    
+
+}
+
+
+
+#Pharmacy_Header_Name{
+    color:#BDBDBD;
+    font-size:44.5px;
+    letter-spacing: .2em;   
+}
+
+.ec-cart-widget{
+    
+    margin-left:80%;
+    margin-bottom: -7vh;
+    font-size: 60px;
+    color:#76FF03;
+}
+
+.ecwid-search-widget--collapsed{
+    font-size: 60px;
+    color:#76FF03;
+}
+
+
+    
+input.ecwid-SearchPanel-field {
+    width: 100px; 
+    height: 20px; 
+    border: solid 1px #77ff03; 
+    background-color: #77ff03; 
+    font-size: 12px; 
+    color: #000000; 
+   }
+   
+
+#my-search-14190009{
+	margin-top:-6vh;
+    margin-left:13vw;
+    border:none;
+    outline:none;
+}
+
+
+/* End of the Middle Section in the header */
+
+/* This is the code for the Navbar in the header*/
+
+/* The fix to the boxes jumping is use margin: -px on hover of what the padding is  */
+
+/* Navbar */
+  
+  #menu{
+    z-index: 1001;
+    background:#76FF03;
+    
+  }
+  #menu ul{
+    list-style: none;
+    margin-left: 8%;
+   
+    
+  }
+  #menu ul li{
+    float: left;
+    margin-right: 0px;
+    
+  }
+  
+  #menu ul li:hover a{
+    background:white;
+    color:#77FF03;
+  }
+  
+  #menu ul li a:first-child{
+      border-left: 1px solid white;
+  }
+
+  #menu ul li a{
+    color: white;
+    display: block;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18.5px;
+    font-weight: 700;
+    font-family : Quicksand;
+    border-right: .25px solid white;
+  }
+
+  /* End of Main Navbar */
+
+
+
+  /* Beauty Megamenu */
+  
+  #menu ul li #Beauty_Megamenu{
+    position:absolute;
+    padding:28%;
+    left:2vw;
+    min-height:2vh;
+    background: #FFF;
+    display: none;
+    z-index: 257;
+  }
+  #menu ul li:hover #Beauty_Megamenu{
+    display: block;
+  }
+  #Beauty_Megamenu_Title{
+      position:relative;
+      margin-top: -38vh;
+      text-align: center;
+      color:#76FF03;
+      font-family:dosis;
+     
+  }
+  #Beauty_Megamenu_List1_Subtitle,#Beauty_Megamenu_List2_Subtitle,#Beauty_Megamenu_List3_Subtitle,#Beauty_Megamenu_List4_Subtitle,#Beauty_Megamenu_List5_Subtitle{
+      color:#757575;
+  }
+  #Beauty_Megamenu ul li{
+    float: none;
+    margin-right:0;
+  }
+ #Beauty_Megamenu ul li:hover a{
+    color: #e74c3c;
+    background: white;
+  }
+ #Beauty_Megamenu ul li a{
+    padding: 10px 15px;
+    text-transform: capitalize;
+    color: #77ff03;
+  }
+ #Beauty_Megamenu #Beauty_Megamenu_List1{
+    border-right: 2px solid #E0E0E0;
+     float: left;
+     margin-left: -20vw;
+  }
+
+  #Beauty_Megamenu #Beauty_Megamenu_List1 li a{
+      color: #76FF03;
+      font-weight: 800;
+  }
+  #Beauty_Megamenu #Beauty_Megamenu_List2{
+
+      
+  }
+  #Beauty_Megamenu #Beauty_Megamenu_List2 li{
+      display: inline-block;
+      
+  } 
+  #Beauty_Megamenu #Beauty_Megamenu_List2 li a ,#Beauty_Megamenu #Beauty_Megamenu_List3 li a {
+    color: #BDBDBD;
+    border-left :2px solid #76FF03;
+    margin-top: 3%;
+  }
+  
+
+  #Beauty_Megamenu #Beauty_Megamenu_List3{
+
+  }
+  #Beauty_Megamenu #Beauty_Megamenu_List4{
+
+  }
+  #Beauty_Megamenu #Beauty_Megamenu_List5{
+
+  }
+  #menu ul li #Beauty_Megamenu img{
+    position:absolute;
+    left:75%;
+    top:0;
+    height:100%;
+    width:25%;
+  }
+
+  /* End of Beauty Megamenu */
+
+  
+  #menu ul li #megamenu2{
+    position:absolute;
+    padding: 7%;
+    width:80%;
+    left: 10.5%;
+    background: #e74c3c;
+    display: none;
+  }
+  
+  #menu ul li:hover #megamenu2{
+    display: block;
+  }
+  
+  #menu ul li #megamenu2 #first {
+    width:13.3%;
+    float: left;
+    margin-top:-4.5%;
+  }
+  
+  
+  
+  #menu ul li #megamenu2 #first li{
+    display: block;
+    width:100%;
+    text-align: center;
+    
+  }
+  #menu ul li #megamenu2 #first li:hover a{
+    color:#e74c3c;
+    background:white;
+  }
+  #menu ul li #megamenu2 #second li:hover a{
+    color:#e74c3c;
+    background:white;
+  }
+  
+  #menu ul li #megamenu2 #first li a{
+    border: none;
+    color: white;
+  }
+  
+  #menu ul li #megamenu2 #second{
+    width: 13.3%;
+    position : absolute;
+    left: 20%;
+    top:3%;
+   
+    
+  }
+  
+  #menu ul li #megamenu2 #second li {
+    display: block;
+    width:100%;
+    text-align: center;
+    margin: 2px;
+    
+    
+  }
+  
+  #menu ul li #megamenu2 #second li a{
+    border: none;
+    color: white;
+    
+  }
+  
+  #menu ul li #megamenu2 img {
+    position:absolute;
+    left:80%;
+    top:10%;
+    background: #e74c3c;
+    background-blend-mode: multiply;
+    
+    
+  }
+  
+
+.grey_Bottom_Homepage_Bar{
+    background: #BDBDBD;
+}
+
+.fa-truck{
+    margin-top:3vh;
+    padding: 0.25% 0;
+    color:white;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+#Track_Delivery_Heading{
+    margin-top: -3vh;
+    font-family: Quicksand;
+    font-size: 16.5px;
+    color:white;
+}
+
+
+
+
+#Excellent_Star_Rating{
+    font-family: Quicksand;
+    font-size: 16.5px;
+    color:white;
+    float:left;
+    padding:1%;
+}
+
+
+
+.fa-star{
+    color: #FDD835;
+    
+}
+
+
+
+#Trustpilot_Heading{
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    color:white;
+	margin-top:1%;
+    float:right;
+}
+
+
+
+#Bottom_Task_Bar_Homepage3_Heading1{
+    color:#76FF03;
+    font-family: Quicksand;
+    font-size: 19.5px; 
+   float:left;
+    margin-left: 5vw;
+    margin-right:0.5vw;
+    margin-top:1%;
+   
+   
+}
+
+#Bottom_Task_Bar_Homepage3_Heading2{
+    font-family: Quicksand;
+    font-size: 16.5px;
+    color:white;
+    padding:1%;
+    
+    
+}
+
+
+.full-green{
+    width:100%;
+    background:#77ff03;
+}
+
+
+
+
+
+@media screen and (max-width:768px){
+    #Pharmacy_Header{
+        width:130%;
+        background:#fff;
+    }
+
+    #Header_Info{
+        top:70%;
+        width:100%;
+        left:2%;
+
+    }
+
+    #Header_Divider{
+        display: none;
+    }
+   #Header_Social_Icons{
+        width:20%;
+        top:68%;
+        left:65%;
+        position:relative;
+    }
+    #McCormacks_Header_Middle_Section{
+        top:20%;
+        left:4%;
+    }
+
+
+    #McCormacks_Logo_Middle_Section{
+        top:20%;
+        font-size:40px;
+        left:17%
+
+    }
+    #Pharmacy_Header_Name{
+        font-size: 40px;
+    }
+    #Middle_Section_Image_Logo{
+        width:15%;
+        height:115%;
+        left:0%;
+        top:-5%
+    }
+    ul li{
+        left:5%;
+    }
+
+    .ec-cart-widget{
+        top:120%;
+        left:5%
+    }
+    #my-search-14190009{
+        top:127%;
+        left:10%;
+        
+    }
+}
+
+   
+@media screen and (max-width:425px) {
+    #Pharmacy_Header{
+        width:130%;
+        background:white;
+    }
+     #McCormacks_Header_Middle_Section{
+        top:15%;
+        left:10%;
+        width:100%;
+    }
+
+
+    #McCormacks_Logo_Middle_Section{
+        top:40%;
+        font-size:22px;
+        left:19%;
+
+    }
+    #Pharmacy_Header_Name{
+        font-size: 20px;
+    }
+    #Middle_Section_Image_Logo{
+        width:12%;
+        height:95%;
+        left:5%;
+        top:15%
+    }
+
+    #Header_Social_Icons{
+        width:35%;
+        top:75%;
+        left:80%;
+        font-size: 8px;
+    }
+    ul{
+        width:130%;
+    }
+    ul li{
+        left:10%;
+        top:30%;
+        padding:10px;
+    }
+    ul li a{
+        font-size:7px;
+    }
+    .ec-cart-widget{
+        top:120%;
+        left:15%
+    }
+    #my-search-14190009{
+        top:130%;
+        left:23%;
+        
+    }
+    #Header_Info{
+        left:12%;
+        top:75%;
+        width:100%;
+    }
+    #Header_Opening_Hours{
+        font-size: 5.5px;
+    }
+
+   
+
+
+    
+}
+
+@media screen and (max-width:251px) {
+    #Header_Opening_Hours{
+        font-size: 5.5px;
+    }
+    #Header_Social_Icons{
+        width:35%;
+        top:75%;
+        left:80%;
+        font-size: 8px;
+    }
+
+
+}

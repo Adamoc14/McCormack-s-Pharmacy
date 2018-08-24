@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+*,
+*:before,
+*:after {
+  transition-property: transform, opacity, filter;
+  transition-duration: 600ms, 600ms, 600ms;
+  transition-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+
+
+@media only screen and (min-width:60em) {
+    .container {
+      width: 90%;
+      max-width: 90rem;
+    }
+    
+    .container.full-width {
+        width: 110%;
+        margin-left: -5vw;
+        max-width: 200rem;
+    }
+  }

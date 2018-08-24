@@ -1,0 +1,509 @@
+		/* This is the styling for the overall section of the footer */
+
+        #Footer_Top_Section{
+
+            padding-bottom: 100vh;
+            
+            background: #76FF03;
+        
+        }
+        
+        #Footer_Top_Section1_Sub{
+          margin-top:10vh;
+        }
+        
+        #Verify_Site_Image{
+          height: 40vh;
+           width: 25vw;
+           float: left;
+          margin-left:5vw;
+          margin-top:10vh;
+        
+        }
+        
+        #Welcome_McCormacks_Heading{
+            margin-left:7vw;
+            margin-top:1vh;
+            font-family : Quicksand;
+            color:white;
+            font-weight: 800;
+            font-size: 18.5px;
+            float: left;
+        }
+        
+        #Summary_McCormacks_Pharmacy{
+            margin-left:5vw;
+           float: left;
+            color:#424242;
+            font-weight: 400;
+            font-family: quicksand;
+            font-size:96%;
+        }
+        
+        #Footer_Top_Section2_Sub{
+         float: right;
+         margin-top:10vh;
+         margin-left: 4vw;
+         margin-right: 5vw;
+        }
+        
+        
+        #Footer_Top_Section3_Sub{
+         float: right;
+         margin-top:10vh;
+         margin-right:5vw;
+        }
+        
+        
+        
+        #Footer_Top_Section4_Sub{
+          float: right;
+          margin-top:10vh;
+            margin-right: 3vw;
+        }
+        
+        
+        
+        #Footer_Top_Section5_Sub{
+        float: right;
+        margin-top:10vh;
+            margin-right: 5vw;
+        }
+        
+        #Footer_Top_Section2_Sub_Heading,#Footer_Top_Section3_Sub_Heading,#Footer_Top_Section4_Sub_Heading,#Footer_Top_Section5_Sub_Heading{
+        
+            color:white;
+            font-weight:800;
+            font-size: 105%;
+            font-family:Montserrat;
+        
+        }
+        
+        #Footer_Top_Section2_Sub ul,#Footer_Top_Section3_Sub ul,#Footer_Top_Section4_Sub ul,#Footer_Top_Section5_Sub ul{
+         
+        
+        }
+        #Footer_Top_Section2_Sub ul li,#Footer_Top_Section3_Sub ul li,#Footer_Top_Section4_Sub ul li,#Footer_Top_Section5_Sub ul li{
+            list-style:none;
+            padding: 10px 5px;
+        
+        }
+        #Footer_Top_Section2_Sub ul li a,#Footer_Top_Section3_Sub ul li a,#Footer_Top_Section4_Sub ul li a,#Footer_Top_Section5_Sub ul li a{
+            color:#424242;
+            font-weight: 400;
+            font-size: 100%;
+        }
+        #Footer_Top_Section2_Sub ul li a:hover,#Footer_Top_Section3_Sub ul li a:hover,#Footer_Top_Section4_Sub ul li a:hover,#Footer_Top_Section5_Sub ul li a:hover{
+            border-bottom: 1px solid #424242;
+        }
+        
+        
+        #White_Background_Footer{
+            background:white;
+            height:20vh;
+            width:100%;
+        }
+        
+        
+        #Footer_Divider{
+            width:80%;
+            margin-left: 10vw;
+            margin-bottom: 20vh;
+            border: 1px solid #76FF03;
+            background:#76FF03;
+        }
+        
+        /* footer{
+           
+            background: white;
+            padding-bottom: 2%;
+        
+        } */
+        
+        
+            /* This is the styling for the left side of the footer  */
+                       #Footer_Section_1_Left{
+                            margin-top: 15vh;
+                            float: left;
+        
+                        }
+        
+                        #Left_Section_Logo{
+                           width: 7vw;
+                            margin-left: 5vw;
+                            margin-right: 1vw;
+                            margin-top:-4vh;
+                            float:left;
+                            height: 10vh;
+                            border-radius:50%;
+                            border: 1px solid #BDBDBD;
+                        }
+        
+                        #McCormacks_Logo_Left_Section{
+                            margin-top:-2vh;
+                            
+                            font-size: 25px;
+                            font-family: bitter;
+                            color:#76FF03;
+                        }
+        
+                        #Footer_Left_Pharmacy_Header_Name{
+                         
+                            color:#BDBDBD;
+                        }
+        
+                        #McCormacks_Copyright_Left_Section{
+                           float: left;
+                            margin-top:2vh;
+                            margin-left: 5vw;
+                            word-spacing: .1em;
+                            font-weight: lighter;
+                            font-size: 15px;
+                        }
+        
+                       
+        
+        
+        
+            /* This is the end of the styling fo rthe left sid eof the footer  */
+                
+        
+            /* This is the styling for the middle side of the footer */
+        
+                           #Footer_Section_2_Middle{
+                               float:right;
+                               margin-top: -12vh;
+                            }
+        
+        
+        
+                            /* This is the styling for the perks label and the follow us label in the middle container */
+        
+                               #Section_Middle_Follow_Us{
+                                   margin-top: -10vh;
+                                   
+                                    font-family: quicksand;
+                                   font-size: 170%;
+                                   margin-left: 33vw;
+                                   
+                                  
+                                
+                                    
+        
+                                }
+        
+                                #Section_Middle_Perks{
+                                   margin-left: 25vw;
+                                    font-size:90%;
+                                    font-family: Dosis;
+                                    text-align: center;
+                                }
+                                   
+        
+        
+                            /* This is the end of the styling for the labels in the middle section of the footer  */
+        
+        
+                            /* This is the styling for the social icons in the middle section of the footer */
+        
+                           #Footer_Facebook_Icon{
+                               margin-top: 3vh;
+                                margin-left: 32.5vw;
+                                color:white;
+                                background:#76FF03;
+                                padding:5px 15px;
+                                border-radius:50%;
+                                border:none;
+                            }
+                            #Footer_Instagram_Icon{
+                                
+                                color:white;
+                                background:#76FF03;
+                                padding:6px 10px;
+                                border-radius:50%;
+                                border:none;
+                            }
+        
+                            #Footer_Snapchat_Icon{
+                               
+                                color:white;
+                                background:#76FF03;
+                                padding:6px 10px;
+                                border-radius:50%;
+                                border:none;
+                                
+                            }
+                           
+        
+        
+                            /* This is the end of the styling for the social buttons */
+        
+                            
+        
+                            /* This is for styling the app store and play store buttons  */
+        
+                            
+        
+                            .btn{
+                                box-sizing: border-box;
+                                display: inline-block;
+                                text-align: left;
+                                white-space: nowrap;
+                                text-decoration: none;
+                                vertical-align: middle;
+                                touch-action: manipulation;
+                                cursor: pointer;
+                                user-select: none;
+                                border: 1px solid white;
+                                padding: 4px 8px;
+                                margin: 5px auto;
+                                margin-right: 1vw;
+                                margin-top:5vh;
+                                margin-bottom: 5vh;
+                                border-radius: 4px;
+                                fill:#BDBDBD;
+                                color: #BDBDBD;
+                                background: white;
+                                line-height: 1em;
+                                min-width: 190px;
+                                height: 45px;
+                                transition: .2s ease-out;
+                                box-shadow: 0 1px 2px rgba(white, 20%);
+                                }
+    
+    
+                                .btn--android{
+                                    margin-left: 23vw;
+                                }
+                               
+                            .btn__icon,
+                            .btn__text,
+                            .btn__storename{
+                                display: inline-block;
+                                vertical-align: top;							
+                            }
+                            .btn__icon{
+                                width: 30px;
+                                height: 30px;
+                                margin-right: 5px;
+                                margin-top: 2px;
+                            }
+                            .btn__text{
+                                letter-spacing: .08em;
+                                margin-top: -.1em;
+                                font-size: 10px;
+                            }
+        
+                            .btn__storename{
+                                display: block;		
+                                margin-left: 38px;
+                                margin-top: -17px;
+                                font-size: 22px;
+                                letter-spacing: -.03em;
+                            }
+        
+    
+                            .btn:hover {
+                              background: white;
+                              color: #77FF03;
+                              fill: #77ff03;
+                              border-color: white;
+                              transform: scale(1.01) translate3d(0,-1px,0);
+                              box-shadow: 0 4px 8px rgba(white, 20%);
+                              }
+    
+                              .btn:hover .btn__icon{
+                                  color:#76FF03;
+                              }
+        
+                           
+        
+                            
+        
+        
+                            #AppStoreDownload,#AppStoreDownload:after{
+        
+                                transition: none;
+                              }
+                              
+                              #AppStoreDownload:before,
+                              #AppStoreDownload:after {
+                                background:none;
+                                
+                              }
+        
+                            #PlayStoreDownload{
+                               position: relative;
+                               top: 2vh;
+                                text-transform: capitalize;
+                                
+                                padding:2.3vh 1vh 2vh 1vh;
+                                background:white;
+                                color:#BDBDBD;
+                                border-radius: 15px;
+                                border:2px solid lightgreen;
+                            }
+        
+                            #PlayStoreDownload,#PlayStoreDownload:after{
+        
+                                transition: none;
+                              }
+                              
+                              #PlayStoreDownload:before,
+                              #PlayStoreDownload:after {
+                                background:none;
+                                
+                              }
+        
+        
+        
+        
+                            #PlayStoreLine{
+                                font-size:17px;
+                                float:left;
+                                margin-top: 8vh;
+                               left: -8vw;
+                                
+                            }
+        
+                            #PlayStoreLine:hover{
+                                color:#76FF03;
+                                font-size:17px;
+                            }
+        
+        
+        
+                            #AppStoreLine:hover{
+                                color:#76FF03;
+                                font-size:17px;
+                                
+                            }
+        
+                            #AppStoreLine{
+                                margin-top: -1vh;
+                                position: relative ;
+                                left: -9.5vw;
+                                margin-left: 8vw;
+                                font-size:17px;
+                                float:right;
+                            }
+        
+                            .fa-play{
+                                color:#76FF03;
+                                
+                            }
+        
+                            .fa-apple{
+                              
+                                color:#76FF03;
+        
+                            }
+        
+        
+                           
+            
+            /* This is the end of the styling for the middle section of the footer  */
+        
+                
+            /* This is the styling for the right side of the footer  */
+        
+                           #Footer_Section_3_Right{
+                              padding-bottom: 12vh;
+                               margin-top: 7vh;
+                              
+        
+                            }
+        
+        
+                            #Section_Right_Follow_Us{
+                               
+                                font-family:sirin Stencil;
+                                color:black;
+                                font-size: 170%;
+                            }
+        
+                            #Section_Right_Follow_Us:hover{
+                                color:black;
+                            }
+        
+        
+                            #Section_Right_Perks{
+                                
+                                font-family: Dosis;
+                                color:black;
+                                text-align: center;
+                                margin-bottom: 5%;
+                                font-size: 100%;
+                            }
+        
+        
+        
+        
+                            #Email_Notification_Form{
+                               margin-top:10vh;
+                            }
+        
+                            #Email_Input_Sign_Up{
+                                outline: none;
+                                border: none;
+                                border: #76FF03 1px solid;
+                                border-radius: 20px;
+                                font-size: 15px;
+                                float: left;
+                                
+        
+                            }
+        
+                            #Email_Button_Sign_Up{
+                                padding: 10px 20px;
+                                display: inline-block;
+                                background: #76FF03;
+                                left: 90vw;
+                                top: 28vh;
+                                color: white;
+                                border:none;
+                                border-radius:25px;
+                            }
+        
+                            #Email_Button_Sign_Up,#Email_Button_Sign_Up:after{
+        
+                                transition: none;
+                              }
+                              
+                              #Email_Button_Sign_Up:before,
+                              #Email_Button_Sign_Up:after {
+                                background:none;
+                                
+                              }
+
+
+                              
+                              
+                              
+        
+        
+            /* This is the end of the  styling for the right side of the footer  */
+        
+        
+        /* This is the end of the styling for the overall footer  */
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

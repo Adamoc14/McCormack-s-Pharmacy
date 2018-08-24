@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+a{
+    text-decoration:none;
+}
+*,
+*:before,
+*:after {
+ 
+  transition-property: transform, opacity, filter;
+  transition-duration: 600ms, 600ms, 600ms;
+  transition-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@media only screen and (min-width:60em) {
+    .container {
+      width: 90%;
+      max-width: 90rem;
+    }
+    
+    .container.full-width {
+        width: 110%;
+        margin-left: -5vw;
+        max-width: 200rem;
+    }
+  }
+
+
+
+b{
+    font-weight: 800;
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: Schoolbell;
+}
+big{
+        font-weight: 800;
+        font-size: 18px;
+    
+}
+bold{
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Indie Flower;
+
+}
+u{
+    text-decoration: underline;
+}
+
+privacytwo{
+    position:absolute;
+    margin-top:-36%;
+    z-index: 888;
+   
+}
+
+privacythree{
+    position:absolute;
+    margin-top:-56%;
+    z-index: 888;
+   
+}
+privacyfour{
+    position:absolute;
+    margin-top:-78%;
+    z-index: 888;
+    margin-left:5%;
+    
+}
+privacyfive{
+    position:absolute;
+    margin-top:-60%;
+    z-index: 888;
+    margin-left:5%;
+}
+
+privacysix{
+    position:absolute;
+    margin-top:-95%;
+    z-index: 888; 
+    margin-left:5%;
+    
+}
+cookieimage{
+    position: absolute;
+    top:-25%;
+    left:50%;
+    width:10%;
+    height:70%;
+    background: pink;
+    z-index: 777;
+}
+
+cookieimage img{
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+cookietwo{
+    position:absolute;
+    margin-top: -35%;
+    z-index: 888;
+}
+cookiethree{
+    position:absolute;
+    margin-top: -65%;
+    z-index: 888;
+}
+cookiefour{
+    position:absolute;
+    margin-top: -58%;
+    z-index: 888;
+}
+cookiefive{
+    position:absolute;
+    margin-top: -48%;
+    z-index: 888;
+}
+
+
+tandctwo{
+    position:absolute;
+    margin-top: -32%;
+    z-index: 888;
+}
+
+tandcthree{
+    position:absolute;
+    margin-top: -38%;
+    z-index: 888;
+}
+
+tandcfour{
+    position:absolute;
+    margin-top: -50%;
+    z-index: 888;
+}
+
+returntwo{
+    position:absolute;
+    margin-top: -48%;
+    z-index: 888;
+
+}
+returnthree{
+    position:absolute;
+    margin-top: -100%;
+    z-index: 888;
+
+}
+returnfour{
+    position:absolute;
+    margin-top: -130%;
+    z-index: 888;
+
+}
+returnfive{
+    position:absolute;
+    margin-top: -175%;
+    z-index: 888;
+
+}
+deliverytwo{
+    position:absolute;
+    margin-top: -42%;
+    z-index: 888;
+
+}
+deliverythree{
+    position:absolute;
+    margin-top: -85%;
+    z-index: 888;
+
+}
+deliveryfour{
+    position:absolute;
+    margin-top: -130%;
+    z-index: 888;
+
+}
+deliveryfive{
+    position:absolute;
+    margin-top: -175%;
+    z-index: 888;
+
+}
+
+
+
+
+
+
+container{
+    position: absolute;;
+    left: -5%;
+}
+Heading{
+    color: #77FF03;
+    font-size: 18px;
+    font-family: Dosis;
+}
+Heading2{
+    color: #77FF03;
+    font-size: 25px;
+}
+
+
+#Overall_Title{
+    position:absolute;
+    top: 50%;
+    left:7%;
+    font-family: Raleway;
+    z-index:888;
+    color: #77FF03;
+}
+
+#Content_1{
+    position:absolute;
+    top: 45%;
+    width:100%;
+    height:100%;
+
+}
+
+
+#Content_1_Content{
+    position: relative;
+    font-family: quicksand;
+    font-size: 15px;
+    top:15%;
+    left:7%;
+}
+
+
+
+#Content_2{
+    position:absolute;
+    top: 145%;
+    width:100%;
+    font-family: quicksand;
+    font-size: 10px;
+    height:100%; 
+}
+
+#Content_3{
+    position:absolute;
+    top: 245%;
+    width:100%;
+    font-family: quicksand;
+    font-size: 10px;
+    height:100%;
+
+}
+
+#Content_4{
+    position:absolute;
+    top: 345%;
+    width:100%;
+    font-family: quicksand;
+    font-size: 10px;
+    height:100%;
+
+}
+
+#Content_5{
+    position:absolute;
+    top: 445%;
+    width:100%;
+    font-family: quicksand;
+    font-size: 10px;
+    height:100%;
+
+}
+
+#Content_6{
+    position:absolute;
+    top: 545%;
+    width:100%;
+    font-family: quicksand;
+    font-size: 10px;
+    height:100%;
+
+}
