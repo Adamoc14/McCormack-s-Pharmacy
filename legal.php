@@ -21,6 +21,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="McCormacks Pharmacy is one of the leading online pharmacy stores in Ireland that offers a complete range of pharmaceutical drugs, health & beauty products, fragrances for men & women from leading brands, and much more! We have the most genuine prices from all other stores! Explore our pharmacy today and shop your way!">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|Indie+Flower|Quicksand|Raleway|Bitter|Dosis|Sirin+Stencil|" rel="stylesheet">
+    <?php include ("style.php"); ?>
     <link rel="stylesheet" href="Resources/CSS/legal.css">
     <title>McCormack's Pharmacy | <?php if(isset($_GET['term'])) {
         $termItem = strip_bad_chars($_GET['term']);
@@ -42,6 +45,8 @@
   
 </head>
 <body>
+
+        <?php include("header.php") ?>
     
 
 

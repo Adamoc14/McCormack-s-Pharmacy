@@ -23,145 +23,284 @@
         max-width: 200rem;
     }
   }
-a{
-    text-decoration: none;
+
+  .grid-display [class^="col"] {
+    background: #FBCED1;
+    border: 1px solid #FE7880;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 
-#Main_Image_Container{
-    position:absolute;
-    top:55%;
-    height:100%;
-    width:100%;
-    background:#77FF03;
-    
+
+
+.Main_Image_Container{
+    margin-left:1.7vw;
 }
 
-/* #Main_Image_Contact_Us_Pic{
-    position:relative;
-    width:100%;
-    height:100%;
-    
+
+
+
+#Message_Container{
+    background: #77FF03;
 }
 
-#Main_Image_Contact_Us_Heading{
-    font-size:70px;
-    font-family: Poiret One;
-    position: relative;
-    left:60%;
-    top:-75%;
-    color: #757575;
-   
-} */
 
 
-#Banner_Contact_Us{
-    position: absolute;
-    top:155%;
-    width:100%;
-    height:20%;
+
+
+#Ireland_Map{
     background:white;
+}
+
+
+#Store_Point1 {
+    color: orange;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    top: -20vh;
+    left: 24vw;
+}
+#Clonmel_Store_Map_Location{font-family:Caveat;font-weight:300;font-size: 25px;top: -18vh;left: 20vw;position:  relative;}
+#Store_Point2{
+    color: orange;
+    background:white;
+    border-radius:50%;
+    position:  relative;
+    top: -40vh;
+    left: 25vw;
+}
+#Dundalk_Store_Map_Location{font-family:Caveat;font-weight:300;position:  relative;font-size: 25px;top: -37vh;left: 21vw;}
+#Store_Point3{
+    color: orange;
+    background:white;
+    border-radius:50%;
+    position: relative;
+    top: -30vh;
+    left: 10vw;
+}
+#Tullamore_Store_Map_Location{font-family:Caveat;font-weight:300;position:  relative;font-size:  25px;top: -27vh;left: 5vw;}
+#Store_Point4{
+    color:orange;
+    background:white;
+    border-radius:50%;
+    position:  relative;
+    top: -50vh;
+    left: -3vw;
+}
+#Store_Map_Location{
+    font-family:Caveat;
+    font-weight:300;
+    position:  relative;
+    font-size:  25px;
+    top: -47vh;
+    left: -6.5vw;
+}
+
+#Message_Heading{
+    font-family:Poiret One;
+    font-weight:200;
+    font-size:50px;
+    text-align:  center;
+}
+
+.Contact_Form{
+    background: #77FF03;
+    padding-bottom: 10vh;
+    
+}
+
+
+
+
+
+#form1{padding: 2%;margin-top:  5vh;margin-left: 5vw;}
+
+
+
+#input_container{
+
+}
+
+#Name_Input,#Email_Input,#Subject_Input,#Teaser_Input{
+    padding: 3%;
+    
+}
+
+
+
+
+#Name_Input::placeholder,#Email_Input::placeholder,#Subject_Input::placeholder,#Teaser_Input::placeholder,#Message_Input::placeholder{
+
+    outline:none;
+}
+
+#Message_Input::placeholder{
+    position:relative;
+    padding-left:2%;
+    bottom: 2%;
+}
+textarea{
+    border:none;
+    outline:none;
+
+}
+
+#Message_Input{
+
+    padding-right: 40%;
+    padding-bottom: 10%;
+
+    border:none;
+    outline:none;
+}
+#Checkbox_Newsletter_Button_Heading{
+
+    color:white;
+}
+#Checkbox_Newsletter_Button{
+margin-right: .2vw;
+
+}
+
+#Submit_Message_Button{
+
+    border-radius:15px;
+    background:white;
+    border: 1.5px solid white;
+    color: #77FF03;
+    font-size:15px;
+    padding: 2% 20%;
+    float: right;
+    margin-right: 5vw;
+}
+
+#Error_Message_Label{
+
+    text-align: center;
+
+    color:white;
+    font-size: 50px;
+
+}
+
+#Error_Message_Button{
+    text-align: center;
+    padding:8px;
+    border-radius:15px;
+    background:white;
+    border: 1.5px solid white;
+    color: #77FF03;
+    font-size:15px;
+    
+
+}
+
+
+
+/* ********************************************** */
+
+.Banner_Contact_Us{
+    background:white;
+    padding-top: 4vh;
+    margin-top: -4vh;
     border-top: 1px solid #77FF03;
     border-bottom: 1px solid #77FF03;
 }
 
-#Banner_Contact_Us_Left{
-    position:relative;
-    width:25%;
-    height: 100%;
-}
+
 
 #Number_Four{
-    position: relative;
-    left:25%;
-    top:35%;
+    float: left;
     font-size:60px;
     color:#77FF03;
+    margin-top: -2vh;
 }
 
 #Symbol_Plus{
-    position: relative;
-    left:34%;
-    top:-14%;
+
     color:#77FF03;
+    font-size:25px;
+}
+
+#Four_Pharmacies{
+    position: relative;
+    top: .5vh;
+    left:.5vw;
 }
 
 #Number_One_Details{
-    position: relative;
-    left:40%;
-    top:-22%;
+
     font-size:13px;
     font-family:Quicksand;
     color:#757575;
 }
 
-#Banner_Contact_Us_Left_Middle{
-    position:relative;
-    width:25%;
-    height: 100%;
-    left:25%;
-    top:-100%;
-}
+
 
 .fa-phone{
-    position:relative;
-    left:15%;
-    margin-top:17%;
+    float: left;
     color: #77FF03;
+}
+
+.phone{
+    padding:3%;
 }
 
 #Number_Two_Details{
-    position: relative;
-    left:33%;
-    top:-24%;
+
     font-size:13px;
     font-family:Quicksand;
     color:#757575;
 }
 
-#Banner_Contact_Us_Right_Middle{
-    position:relative;
-    width:25%;
-    height: 100%;
-    left:50%;
-    top:-200%;
+.envelope{
+    padding:3%;
 }
+
+
 
 .fa-envelope{
-    position:relative;
-    margin-top:16%;
-    left:6%;
+ float:left;
     color: #77FF03;
 }
+
 #Number_Three_Details{
     position: relative;
-    left:23%;
-    top:-22%;
+    margin-left: .5vw;
     font-size:13px;
     font-family:Quicksand;
     color:#757575;
 }
-
-
-#Banner_Contact_Us_Right{
-    position:relative;
-    width:25%;
-    height: 100%;
-    left:75%;
-    top:-300%;
+#Number_Three_Details em{
+    margin-left: .5vw;
+    
+}
+#Number_Three_Details span{
+    left: 3vw;
+    top: -3vh;
+    position: relative;
 }
 
+
+.clock{
+    padding:0 2% 0 0;
+    margin-top: .5vh;
+}
+
+
+
+
 .fa-clock{
-    position:relative;
-    margin-top:16%;
-    left:20%;
+    margin-left: 5vw;
     color:#77FF03;
 }
 
 #Number_Four_Details{
-    position:relative;
-    left:38%;
-    top:-18%;
+    position: relative;
+    top: -2vh;
     font-size:13px;
     color:#757575;
     font-family:Quicksand;
@@ -169,825 +308,175 @@ a{
 /* ************************************************************************* */
 
 
-#Locations_Section{
-    position:absolute;
-    top:180%;
-    width:100%;
-    height:90%;
-}
+        .Stores{
+            position: relative;
+            top: 10vh;
+        }
+
+        .Stores1{
+            position: relative;
+            margin-top: 20vh;
+        }
 
 
-        #Store_No1{
-            position:absolute;
-            top:6%;
-            left:6%;
-            width:40%;
-            height:40%;
+        #Store_No1, #Store_No2,#Store_No3, #Store_No4{
+
             background:white;
             box-shadow: 6px 3px 4px 6px rgba(0, 0, 0, 0.3);
+            height: 42vh;
         }
 
-        #Store_No1_Image_Container{
-            position:relative;
-            height:100%;
-            width:50%;
-            background:yellow;
 
+        #Store_No1_Image,#Store_No2_Image,#Store_No3_Image,#Store_No4_Image{
+
+            width: 20vw;
+            height: 42vh;
+            margin: 0;
+            padding:  0;
         }
 
-        #Store_No1_Image{
-            position: relative;
-            width:100%;
-            height:100%;
-        }
-
-        #Circular_Logo_Store_No1{
-            position: absolute;
-            top:3%;
-            left:68%;
-            height:22%;
-            width:13%;
+        #Circular_Logo_Store_No1,#Circular_Logo_Store_No2,#Circular_Logo_Store_No3,#Circular_Logo_Store_No4{
             border-radius:50%;
             border: 1px solid #BDBDBD;
-        }
-
-
-
-        #Store_No1_Details{
-            position:absolute;
-            width:50%;
-            height:72%;
-            left:50%;
-            top:28%;
-        }
-
-        #Store_No1_Marker{
+            height: 9vh;
+            width: 5vw;
             position: relative;
-            left:5%;
-            margin-top: 1%;
+            left: 8vw;
+            top: -32vh;
+        }
+
+
+
+        #Store_No1_Details,#Store_No2_Details,#Store_No3_Details{
+            float:  right;
+            margin-top: -33vh;
+            position: relative;
+            left: -3vw;
+        }
+
+
+        #Store_No4_Details{
+            float: right;
+            margin-top: 10vh;
+            position: relative;
+            left: -7vw;
+        }
+
+        #Store_No1_Marker,#Store_No2_Marker,#Store_No3_Marker,#Store_No4_Marker{
             color:white;
             background:#77FF03;
             border: 1px solid #77FF03;
             border-radius:50%;
             padding:4px 6px;
+            float:left;
+            margin-right: .2vw;
         }
 
-        #Store_No1_Marker_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-10%;
+        #Store_No1_Marker_Heading,#Store_No2_Marker_Heading,#Store_No3_Marker_Heading,#Store_No4_Marker_Heading{
             font-size: 12px;
             color:#757575;
+            margin-left: 2.5vw;
         }
 
-        #Actual_Address{
-            position: relative;
-            left:20%;
+        #Actual_Address,#Actual_Address2,#Actual_Address3,#Actual_Address4{
             font-size:10px;
+            float: right;
 
         }
 
 
-        #Store_No1_Phone{
-            position: relative;
-            left:5%;
-            margin-top: 5%;
+        #Store_No1_Phone, #Store_No2_Phone, #Store_No3_Phone, #Store_No4_Phone{
             color:white;
             background:#77FF03;
             border: 1px solid #77FF03;
             border-radius:50%;
             padding:4px 6px;
+            float: left;
+            margin-top: 1vh;
+            margin-right: .2vw;
         }
 
-        #Store_No1_Phone_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-12%;
+        #Store_No1_Phone_Heading,#Store_No2_Phone_Heading,#Store_No3_Phone_Heading,#Store_No4_Phone_Heading{
             font-size: 12px;
             color:#757575;
+            
+            
         }
 
-        #Actual_Phone{
-            position:relative;
-            left:20%;
+        #Actual_Phone,#Actual_Phone2,#Actual_Phone3,#Actual_Phone4{
             font-size:10px;
+            
         }
-        #Store_No1_Envelope{
-            position: relative;
-            left:5%;
-            margin-top: 5%;
+        #Store_No1_Envelope,#Store_No2_Envelope,#Store_No3_Envelope,#Store_No4_Envelope{
             color:white;
             background:#77FF03;
             border: 1px solid #77FF03;
             border-radius:50%;
             padding:4px 6px;
+            margin-right: .2vw;
         }
 
-        #Store_No1_Envelope_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-12%;
+        #Store_No1_Envelope_Heading,#Store_No2_Envelope_Heading,#Store_No3_Envelope_Heading,#Store_No4_Envelope_Heading{
             font-size: 12px;
             color:#757575;
         }
-        #Actual_Email{
-            position: relative;
-            left:20%;
+        #Actual_Email,#Actual_Email2,#Actual_Email3,#Actual_Email4{
             font-size:10px;
         }
 
-        #Store_No1_Clock{
-            position: relative;
-            left:5%;
-            margin-top: 6%;
+        #Store_No1_Clock,#Store_No2_Clock,#Store_No3_Clock,#Store_No4_Clock{
+            margin-left: -.1vw;
+            float: left;
             color:white;
             background:#77FF03;
             border: 1px solid #77FF03;
             border-radius:50%;
             padding:4px 6px;
+            margin-right: .2vw;
         }
 
-        #Store_No1_Clock_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-10%;
+        #Store_No1_Clock_Heading,#Store_No2_Clock_Heading,#Store_No3_Clock_Heading,#Store_No4_Clock_Heading{
+            margin-left: -.1vw;
             font-size: 12px;
             color:#757575;
         }
 
-        #Actual_Clock{
-            position: relative;
-            left:20%;
+        #Actual_Clock, #Actual_Clock2, #Actual_Clock3, #Actual_Clock4{
             font-size:10px;
+            float: left;
         }
 
 /* ********************************************************************** */
 
-        #Store_No2{
-            position:absolute;
-            top:6%;
-            left:52%;
-            width:40%;
-            height:40%;
-            box-shadow: 6px 3px 4px 6px rgba(0, 0, 0, 0.3);
-        }
 
 
-        #Store_No2_Image_Container{
-            position:relative;
-            height:100%;
-            width:50%;
-            background:yellow;
 
-        }
+        
 
-        #Store_No2_Image{
-            position: relative;
-            width:100%;
-            height:100%;
-        }
-        #Circular_Logo_Store_No2{
-            position: absolute;
-            top:3%;
-            left:68%;
-            height:22%;
-            width:13%;
-            border-radius:50%;
-            border: 1px solid #BDBDBD;
-        }
-        #Store_No2_Details{
-            position:absolute;
-            width:50%;
-            height:72%;
-            left:50%;
-            top:28%;
-        }
 
-        #Store_No2_Marker{
-            position: relative;
-            left:5%;
-            margin-top: 1%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No2_Marker_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-10%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Address2{
-            position: relative;
-            left:20%;
-            font-size:10px;
-
-        }
-
-
-        #Store_No2_Phone{
-            position: relative;
-            left:5%;
-            margin-top: 5%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No2_Phone_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-12%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Phone2{
-            position:relative;
-            left:20%;
-            font-size:10px;
-        }
-        #Store_No2_Envelope{
-            position: relative;
-            left:5%;
-            margin-top: 5%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No2_Envelope_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-12%;
-            font-size: 12px;
-            color:#757575;
-        }
-        #Actual_Email2{
-            position: relative;
-            left:20%;
-            font-size:10px;
-        }
-
-        #Store_No2_Clock{
-            position: relative;
-            left:5%;
-            margin-top: 6%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No2_Clock_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-10%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Clock2{
-            position: relative;
-            left:20%;
-            font-size:10px;
-        }
-
-
-
-
-/* *************************************** */
-
-        #Store_No3{
-            position:absolute;
-            top:52%;
-            left:6%;
-            width:40%;
-            height:40%;
-            box-shadow: 6px 3px 4px 6px rgba(0, 0, 0, 0.3);
-        }
-
-        #Store_No3_Image_Container{
-            position:relative;
-            height:100%;
-            width:50%;
-            background:yellow;
-
-        }
-
-        #Store_No3_Image{
-            position: relative;
-            width:100%;
-            height:100%;
-        }
-        #Circular_Logo_Store_No3{
-            position: absolute;
-            top:3%;
-            left:68%;
-            height:22%;
-            width:13%;
-            border-radius:50%;
-            border: 1px solid #BDBDBD;
-        }
-        #Store_No3_Details{
-            position:absolute;
-            width:50%;
-            height:72%;
-            left:50%;
-            top:28%;
-        }
-
-        #Store_No3_Marker{
-            position: relative;
-            left:5%;
-            margin-top: 1%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No3_Marker_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-10%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Address3{
-            position: relative;
-            left:20%;
-            font-size:10px;
-
-        }
-
-
-        #Store_No3_Phone{
-            position: relative;
-            left:5%;
-            margin-top: 5%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No3_Phone_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-12%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Phone3{
-            position:relative;
-            left:20%;
-            font-size:10px;
-        }
-        #Store_No3_Envelope{
-            position: relative;
-            left:5%;
-            margin-top: 5%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No3_Envelope_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-12%;
-            font-size: 12px;
-            color:#757575;
-        }
-        #Actual_Email3{
-            position: relative;
-            left:20%;
-            font-size:10px;
-        }
-
-        #Store_No3_Clock{
-            position: relative;
-            left:5%;
-            margin-top: 6%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No3_Clock_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-10%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Clock3{
-            position: relative;
-            left:20%;
-            font-size:10px;
-        }
-
-/* ************************************************ */
-
-        #Store_No4{
-            position:absolute;
-            top:52%;
-            left:52%;
-            width:40%;
-            height:40%;
-            box-shadow: 6px 3px 4px 6px rgba(0, 0, 0, 0.3);
-        }
-        #Store_No4_Image_Container{
-            position:relative;
-            height:100%;
-            width:50%;
-            background:yellow;
-
-        }
-
-        #Store_No4_Image{
-            position: relative;
-            width:100%;
-            height:100%;
-        }
-        #Circular_Logo_Store_No4{
-            position: absolute;
-            top:3%;
-            left:68%;
-            height:22%;
-            width:13%;
-            border-radius:50%;
-            border: 1px solid #BDBDBD;
-        }
-
-        #Store_No4_Details{
-            position:absolute;
-            width:50%;
-            height:72%;
-            left:50%;
-            top:28%;
-        }
-
-        #Store_No4_Marker{
-            position: relative;
-            left:5%;
-            margin-top: 1%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No4_Marker_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-10%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Address4{
-            position: relative;
-            left:20%;
-            font-size:10px;
-
-        }
-
-
-        #Store_No4_Phone{
-            position: relative;
-            left:5%;
-            margin-top: 5%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No4_Phone_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-12%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Phone4{
-            position:relative;
-            left:20%;
-            font-size:10px;
-        }
-        #Store_No4_Envelope{
-            position: relative;
-            left:5%;
-            margin-top: 5%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No4_Envelope_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-12%;
-            font-size: 12px;
-            color:#757575;
-        }
-        #Actual_Email4{
-            position: relative;
-            left:20%;
-            font-size:10px;
-        }
-
-        #Store_No4_Clock{
-            position: relative;
-            left:5%;
-            margin-top: 6%;
-            color:white;
-            background:#77FF03;
-            border: 1px solid #77FF03;
-            border-radius:50%;
-            padding:4px 6px;
-        }
-
-        #Store_No4_Clock_Heading{
-            position:relative;
-            left:19%;
-            margin-top:-10%;
-            font-size: 12px;
-            color:#757575;
-        }
-
-        #Actual_Clock4{
-            position: relative;
-            left:20%;
-            font-size:10px;
-        }
-/* ************************************************************ */
-
-
-        #Message_Container{
-            position:absolute;
-            top:250%;
-            height:90%;
-            width:100%;
-            background: #77FF03;
-            /* border-top: 1px solid #77FF03; */
-
-        }
-
-        #Store_Locations_On_Ireland_Map{
-            position:relative;
-            width:50%;
-            height:100%;
-            background:white;
-            /* border-right: 1px solid #77FF03; */
-        }
-        #Ireland_Map{
-            position: absolute;
-            top:10%;
-            left:5%;
-        }
-
-
-        #Store_Point1{
-            position:absolute;
-            color:orange;
-            left:49%;
-            top:67%;
-            background:white;
-            border-radius:50%;
-          
-        }
-        #Clonmel_Store_Map_Location{
-            position:absolute;
-            left:47%;
-            top:63%;
-            font-family:Caveat;
-            font-weight:300;
-        }
-        #Store_Point2{
-            position:absolute;
-            color:orange;
-            left:68%;
-            top:47%;
-            background:white;
-            border-radius:50%;
-          
-        }
-        #Dundalk_Store_Map_Location{
-            position:absolute;
-            left:65%;
-            top:43%;
-            font-family:Caveat;
-            font-weight:300;
-        }
-        #Store_Point3{
-            position:absolute;
-            color:orange;
-            left:48%;
-            top:57%;
-            background:white;
-            border-radius:50%;
-          
-        }
-        #Tullamore_Store_Map_Location{
-            position:absolute;
-            left:45%;
-            top:53%;
-            font-family:Caveat;
-            font-weight:300;
-        }
-        #Store_Point4{
-            position:absolute;
-            color:orange;
-            background:white;
-            border-radius:50%;
-            left:35.5%;
-            top:35%;
-        }
-        #Store_Map_Location{
-            position: absolute;
-            top:31%;
-            left:32%;
-            font-family:Caveat;
-            font-weight:300;
-        }
-
-        #Message_Heading{
-            position: relative;
-            left:68%;
-            top:-90%;
-            font-family:Poiret One;
-            font-weight:200;
-            font-size:50px; 
-        }
-        #form1{
-            position: absolute;
-            left:50%;
-            top:20%;
-            width:50%;
-            height:80%;
-            
-        }
-        #input_container{
-            position:relative;
-            left:8%;
-            top:4%;
-        }
-
-        #Name_Input,#Email_Input,#Subject_Input,#Teaser_Input{
-            height:40px;
-            width:250px;
-            padding-left: 15px;
-            
-        }
-
-        #Name_Input{
-            position:relative;
-
-        }
-        #Email_Input{
-            position:relative;
-
-        }
-        #Subject_Input{
-            position: relative;
-
-        }
-        #Teaser_Input{
-            position:relative;
-
-        }
-
-
-        #Name_Input::placeholder,#Email_Input::placeholder,#Subject_Input::placeholder,#Teaser_Input::placeholder,#Message_Input::placeholder{
-            position: relative;
-            outline:none;
-        }
-
-        #Message_Input::placeholder{
-            position:relative;
-            left:-0.10%;
-        }
-        textarea{
-            border:none;
-            outline:none;
-            left:8%;
-
-        }
-
-        #Message_Input{
-            width:610px;
-            position:absolute;
-            height:270px;
-            border:none;
-            outline:none;
-            padding-left: 15px;
-            padding-top: 15px;
-        }
-        #Checkbox_Newsletter_Button_Heading{
-            position:absolute;
-            top:79.5%;
-            left:15%;
-            color:white;
-        }
-        #Checkbox_Newsletter_Button{
-            position: absolute;
-            top:80%;
-            left:10%;
-
-        }
-
-        #Submit_Message_Button{
-            position: absolute;
-            left:55%;
-            top:90%;
-            width:40%;
-            height:5%;
-            border-radius:15px;
-            background:white;
-            border: 1.5px solid white;
-            color: #77FF03;
-            font-size:15px;
-        }
-
-        #Error_Message_Label{
-            position:absolute;
+        .Map_Locations{
+            padding: 6vh 2vw 4vh 2vw;
             text-align: center;
-            left:58%;
-            top:45%;
-            color:white;
-            font-size: 50px;
-
-        }
-
-        #Error_Message_Button{
-            position:absolute;
-            text-align: center;
-            padding:8px;
-            left:66%;
-            top:80%;
-            width:20%;
-            border-radius:15px;
-            background:white;
-            border: 1.5px solid white;
-            color: #77FF03;
-            font-size:15px;
-            
-
-        }
-
-
-
-        .elfsight-app-57907d6f-63cf-4ebe-be34-785ee2ccc6c7{
-            position:absolute;
-            top:360%;
-            width:100%;
-            height:100%;
         }
 
         #Store_Locator_Heading{
-            position:absolute;
-            top:350%;
-            left:40.5%;
             font-family: quicksand;
             font-weight: 500;
             font-size: 30px;
+            
+
+
+            
         }
         #Store_Locator_Marker{
-            position:absolute;
-            top:349%;
-            left:55%;
+            
             color:white;
             background:#77FF03;
             border: 1px solid #77FF03;
             border-radius:50%;
             padding:7px 10px;
+            margin-right: 2vw;
+            
         }
 
         
@@ -996,28 +485,3 @@ a{
         
 
 
-/* ************************************************************* */
-
-
-/* #Subscription_Section{
-    position: absolute;
-    top:350%;
-    height:90%;
-    width:100%;
-
-}
-
-#Subscription_Image_Container{
-    position: relative;
-    left:48%;
-    top:10%;
-    width:50%;
-    height:80%;
-    background:purple;
-}
-
-#Subscription_Image{
-    position:relative;
-    height:100%;
-    width:100%;
-} */

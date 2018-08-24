@@ -171,7 +171,7 @@
                 <!-- This is the code for the right side of the footer -->
                 <section id="Footer_Section_3_Right">
                     <h2 id="Section_Right_Follow_Us">Your personalized newsletter</h2>
-                    <h3 id="Section_Right_Perks">Every week, receive your flyer, exclusive offers and <br>personalized tips.</h3>
+                    <h3 id="Section_Right_Perks">Every week, receive your flyer, exclusive offers and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personalized tips.</h3>
 
                     <form action="#" method="post" id="Email_Notification_Form">
                         <input type="email" name="Email_Input_Sign_Up" id="Email_Input_Sign_Up" placeholder="Enter Email..">

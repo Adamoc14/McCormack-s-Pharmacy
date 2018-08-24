@@ -7,7 +7,7 @@
     <meta name="description" content="McCormacks Pharmacy is one of the leading online pharmacy stores in Ireland that offers a complete range of pharmaceutical drugs, health & beauty products, fragrances for men & women from leading brands, and much more! We have the most genuine prices from all other stores! Explore our pharmacy today and shop your way!">
     <?php include ("style.php"); ?>
     <link rel="stylesheet" href="Resources/CSS/skincare.css">
-    <link href="https://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|IndieFlower|Quicksand|Raleway|Bitter|Dosis|Schoolbell|SirinStencil|" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|Indie+Flower|Quicksand|Raleway|Bitter|Dosis|Schoolbell|Sirin+Stencil|" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> 
     <title>McCormack's | Skincare</title>
     <script>

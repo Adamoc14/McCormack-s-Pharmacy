@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="McCormacks Pharmacy is one of the leading online pharmacy stores in Ireland that offers a complete range of pharmaceutical drugs, health & beauty products, fragrances for men & women from leading brands, and much more! We have the most genuine prices from all other stores! Explore our pharmacy today and shop your way!">
-    <link href="https://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|IndieFlower|Quicksand|Raleway|Bitter|Dosis|SirinStencil|Marck+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|Indie+Flower|Quicksand|Raleway|Bitter|Dosis|Sirin+Stencil|Marck+Script|Damion" rel="stylesheet">
     <?php include ("style.php"); ?>
     <link rel="stylesheet" href="Resources/CSS/AskPharmacist.css">
-    <script src="Resources/Javascript/networking.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $.getJSON('https://newsapi.org/v2/everything?sources=medical-news-today&apiKey=1648e454b427440788c1d3acd76462bf', function(data) {
@@ -30,6 +29,7 @@
                         // breaks out of the loop at 13
                         if (i++ > 12) {
                         return false;
+                        console.log("well");
                         }      
         
                     // output HTML each time the loop runs
@@ -40,7 +40,6 @@
         });
 
     </script>
-    <link href="https://fonts.googleapis.com/css?family=Caveat|Damion|Kalam|Marck+Script|Sacramento" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <title>McCormack's Pharmacy | Ask The Pharmacist</title>
     <script>

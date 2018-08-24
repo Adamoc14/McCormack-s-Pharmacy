@@ -430,9 +430,9 @@
                             #Section_Right_Perks{
                                 
                                 font-family: Dosis;
-                                color:black;
-                                text-align: center;
+                                color: black;
                                 margin-bottom: 5%;
+                                margin-top: 3vh;
                                 font-size: 100%;
                             }
         
@@ -459,10 +459,10 @@
                                 display: inline-block;
                                 background: #76FF03;
                                 left: 90vw;
-                                top: 28vh;
+                                top: 31vh;
                                 color: white;
-                                border:none;
-                                border-radius:25px;
+                                border: none;
+                                border-radius: 25px;
                             }
         
                             #Email_Button_Sign_Up,#Email_Button_Sign_Up:after{

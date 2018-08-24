@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="McCormacks Pharmacy is one of the leading online pharmacy stores in Ireland that offers a complete range of pharmaceutical drugs, health & beauty products, fragrances for men & women from leading brands, and much more! We have the most genuine prices from all other stores! Explore our pharmacy today and shop your way!">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|IndieFlower|Quicksand|Raleway|Bitter|Dosis|Schoolbell|SirinStencil|Poiret+One|Comfortaa:300" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|Indie+Flower|Quicksand|Raleway|Bitter|Dosis|Schoolbell|Sirin+Stencil|Poiret+One|Comfortaa:300" rel="stylesheet">
     <?php include ("style.php"); ?>
     <link rel="stylesheet" href="Resources/CSS/AboutUs.css">
      <title>McCormack's Pharmacy | About Us</title>
@@ -33,84 +33,205 @@
   
 </head>
 <body>
-    <?php include("header.php");
-           echo "<br>"; 
-           echo "<br>";
-           echo "<br>"; ?>
-    <section class="sec1"></section>
+    <?php include("header.php"); ?>
 
-    <div class="Our_Story_Piece">
-        <img src="Resources/Images/McCormacks.png" alt="" id="Our_Story_Logo">
-        <h1 id="Our_Story_Heading">OUR STORY</h1>
-        <hr id="Our_Story_Underline">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia culpa quis quisquam sapiente eius fuga perferendis, laudantium est deserunt laboriosam eveniet ullam labore eum, eligendi, inventore nihil sequi rem.
-        Minus magnam voluptates totam at culpa, neque deserunt natus sit delectus alias. Quam unde delectus totam natus at labore animi sed tempore quod? Itaque architecto, omnis atque assumenda tempora cupiditate.
-        Similique expedita neque pariatur, repellendus in sapiente! Molestiae, culpa dolorum! Obcaecati suscipit error aliquid tempora eaque ipsa consequuntur, fuga voluptatem accusantium. Modi, distinctio alias optio maiores fuga inventore saepe? Ratione.
-        Quidem eveniet labore facere reiciendis ullam suscipit minima dolore hic, libero provident dignissimos laudantium ipsam, nam aspernatur deserunt est quaerat voluptatum quae asperiores dolorum ducimus eaque. Sunt voluptatem atque temporibus!
-        Nisi perspiciatis soluta blanditiis unde alias accusantium, repellendus libero mollitia hic, natus exercitationem asperiores culpa qui harum vero porro maiores rerum dolor similique! Enim dolores eos ex! Repellat, sed vero.
-        Enim, quaerat voluptates necessitatibus harum incidunt optio sunt ducimus molestias cum a, eaque quae eos exercitationem neque tenetur dolore? Perferendis sed, inventore explicabo maiores quos quidem delectus quas consequuntur itaque!
-        Nemo, sint. Molestias cumque nesciunt consequuntur voluptate, itaque hic? Harum nemo iste voluptatibus vitae distinctio possimus cum, assumenda doloribus quae. Animi labore repudiandae quae, minus suscipit consectetur facilis doloribus eligendi.</p>
-     </div>
 
-    <section class="sec2">
-        <h1 id="Sec2_Nationwide_Heading">NATIONWIDE</h1>
-    </section>
 
-    <div class="Our_Philosphy_Piece">
-        <h1 id="Our_Philosphy_Heading">OUR PHILOSPHY</h1>
-        <hr id="Our_Philosphy_Underline">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia culpa quis quisquam sapiente eius fuga perferendis, laudantium est deserunt laboriosam eveniet ullam labore eum, eligendi, inventore nihil sequi rem.
-        Minus magnam voluptates totam at culpa, neque deserunt natus sit delectus alias. Quam unde delectus totam natus at labore animi sed tempore quod? Itaque architecto, omnis atque assumenda tempora cupiditate.
-        Similique expedita neque pariatur, repellendus in sapiente! Molestiae, culpa dolorum! Obcaecati suscipit error aliquid tempora eaque ipsa consequuntur, fuga voluptatem accusantium. Modi, distinctio alias optio maiores fuga inventore saepe? Ratione.
-        Quidem eveniet labore facere reiciendis ullam suscipit minima dolore hic, libero provident dignissimos laudantium ipsam, nam aspernatur deserunt est quaerat voluptatum quae asperiores dolorum ducimus eaque. Sunt voluptatem atque temporibus!
-        Nisi perspiciatis soluta blanditiis unde alias accusantium, repellendus libero mollitia hic, natus exercitationem asperiores culpa qui harum vero porro maiores rerum dolor similique! Enim dolores eos ex! Repellat, sed vero.
-        Enim, quaerat voluptates necessitatibus harum incidunt optio sunt ducimus molestias cum a, eaque quae eos exercitationem neque tenetur dolore? Perferendis sed, inventore explicabo maiores quos quidem delectus quas consequuntur itaque!
-        Nemo, sint. Molestias cumque nesciunt consequuntur voluptate, itaque hic? Harum nemo iste voluptatibus vitae distinctio possimus cum, assumenda doloribus quae. Animi labore repudiandae quae, minus suscipit consectetur facilis doloribus eligendi.</p>
-     </div>
+            <div class="container grid-display">
 
-    <section class="sec3">
-        <h1 id="Sec3_Beauty_Products_Heading">High-End Beauty Products</h1>
-    </section>
 
-    <div class="Our_Team_Piece">
-        <h1 id="Our_Team_Heading">OUR TEAM</h1>
-        <hr id="Our_Team_Underline">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia culpa quis quisquam sapiente eius fuga perferendis, laudantium est deserunt laboriosam eveniet ullam labore eum, eligendi, inventore nihil sequi rem.
-        Minus magnam voluptates totam at culpa, neque deserunt natus sit delectus alias. Quam unde delectus totam natus at labore animi sed tempore quod? Itaque architecto, omnis atque assumenda tempora cupiditate.
-        Similique expedita neque pariatur, repellendus in sapiente! Molestiae, culpa dolorum! Obcaecati suscipit error aliquid tempora eaque ipsa consequuntur, fuga voluptatem accusantium. Modi, distinctio alias optio maiores fuga inventore saepe? Ratione.
-        Quidem eveniet labore facere reiciendis ullam suscipit minima dolore hic, libero provident dignissimos laudantium ipsam, nam aspernatur deserunt est quaerat voluptatum quae asperiores dolorum ducimus eaque. Sunt voluptatem atque temporibus!
-        Nisi perspiciatis soluta blanditiis unde alias accusantium, repellendus libero mollitia hic, natus exercitationem asperiores culpa qui harum vero porro maiores rerum dolor similique! Enim dolores eos ex! Repellat, sed vero.
-        Enim, quaerat voluptates necessitatibus harum incidunt optio sunt ducimus molestias cum a, eaque quae eos exercitationem neque tenetur dolore? Perferendis sed, inventore explicabo maiores quos quidem delectus quas consequuntur itaque!
-        Nemo, sint. Molestias cumque nesciunt consequuntur voluptate, itaque hic? Harum nemo iste voluptatibus vitae distinctio possimus cum, assumenda doloribus quae. Animi labore repudiandae quae, minus suscipit consectetur facilis doloribus eligendi.</p>
-        <div id="Our_Team_Container">
-            <div id="Our_Team_Container_Member_Area">
+                <div class="row">
+                    <div class="col-12">
+                        <section class="sec1"></section>
+                    </div>
+                </div>
 
-                <?php 
-                    foreach($memberContainers as $container){ ?>
-                      <div class="<?php echo $container['class']; ?> galleryPreviewImage PreviewImage<?php echo $container['Member']; ?>">
 
-                           <img class="Member_Image <?php echo $container['Class'];?>" src="<?php echo $container['Image']; ?>" />
-                            <h1 class="Members_Name"><?php echo $container['Name']; ?></h1>
-                            <p class ="Members_Description"> <?php echo $container['Description']; ?></p>
-                        
+                <div class="row">
+                    <div class="col-4">
 
-                      </div>
-                <?php }?>
+                    </div>
+                    <div class="col-4">
+                        <img src="Resources/Images/McCormacks.png" alt="" id="Our_Story_Logo">
+                        <h1 id="Our_Story_Heading">OUR STORY</h1>
+                        <hr id="Our_Story_Underline">
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="Our_Story_Piece">
+                
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia culpa quis quisquam sapiente eius fuga perferendis, laudantium est deserunt laboriosam eveniet ullam labore eum, eligendi, inventore nihil sequi rem.
+                            Minus magnam voluptates totam at culpa, neque deserunt natus sit delectus alias. Quam unde delectus totam natus at labore animi sed tempore quod? Itaque architecto, omnis atque assumenda tempora cupiditate.
+                            Similique expedita neque pariatur, repellendus in sapiente! Molestiae, culpa dolorum! Obcaecati suscipit error aliquid tempora eaque ipsa consequuntur, fuga voluptatem accusantium. Modi, distinctio alias optio maiores fuga inventore saepe? Ratione.
+                            Quidem eveniet labore facere reiciendis ullam suscipit minima dolore hic, libero provident dignissimos laudantium ipsam, nam aspernatur deserunt est quaerat voluptatum quae asperiores dolorum ducimus eaque. Sunt voluptatem atque temporibus!
+                            Nisi perspiciatis soluta blanditiis unde alias accusantium, repellendus libero mollitia hic, natus exercitationem asperiores culpa qui harum vero porro maiores rerum dolor similique! Enim dolores eos ex! Repellat, sed vero.
+                            Enim, quaerat voluptates necessitatibus harum incidunt optio sunt ducimus molestias cum a, eaque quae eos exercitationem neque tenetur dolore? Perferendis sed, inventore explicabo maiores quos quidem delectus quas consequuntur itaque!
+                            Nemo, sint. Molestias cumque nesciunt consequuntur voluptate, itaque hic? Harum nemo iste voluptatibus vitae distinctio possimus cum, assumenda doloribus quae. Animi labore repudiandae quae, minus suscipit consectetur facilis doloribus eligendi.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <section class="sec2">
+                            <h1 id="Sec2_Nationwide_Heading">NATIONWIDE</h1>
+                        </section>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4">
+                        <h1 id="Our_Philosphy_Heading">OUR PHILOSPHY</h1>
+                        <hr id="Our_Philosphy_Underline">
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="Our_Philosphy_Piece">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia culpa quis quisquam sapiente eius fuga perferendis, laudantium est deserunt laboriosam eveniet ullam labore eum, eligendi, inventore nihil sequi rem.
+                            Minus magnam voluptates totam at culpa, neque deserunt natus sit delectus alias. Quam unde delectus totam natus at labore animi sed tempore quod? Itaque architecto, omnis atque assumenda tempora cupiditate.
+                            Similique expedita neque pariatur, repellendus in sapiente! Molestiae, culpa dolorum! Obcaecati suscipit error aliquid tempora eaque ipsa consequuntur, fuga voluptatem accusantium. Modi, distinctio alias optio maiores fuga inventore saepe? Ratione.
+                            Quidem eveniet labore facere reiciendis ullam suscipit minima dolore hic, libero provident dignissimos laudantium ipsam, nam aspernatur deserunt est quaerat voluptatum quae asperiores dolorum ducimus eaque. Sunt voluptatem atque temporibus!
+                            Nisi perspiciatis soluta blanditiis unde alias accusantium, repellendus libero mollitia hic, natus exercitationem asperiores culpa qui harum vero porro maiores rerum dolor similique! Enim dolores eos ex! Repellat, sed vero.
+                            Enim, quaerat voluptates necessitatibus harum incidunt optio sunt ducimus molestias cum a, eaque quae eos exercitationem neque tenetur dolore? Perferendis sed, inventore explicabo maiores quos quidem delectus quas consequuntur itaque!
+                            Nemo, sint. Molestias cumque nesciunt consequuntur voluptate, itaque hic? Harum nemo iste voluptatibus vitae distinctio possimus cum, assumenda doloribus quae. Animi labore repudiandae quae, minus suscipit consectetur facilis doloribus eligendi.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <section class="sec3">
+                        <h1 id="Sec3_Beauty_Products_Heading">High-End Beauty Products</h1>
+                    </section>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4">
+                        <h1 id="Our_Team_Heading">OUR TEAM</h1>
+                        <hr id="Our_Team_Underline">
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="Our_Team_Piece">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officia culpa quis quisquam sapiente eius fuga perferendis, laudantium est deserunt laboriosam eveniet ullam labore eum, eligendi, inventore nihil sequi rem.
+                            Minus magnam voluptates totam at culpa, neque deserunt natus sit delectus alias. Quam unde delectus totam natus at labore animi sed tempore quod? Itaque architecto, omnis atque assumenda tempora cupiditate.
+                            Similique expedita neque pariatur, repellendus in sapiente! Molestiae, culpa dolorum! Obcaecati suscipit error aliquid tempora eaque ipsa consequuntur, fuga voluptatem accusantium. Modi, distinctio alias optio maiores fuga inventore saepe? Ratione.
+                            Quidem eveniet labore facere reiciendis ullam suscipit minima dolore hic, libero provident dignissimos laudantium ipsam, nam aspernatur deserunt est quaerat voluptatum quae asperiores dolorum ducimus eaque. Sunt voluptatem atque temporibus!
+                            Nisi perspiciatis soluta blanditiis unde alias accusantium, repellendus libero mollitia hic, natus exercitationem asperiores culpa qui harum vero porro maiores rerum dolor similique! Enim dolores eos ex! Repellat, sed vero.
+                            Enim, quaerat voluptates necessitatibus harum incidunt optio sunt ducimus molestias cum a, eaque quae eos exercitationem neque tenetur dolore? Perferendis sed, inventore explicabo maiores quos quidem delectus quas consequuntur itaque!
+                            Nemo, sint. Molestias cumque nesciunt consequuntur voluptate, itaque hic? Harum nemo iste voluptatibus vitae distinctio possimus cum, assumenda doloribus quae. Animi labore repudiandae quae, minus suscipit consectetur facilis doloribus eligendi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div id="Our_Team_Container">
+                            <div id="Our_Team_Container_Member_Area">
+
+                                <?php 
+                                    foreach($memberContainers as $container){ ?>
+                                    <div class="<?php echo $container['class']; ?> galleryPreviewImage PreviewImage<?php echo $container['Member']; ?>">
+
+                                        <img class="Member_Image <?php echo $container['Class'];?>" src="<?php echo $container['Image']; ?>" />
+                                        <h1 class="Members_Name"><?php echo $container['Name']; ?></h1>
+                                        <p class ="Members_Description"> <?php echo $container['Description']; ?></p>
+                                        
+
+                                    </div>
+                                <?php }?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-4">
+
+                    </div>
+                    <div class="col-4">
+                        <div class="galleryNavigationBullets">
+                            <?php
+                                for ($b = 1; $b <= $imagesTotal; $b++) {
+                                    echo '<a href="javascript: changeimage(' . $b . ')" class="galleryBullet' . $b . '"><span>Bullet</span></a> ';
+                                }
+                            ?>
+	                    </div>
+                    </div>
+                    <div class="col-4">
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
             </div>
-                <div class="galleryNavigationBullets">
-                    <?php
-                        for ($b = 1; $b <= $imagesTotal; $b++) {
-                            echo '<a href="javascript: changeimage(' . $b . ')" class="galleryBullet' . $b . '"><span>Bullet</span></a> ';
-                        }
-                    ?>
-	            </div>
-            </div>
-          
-        </div>
-     </div>
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        
+
+
+                
+        
+     
 
     <?php include("footer.php"); ?>
-    <script type="text/javascript">
+
+
+
+
+
+
+
+
+
+    <//script type="text/javascript">
 
         // init variables 
 
