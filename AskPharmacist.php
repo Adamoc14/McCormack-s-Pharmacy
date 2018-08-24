@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|Indie+Flower|Quicksand|Raleway|Bitter|Dosis|Sirin+Stencil|Marck+Script|Damion" rel="stylesheet">
     <?php include ("style.php"); ?>
     <link rel="stylesheet" href="Resources/CSS/AskPharmacist.css">
+    <link rel="stylesheet" href="Resources/CSS/HealthProducts.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $.getJSON('https://newsapi.org/v2/everything?sources=medical-news-today&apiKey=1648e454b427440788c1d3acd76462bf', function(data) {
