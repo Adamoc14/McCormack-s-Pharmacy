@@ -102,12 +102,13 @@
  
 
 
-        <div class="container">
+        <div class="container full">
 
                 <div class="row Section_Height">
 
                     <div class="col-3 Section_Height">
-                        <div id="Skincare_Section">
+
+                        <div id="Skincare_Section" class="full-width">
                             <h1 id="Skincare_Section_Heading">Skincare</h1>
                                 <img src="Resources/Images/Skincare.png" alt="" id="Skincare_Section_Image">
                             <a href="" id="Skincare_Products_Link">See all in Skincare</a>
@@ -123,7 +124,8 @@
                     </div>
 
                     <div class="col-3 Section_Height">
-                        <div id="Health_Section">
+
+                        <div id="Health_Section" class="full">
                             <h1 id="Health_Section_Heading">Health</h1>
                                 <img src="Resources/Images/Health_Image.png" alt="" id="Health_Section_Image">
                             <a href="" id="Health_Products_Link">See all in Health</a>
@@ -139,7 +141,7 @@
                     </div>
 
                     <div class="col-3 Section_Height">
-                        <div id="Beauty_Section">
+                        <div id="Beauty_Section" class="full">
                             <h1 id="Beauty_Section_Heading">Beauty</h1>
                                 <img src="Resources/Images/Beauty_Image.png" alt="" id="Beauty_Section_Image">
                             <a href="" id="Beauty_Products_Link">See all in Beauty</a>
@@ -155,7 +157,7 @@
                     </div>
 
                     <div class="col-3 Section_Height">
-                        <div id="Medicines_Section">
+                        <div id="Medicines_Section" class="full">
                             <h1 id="Medicines_Section_Heading">Medicines</h1>
                                 <img src="Resources/Images/Medicines.png" alt="" id="Medicines_Section_Image">
                             <a href="" id="Medicines_Products_Link">See all in Medicines</a>
@@ -195,7 +197,7 @@
                         </div>
                         <div id="Most_Popular_Section_Sub3">
                             <div id="Most_Popular_Tag"><i class="fas fa-tags tags_left"></i>Sale On<i class="fas fa-tags tags_right"></i></div>
-                            <img src="Resources/Products/SculptedAC.JPG" alt="" id="Most_Popular_Section_Sub3_Image">
+                            <img src="Resources/Products/SallyHansenTanGlow.JPG" alt="" id="Most_Popular_Section_Sub3_Image">
                             <h3 id="Most_Popular_Section_Sub3_Product">Sally Hansen Tan</h3>
                             <h4 id="Most_Popular_Section_Sub3_Price">€24.99</h4>
                             
@@ -328,9 +330,9 @@
                             <a href="https://www.instagram.com/mccormackspharmacy/?hl=en" class="instagram"><i class="fab  fa-instagram2 fa-2x fa-instagram"></i></a>
                             <a href="https://www.instagram.com/mccormackspharmacy/?hl=en" class="twitter"><i class="fab fa-2x fa-twitter"></i></a>
                             <a href="https://www.instagram.com/mccormackspharmacy/?hl=en" class="pinterest"><i class="fab fa-2x fa-pinterest"></i></a>
-                            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                            <div class="elfsight-app-be5d8108-cc37-49af-a58d-a19916a81baf"></div>
                         </div>
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-be5d8108-cc37-49af-a58d-a19916a81baf"></div>
                     </div>
 
                 </div>

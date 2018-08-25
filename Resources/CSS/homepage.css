@@ -1247,6 +1247,7 @@ height:30%;
   text-align: center;
   border-radius: 15px;
   width: 30vw;
+  /* min-width: 80vw; */
 
 }
 
@@ -1389,6 +1390,98 @@ float: right;
 	  max-width: 200rem;
   }
 }
+
+
+@media screen and (max-width:480px) {
+
+  #slider{
+    margin-left: -2vw;
+  }
+
+  .container.full{
+      width: 115%;
+	  max-width: 200rem;
+    }
+
+    #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
+    width: 100%;
+    margin-left:15vw;
+	  min-width: 20rem;
+	  max-width: 200rem;
+	  width: 20rem;
+	  float:none;
+    }
+
+    #Medicines_Section{
+      margin-bottom: 7vh;
+    }
+
+    #Health_Section_Image, #Skincare_Section_Image, #Beauty_Section_Image, #Medicines_Section_Image {
+      margin-left: 15vw;
+  }
+
+    #Most_Popular_Tag,#Editors_Picks_Tag,#Popular_Choices_Tag{
+      min-width: 47vw;
+    }
+
+    #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6 {
+      min-width: 50vw;
+      min-height: 25vh;
+    }
+
+    #Editors_Picks_Section_Sub1, #Editors_Picks_Section_Sub2, #Editors_Picks_Section_Sub3, #Editors_Picks_Section_Sub4, #Editors_Picks_Section_Sub5, #Editors_Picks_Section_Sub6 {
+      min-width: 50vw;
+      min-height: 25vh;
+    }
+
+    #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
+      min-width: 95vw;
+    }
+
+    #Editors_Picks_Section_Background{
+      margin-top: 10vh;
+    }
+
+
+    #Stay_In_The_Know_Section_Heading{
+      margin-top:2vh;
+      margin-left:10vw;
+    }
+
+    #Popular_Choices_Section_Heading{
+      margin-left:5vw;
+      margin-top: 2vh;
+    }
+
+    #Popular_Choices_Section_Sub1, #Popular_Choices_Section_Sub2, #Popular_Choices_Section_Sub3, #Popular_Choices_Section_Sub4 {
+      min-width: 50vw;
+      min-height: 25vh;
+      margin: 1vh 2.06vh 1vh 1vh;
+  }
+
+  #eapps-instagram-feed-1{
+    min-width: 100vw !important;
+  }
+
+  #Stay_In_The_Know_Section_Social_Media_Container{
+    margin-top:3vh;
+    margin-left: 25vw;
+  }
+
+  .facebook,.instagram,.twitter,.pinterest{
+    
+    padding-top: 2vh;
+    float:none;
+    margin-right: 1vw;
+  }
+  .facebook{
+    margin-right:-8vw;
+  }
+
+
+
+}
+
 .grid-display [class^="col"] {
     background: #FBCED1;
     border: 1px solid #FE7880;

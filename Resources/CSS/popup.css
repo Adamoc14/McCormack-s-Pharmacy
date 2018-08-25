@@ -121,55 +121,17 @@ html{
   border-bottom: 1px solid #77F003;
 }
 
-@media screen and (max-width:768px) {
-  #Subscription_Pop_Up{
-    width:100%;
-    left:10%;
-    height:60%;
-  }
+@media screen and (max-width:480px) {
 
-  #Subcription_Pop_Up_Image{
-    width: 20%;
-    height:30%;
-  }
-  #Subscription_Heading_Pop_Up{
-    font-size: 50px;
+  #Subscription_Pop_Up{
+    box-shadow: 20px 20px 10px 10000px rgba(0,0,0,0.8) ;
+    left:10vw;
   }
   
-  #Sign_Up_Plea{
-    margin-top:-2%;
-  }
-  #Sign_Up_Plea, #Sign_Up_Incentive{
-    font-size:17px;
-  }
-  #Sign_Up_Incentive:nth-of-type(2){
-    font-size:28px
-  }
 
 }
 
 @media screen and (max-width:768px) {
-  #Subscription_Pop_Up{
-    width:160%;
-    left:10%;
-    height:100%;
-  }
-
-  #Subcription_Pop_Up_Image{
-    width: 20%;
-    height:30%;
-  }
-  #Subscription_Heading_Pop_Up{
-    font-size: 50px;
-  }
   
-  #Sign_Up_Plea{
-    margin-top:-2%;
-  }
-  #Sign_Up_Plea, #Sign_Up_Incentive{
-    font-size:17px;
-  }
-  #Sign_Up_Incentive:nth-of-type(2){
-    font-size:28px
-  }
+  
 }

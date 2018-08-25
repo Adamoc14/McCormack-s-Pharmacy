@@ -245,10 +245,7 @@ input.ecwid-SearchPanel-field {
       color: #76FF03;
       font-weight: 800;
   }
-  #Beauty_Megamenu #Beauty_Megamenu_List2{
 
-      
-  }
   #Beauty_Megamenu #Beauty_Megamenu_List2 li{
       display: inline-block;
       
@@ -260,15 +257,7 @@ input.ecwid-SearchPanel-field {
   }
   
 
-  #Beauty_Megamenu #Beauty_Megamenu_List3{
-
-  }
-  #Beauty_Megamenu #Beauty_Megamenu_List4{
-
-  }
-  #Beauty_Megamenu #Beauty_Megamenu_List5{
-
-  }
+ 
   #menu ul li #Beauty_Megamenu img{
     position:absolute;
     left:75%;
@@ -433,147 +422,120 @@ input.ecwid-SearchPanel-field {
 }
 
 
+.Mobile_Header,.Mobile_Nav_Bar{
+    display: none;
+}
+
+
+
 
 
 
 @media screen and (max-width:768px){
-    #Pharmacy_Header{
-        width:130%;
-        background:#fff;
-    }
-
-    #Header_Info{
-        top:70%;
-        width:100%;
-        left:2%;
-
-    }
-
-    #Header_Divider{
-        display: none;
-    }
-   #Header_Social_Icons{
-        width:20%;
-        top:68%;
-        left:65%;
-        position:relative;
-    }
-    #McCormacks_Header_Middle_Section{
-        top:20%;
-        left:4%;
-    }
-
-
-    #McCormacks_Logo_Middle_Section{
-        top:20%;
-        font-size:40px;
-        left:17%
-
-    }
-    #Pharmacy_Header_Name{
-        font-size: 40px;
-    }
-    #Middle_Section_Image_Logo{
-        width:15%;
-        height:115%;
-        left:0%;
-        top:-5%
-    }
-    ul li{
-        left:5%;
-    }
-
-    .ec-cart-widget{
-        top:120%;
-        left:5%
-    }
-    #my-search-14190009{
-        top:127%;
-        left:10%;
-        
-    }
-}
-
-   
-@media screen and (max-width:425px) {
-    #Pharmacy_Header{
-        width:130%;
-        background:white;
-    }
-     #McCormacks_Header_Middle_Section{
-        top:15%;
-        left:10%;
-        width:100%;
-    }
-
-
-    #McCormacks_Logo_Middle_Section{
-        top:40%;
-        font-size:22px;
-        left:19%;
-
-    }
-    #Pharmacy_Header_Name{
-        font-size: 20px;
-    }
-    #Middle_Section_Image_Logo{
-        width:12%;
-        height:95%;
-        left:5%;
-        top:15%
-    }
-
-    #Header_Social_Icons{
-        width:35%;
-        top:75%;
-        left:80%;
-        font-size: 8px;
-    }
-    ul{
-        width:130%;
-    }
-    ul li{
-        left:10%;
-        top:30%;
-        padding:10px;
-    }
-    ul li a{
-        font-size:7px;
-    }
-    .ec-cart-widget{
-        top:120%;
-        left:15%
-    }
-    #my-search-14190009{
-        top:130%;
-        left:23%;
-        
-    }
-    #Header_Info{
-        left:12%;
-        top:75%;
-        width:100%;
-    }
-    #Header_Opening_Hours{
-        font-size: 5.5px;
-    }
-
-   
-
-
     
 }
 
+   
+@media screen and (max-width:480px) {
+
+    #Header_Social_Icons,#Header_Divider,#Header_Info,.Authorization_Links,.ec-cart-widget,#McCormacks_Logo_Middle_Section,#Middle_Section_Image_Logo,.grey_Bottom_Homepage_Bar,#menu{
+        display: none;
+    }
+
+    .container.full{
+      width: 90%;
+	  max-width: 150rem;
+    }
+
+    .Mobile_Header{
+        display: block;
+        padding:5% 5% 10% 2%;
+        margin: 0;
+    }
+
+    .Mobile_Nav_Bar{
+        display:block;
+        margin-top: -56vh;
+        position: relative;
+        z-index: 999;
+        min-width: 29rem;
+        min-height: 7rem;
+        background: #77ff03;
+    }
+
+    .Mobile_Header #McCormacks_Logo_Middle_Section, .Mobile_Header .ec-cart-widget,.Mobile_Header  #Middle_Section_Image_Logo{
+        display: inline;
+        position: relative;
+        z-index:1000;
+    }
+
+    .Mobile_Header #Middle_Section_Image_Logo {
+        margin-top: 0vh;
+        margin-left: 6vw;
+        margin-right: 1vw;
+        border:none;
+    }
+
+    .Mobile_Header #McCormacks_Logo_Middle_Section {margin-right: 39vw;margin-top: -5vh;position: relative;z-index:  1000;text-align: center;color:white;font-size: 24px;}
+
+    html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default path[stroke],  html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default circle[stroke]{
+        stroke: white !important;
+     }
+
+    .Mobile_Header .ec-cart-widget {
+        position: relative;
+        top: -31vh;
+        left: 90vw;
+        z-index:1000;
+    }
+
+    #McCormacks_Header_Middle_Section {
+
+        margin-top: -8vh;
+    
+    }
+
+    .Mobile_Header #Pharmacy_Header_Name {
+        margin-right: 42vw;
+        margin-top: -1vh;
+        position:  relative;
+        z-index: 1000;
+        color: #BDBDBD;
+        font-size:  20px;
+    }
+
+    #McCormacks_Logo_Middle_Section, #Pharmacy_Header_Name {
+
+        font-size: 130%;
+        float: right;
+        margin-left: 15vw;
+    
+    }
+
+    html#ecwid_html body#ecwid_body .ecwid-search-widget{
+        background-clip: none !important;
+        width:300px !important;
+        left:-3vw!important;
+        display: inline-block !important;
+        position: relative !important ;
+        top: -30vh;
+
+    }
+
+    .Hamburger_Menu{
+        position: relative;
+        top: -4.5vh;
+        z-index:1000;
+        color:white;
+    }
+
+
+
+   
+}
+
 @media screen and (max-width:251px) {
-    #Header_Opening_Hours{
-        font-size: 5.5px;
-    }
-    #Header_Social_Icons{
-        width:35%;
-        top:75%;
-        left:80%;
-        font-size: 8px;
-    }
+    
 
 
 }
