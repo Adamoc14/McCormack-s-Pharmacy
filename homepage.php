@@ -73,7 +73,7 @@
 </head>
 <body>
 
-<div id="Outline_Body"></div>
+
 <button onclick="topFunction()" id="myBtn">&#9651;</button>  
 
 <aside id="aside">
@@ -228,6 +228,18 @@
                     </div>
 
 
+                    <div class="row extra">
+                        <div class="col-12">
+
+                        </div>
+                    </div>
+
+                    <div class="row extra">
+                        <div class="col-12">
+
+                        </div>
+                    </div>
+
                 
                     <div class="col-6 Editors_Picks_Section_Background">
 
@@ -281,7 +293,7 @@
 
                     <br>
                     <br>
-                    <div class="row">
+                    <div class="row Popular_Choices_Section">
                         <div class="col-12 Popular_Choices_Section_Background">
                             <h2 id="Popular_Choices_Section_Heading">Popular Choice (Skincare)</h2>
 

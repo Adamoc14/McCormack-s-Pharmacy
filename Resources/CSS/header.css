@@ -140,10 +140,10 @@ input.ecwid-SearchPanel-field {
    
 
 #my-search-14190009{
-	margin-top:-6vh;
-    margin-left:13vw;
-    border:none;
-    outline:none;
+	margin-top: 10vh;
+	margin-left: 30vw;
+	border:none;
+	outline:none;
 }
 
 
@@ -458,8 +458,10 @@ input.ecwid-SearchPanel-field {
         margin-top: -56vh;
         position: relative;
         z-index: 999;
-        min-width: 29rem;
-        min-height: 7rem;
+        width: 140vw;
+        height: 15vh;
+        min-width: 100vw;
+        min-height: 20vh;
         background: #77ff03;
     }
 
@@ -471,12 +473,12 @@ input.ecwid-SearchPanel-field {
 
     .Mobile_Header #Middle_Section_Image_Logo {
         margin-top: 0vh;
-        margin-left: 6vw;
+        margin-left: 18vw;
         margin-right: 1vw;
         border:none;
     }
 
-    .Mobile_Header #McCormacks_Logo_Middle_Section {margin-right: 39vw;margin-top: -5vh;position: relative;z-index:  1000;text-align: center;color:white;font-size: 24px;}
+    .Mobile_Header #McCormacks_Logo_Middle_Section {margin-right: 49vw;margin-top: -5vh;position: relative;z-index:  1000;text-align: center;color:white;font-size: 24px;}
 
     html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default path[stroke],  html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default circle[stroke]{
         stroke: white !important;
@@ -485,7 +487,7 @@ input.ecwid-SearchPanel-field {
     .Mobile_Header .ec-cart-widget {
         position: relative;
         top: -31vh;
-        left: 90vw;
+        left: 114vw;
         z-index:1000;
     }
 
@@ -496,7 +498,7 @@ input.ecwid-SearchPanel-field {
     }
 
     .Mobile_Header #Pharmacy_Header_Name {
-        margin-right: 42vw;
+        margin-right: 54vw;
         margin-top: -1vh;
         position:  relative;
         z-index: 1000;
