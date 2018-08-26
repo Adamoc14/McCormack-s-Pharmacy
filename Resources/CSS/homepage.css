@@ -2877,6 +2877,7 @@ float: right;
     #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
       width: 100%;
       margin-left: 2vw;
+      margin-top: 17vh;
       min-width: 12rem;
       max-width: 200rem;
       width: 16rem;
