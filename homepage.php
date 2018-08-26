@@ -16,10 +16,7 @@
         $(document).ready(function() {
 
            
-
-            $(window).on("load", function(){
-                $('#eapps-instagram-feed-1').css("width","100%");
-            });
+            
 
             $('#subscription_email_button').on('click', function(){
   

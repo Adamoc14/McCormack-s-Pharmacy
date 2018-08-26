@@ -124,7 +124,7 @@ html{
 @media screen and (max-width:480px) {
 
   #Subscription_Pop_Up{
-    box-shadow: 20px 20px 10px 10000px rgba(0,0,0,0.8) ;
+    box-shadow: 20px 20px 10px 11000px rgba(0,0,0,0.8) ;
     left:10vw;
   }
   

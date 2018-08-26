@@ -1626,6 +1626,10 @@ aside ul li a{
 
 }
 
+#facebook,#pinterest,#twitter,#instagram,#snapchat{
+  min-width: 10vw;
+}
+
 #Cookie_Banner{
   display: none;
   height:15vh;
@@ -2799,6 +2803,9 @@ float: right;
   display:none;
 }
 
+div#chatra{
+  z-index: 999 !important;
+}
 
 
 
@@ -2986,9 +2993,18 @@ float: right;
 
 
 @media screen and (max-width:480px) {
+
+
+  
+
+
+  #myBtn,.grid-wrapper{
+    display: none !important;
+
+  }
   
   .container.full{
-    width: 140vw;
+    width: 100vw;
     max-width: 200rem;
   }
   
@@ -3002,7 +3018,7 @@ float: right;
   }
 
   #status{
-    top: 49%;
+    top: 45%;
     left: 2vw;
   }
 
@@ -3035,14 +3051,13 @@ float: right;
 
   
 
-    #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
-    width: 100%;
-    margin-left: 28vw;
-    min-width: 20rem;
+  #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
+    margin-left: 21vw;
+    min-width: 14rem;
     max-width: 200rem;
-    width: 20rem;
-    float:none;
-    }
+    width: 15rem;
+    float: none;
+  }
 
     #Medicines_Section{
       margin-bottom: 7vh;
@@ -3050,7 +3065,7 @@ float: right;
     }
 
     #Health_Section_Image, #Skincare_Section_Image, #Beauty_Section_Image, #Medicines_Section_Image {
-      margin-left: 15vw;
+      margin-left: 9vw;
   }
 
   .extra{
@@ -3060,29 +3075,33 @@ float: right;
 
   .row.Most_Popular_Section {
     margin-top: -70vh;
-    width: 138vw;
+    width: 101vw;
 }
 
 
 
 
-    #Most_Popular_Tag,#Editors_Picks_Tag,#Popular_Choices_Tag{
-      min-width: 58vw;
+    #Most_Popular_Tag,#Editors_Picks_Tag{
+      min-width: 43vw;
+    }
+
+    #Popular_Choices_Tag{
+      min-width: 40vw;
     }
 
     #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6 {
-      min-width: 62vw;
+      min-width: 45vw;
       min-height: 25vh;
     }
 
     #Editors_Picks_Section_Sub1, #Editors_Picks_Section_Sub2, #Editors_Picks_Section_Sub3, #Editors_Picks_Section_Sub4, #Editors_Picks_Section_Sub5, #Editors_Picks_Section_Sub6 {
-      min-width: 62vw;
+      min-width: 45vw;
       min-height: 25vh;
     }
 
     #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
-      min-width: 95vw;
-      margin-left: 20vw;
+      min-width: 70vw;
+      margin-left: 14vw;
     }
 
     #Editors_Picks_Section_Background{
@@ -3092,32 +3111,32 @@ float: right;
 
     #Stay_In_The_Know_Section_Heading{
       margin-top:2vh;
-      margin-left: 20vw;
     }
 
     .row.Popular_Choices_Section {
-      width: 137vw;
-      margin-left: 2vw;
+      width: 101vw;
+      margin-left: 0vw;
   }
 
     #Popular_Choices_Section_Heading{
-      margin-left: 20vw;
+      margin-left: 9vw;
       margin-top: 2vh;
+      min-width: 75vw;
     }
 
     #Popular_Choices_Section_Sub1, #Popular_Choices_Section_Sub2, #Popular_Choices_Section_Sub3, #Popular_Choices_Section_Sub4 {
-      min-width: 60vw;
+      min-width: 44vw;
       min-height: 25vh;
       margin: 1vh 2.06vh 1vh 1vh;
   }
 
   #eapps-instagram-feed-1{
-    min-width: 125vw !important;
+    min-width: 90vw !important;
   }
 
   #Stay_In_The_Know_Section_Social_Media_Container{
     margin-top:3vh;
-    margin-left: 40vw;
+    margin-left: 26vw;
   }
 
   .facebook,.instagram,.twitter,.pinterest{

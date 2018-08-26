@@ -1,4 +1,4 @@
-		/* This is the styling for the overall section of the footer */
+	/* This is the styling for the overall section of the footer */
 
         #Footer_Top_Section{
 
@@ -487,6 +487,189 @@
         
         /* This is the end of the styling for the overall footer  */
         
+
+
+        @media screen and (max-width:768px) {
+
+            row.Laptop_Footer{
+                display: none;
+            }
+
+
+
+
+
+
+
+
+        }
+
+
+
+        @media screen and (max-width:480px) {
+
+            .row.Laptop_Footer{
+                display: none;
+            }
+
+
+            #Footer_Top_Section {
+                padding-bottom: 22vh;
+                background: #76FF03;
+                width: 96vw;
+                margin-left: -3vw;
+                margin-top: 10vh;
+            }
+
+            #Footer_Top_Section1_Sub {
+                float: left;
+                margin-bottom: 10vh;
+            }
+
+            #Verify_Site_Image {
+                height: 35vh;
+                width: 52vw;
+                margin-bottom: 5vh;
+                margin-left: 17vw;
+                margin-top: 5vh;
+            }
+
+            #Welcome_McCormacks_Heading {
+                margin-top: 1vh;
+                margin-left: 12vw;
+                margin-bottom: 3vh;
+                text-align: center;
+            }
+
+            #Summary_McCormacks_Pharmacy {
+                margin-left: -1vw;
+                text-align: center;
+                width: 95vw;
+            }
+
+            #Footer_Top_Section5_Sub {
+                float: left;
+                text-align: center;
+                margin-left: 10vw;
+                margin-right: 24vw;
+                margin-bottom: -7vw;
+            }
+
+            #Footer_Top_Section4_Sub {
+                margin-top: -53vh;
+                text-align: center;
+                margin-bottom: 9vh;
+            }
+
+            #Footer_Top_Section3_Sub {
+                float: left;
+                text-align: center;
+                margin-top: 1vh;
+                margin-left: 11vw;
+                margin-right: 24vw;
+            }
+
+            #Footer_Top_Section2_Sub {
+                float: right;
+                margin-top: -80vh;
+                text-align: center;
+                margin-left: 50vw;
+            }
+
+
+            #White_Background_Footer {
+                height: 20vh;
+                width: 100%;
+            }
+
+            #Footer_Divider {
+                width: 80%;
+                margin-left: 10vw;
+                margin-bottom: 20vh;
+            }
+
+
+            #Footer_Section_3_Right {
+                padding-bottom: 21vh;
+                margin-top: -16vh;
+                width: 100vw;
+                text-align: center;
+                margin-left: -5vw;
+            }
+
+
+            #Section_Right_Perks {
+                margin-bottom: 22vh;
+                margin-left: -5vw;
+                margin-top: 3vh;
+            }
+
+            #Email_Input_Sign_Up {
+                float: left;
+                margin-left: 14vw;
+                margin-top: -15vh;
+            }
+
+            #Email_Button_Sign_Up {
+                left: 53vw;
+                top: 6vh;
+            }
+
+            #Footer_Section_2_Middle {
+                margin-top: -12vh;
+                margin-bottom: 5vh;
+                width: 100vw;
+                float: left;
+            }
+
+            #Section_Middle_Follow_Us {
+                margin-top: -10vh;
+                margin-left: 27vw;
+            }
+
+            #Section_Middle_Perks {
+                margin-left: -16vw;
+                text-align: center;
+            }
+
+            #Footer_Social_Icon_Container {
+                margin-left: -8vw;
+            }
+
+            .btn--android {
+                margin-left: 4vw;
+            }
+
+            a.btn.btn--ios {
+                margin-left: -4vw;
+            }
+
+            #Footer_Section_1_Left {
+                margin-top: 15vh;
+                margin-bottom: 20vh;
+                width: 100vw;
+            }
+
+            #Left_Section_Logo {
+                width: 9vw;
+                margin-left: 1vw;
+                margin-right: 1vw;
+                margin-top: -3vh;
+                float: left;
+                height: 6vh;
+            }
+
+            #McCormacks_Logo_Left_Section {
+                margin-top: -2vh;
+            }
+
+            #McCormacks_Copyright_Left_Section {
+                float: left;
+                margin-top: 2vh;
+                margin-left: 7vw;
+            }
+
+        }
         
         
         

@@ -10,7 +10,8 @@
                         <div class="col-8">
                             <a href="homepage.php">
                                 <div id="McCormacks_Header_Middle_Section">
-                                    <span id="McCormacks_Logo_Middle_Section"><img id="Middle_Section_Image_Logo" src="Resources/Images/McCormacks.png">MC CORMACK'S </span><strong id="Pharmacy_Header_Name">PHARMACY</strong>
+                                    <img id="Middle_Section_Image_Logo" src="Resources/Images/McCormacks.png">
+                                    <span id="McCormacks_Logo_Middle_Section">MC CORMACK'S </span><strong id="Pharmacy_Header_Name">PHARMACY</strong>
                                 </div>
                             </a>
                         </div>
