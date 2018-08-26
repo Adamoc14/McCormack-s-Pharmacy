@@ -1,4 +1,4 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -276,7 +276,7 @@ path{
 
 /* This is the code for the main grid image section of the website */
 
-.grid-wrapper {
+/* .grid-wrapper {
   display: -ms-grid;
   display: grid;
   width: 100%;
@@ -600,7 +600,7 @@ img{
 
 /* this is the code for the subsections of the website health skincare beauty */
 
-.Section_Height{
+/* .Section_Height{
   min-height:95vh;
 }
 
@@ -1242,7 +1242,7 @@ height:30%;
   width: 30vw;
   /* min-width: 80vw; */
 
-}
+/* }
 
 
 
@@ -1296,20 +1296,20 @@ float: right;
 
 .extra{
   display:none;
-}
+} */
 
 
 
 
 
 
-
+ */
 
 
 /* this is the end of the code for the subsections of the website health skincare beauty */
 
 
-@media only screen and (min-width:60em) {
+/* @media only screen and (min-width:60em) {
   .container {
     width: 90%;
     max-width: 90rem;
@@ -1385,7 +1385,7 @@ float: right;
 
   .Most_Popular_Section,.Popular_Choices_Section {
     /* margin-left: 0vw; */
-}
+/* }
 
 
 
@@ -1458,7 +1458,7 @@ float: right;
     border-radius: 4px;
     box-sizing: border-box;
     text-align: center;
-}
+} */ */ */ */
 
 
 
@@ -2823,6 +2823,166 @@ float: right;
   }
 }
 
+@media screen and (max-width:768px) {
+  
+  .container.full{
+    width: 93vw;
+    max-width: 200rem;
+  }
+  
+  #Cookie_Banner{
+    min-height: 20vh;
+    min-width: 90vw;
+  }
+
+  #previous,#next{
+    top:20%;
+  }
+
+  #status{
+    top: 42%;
+    left: 2vw;
+  }
+
+  #Cookie_Banner_Explanation{
+    top:4%;
+    left: 0.5vw;
+  }
+
+  #Accept_And_Close_Button {
+    margin-right: 41vw;
+    margin-top: 3vh;
+  }
+
+
+  #slider{
+    margin-left: -2vw;
+    margin-bottom:-35vh;
+  }
+
+.row.Section_Height {
+    max-width: 95vh;
+    width: 100vh;
+    margin-bottom: 80vh;
+}
+
+.col-3.Section_Height {
+  width: 39vw;
+}
+
+
+
+  
+
+    #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
+      width: 100%;
+      margin-left: 2vw;
+      min-width: 12rem;
+      max-width: 200rem;
+      width: 16rem;
+      float:none;
+    }
+
+    #Medicines_Section{
+      margin-top: -82.5vh;
+    }
+
+    #Health_Section_Image, #Skincare_Section_Image, #Beauty_Section_Image, #Medicines_Section_Image {
+      margin-left: 7vw;
+  }
+
+  .extra{
+    display: block;
+  }
+
+
+
+
+
+  .row.Most_Popular_Section {
+      margin-top: -70vh;
+      width: 169vw;
+  }
+
+
+
+    #Most_Popular_Tag,#Editors_Picks_Tag,#Popular_Choices_Tag{
+      min-width: 33vw;
+    }
+
+    #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6 {
+      min-width: 35vw;
+      min-height: 25vh;
+    }
+
+    #Editors_Picks_Section_Sub1, #Editors_Picks_Section_Sub2, #Editors_Picks_Section_Sub3, #Editors_Picks_Section_Sub4, #Editors_Picks_Section_Sub5, #Editors_Picks_Section_Sub6 {
+      min-width: 35vw;
+      min-height: 25vh;
+    }
+
+    #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
+      min-width: 46vw;
+      margin-left: 20vw;
+    }
+
+    #Editors_Picks_Section_Background{
+      margin-top: 10vh;
+    }
+
+
+    #Stay_In_The_Know_Section_Heading{
+      margin-top:2vh;
+      margin-left: 22vw;
+    }
+
+
+    .row.Popular_Choices_Section {
+      width: 81vw;
+      margin-left: 2vw;
+  }
+
+    #Popular_Choices_Section_Heading{
+      margin-left: 20vw;
+      margin-top: 2vh;
+    }
+
+    #Popular_Choices_Section_Sub1, #Popular_Choices_Section_Sub2, #Popular_Choices_Section_Sub3, #Popular_Choices_Section_Sub4 {
+      min-width: 35vw;
+      min-height: 25vh;
+      margin: 1vh 2.06vh 1vh 2vh;
+  }
+
+  #Popular_Choices_Section_Sub1_Image, #Popular_Choices_Section_Sub2_Image, #Popular_Choices_Section_Sub3_Image, #Popular_Choices_Section_Sub4_Image {
+  
+    min-height: 42vh;
+  
+  }
+
+  #eapps-instagram-feed-1{
+    min-width: 79vw !important;
+  }
+
+  #Stay_In_The_Know_Section_Social_Media_Container{
+    margin-top:3vh;
+    margin-left: 24vw;
+  }
+
+  .facebook,.instagram,.twitter,.pinterest{
+    
+    padding-top: 2vh;
+    float:none;
+    margin-right: 1vw;
+  }
+  .facebook{
+    margin-right:-8vw;
+  }
+
+
+
+}
+
+
+
 
 @media screen and (max-width:480px) {
   
@@ -2841,7 +3001,7 @@ float: right;
   }
 
   #status{
-    top: 42%;
+    top: 49%;
     left: 2vw;
   }
 
@@ -2858,7 +3018,19 @@ float: right;
 
   #slider{
     margin-left: -2vw;
+    margin-top: -35vh
   }
+
+
+  .row.Section_Height {
+    max-width: 95vh;
+    width: 100vh;
+    margin-bottom: 80vh;
+}
+
+.col-3.Section_Height {
+  width: 75vw;
+}
 
   
 
@@ -2873,6 +3045,7 @@ float: right;
 
     #Medicines_Section{
       margin-bottom: 7vh;
+      margin-top: 10vh;
     }
 
     #Health_Section_Image, #Skincare_Section_Image, #Beauty_Section_Image, #Medicines_Section_Image {
@@ -2883,6 +3056,11 @@ float: right;
     display: block
   }
 
+
+  .row.Most_Popular_Section {
+    margin-top: -70vh;
+    width: 138vw;
+}
 
 
 
@@ -2916,13 +3094,18 @@ float: right;
       margin-left: 20vw;
     }
 
+    .row.Popular_Choices_Section {
+      width: 137vw;
+      margin-left: 2vw;
+  }
+
     #Popular_Choices_Section_Heading{
       margin-left: 20vw;
       margin-top: 2vh;
     }
 
     #Popular_Choices_Section_Sub1, #Popular_Choices_Section_Sub2, #Popular_Choices_Section_Sub3, #Popular_Choices_Section_Sub4 {
-      min-width: 62vw;
+      min-width: 60vw;
       min-height: 25vh;
       margin: 1vh 2.06vh 1vh 1vh;
   }

@@ -81,7 +81,7 @@
                             <a href="homepage.php">
                                 <div id="McCormacks_Header_Middle_Section">
                                     <img id="Middle_Section_Image_Logo" src="Resources/Images/McCormacks.png">
-                                    <h1 id="McCormacks_Logo_Middle_Section">MC CORMACK'S <strong id="Pharmacy_Header_Name">PHARMACY</strong></h1>
+                                    <span id="McCormacks_Logo_Middle_Section">MC CORMACK'S </span><strong id="Pharmacy_Header_Name">PHARMACY</strong>
                                 </div>
                             </a>
                             <div class="ec-cart-widget" data-ec-widget-loaded="true"><div class="ec-minicart ec-minicart--empty ec-minicart--m ec-minicart--inline ec-minicart--no-shape ec-minicart--animation-default"><div class="ec-minicart__body"><div class="ec-minicart__icon"><svg class="icon-default" height="30" viewBox="0 0 36 30" width="36" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M7 7h22v18a4 4 0 0 1-4 4H11a4 4 0 0 1-4-4V7z" stroke="currentColor" stroke-width="2"></path><path d="M13 10V6c0-2.993 2.009-5 5-5s5 2.026 5 5v4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><circle class="cart-not-empty" cx="18" cy="18" fill="currentColor" r="4"></circle></g></svg></div><div class="ec-minicart__wrap"><div class="ec-minicart__counter">0</div></div></div></div></div>

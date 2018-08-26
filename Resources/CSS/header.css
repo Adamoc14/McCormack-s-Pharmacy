@@ -111,7 +111,8 @@
 #Pharmacy_Header_Name{
     color:#BDBDBD;
     font-size:44.5px;
-    letter-spacing: .2em;   
+    letter-spacing: .2em; 
+    font-family: bitter;  
 }
 
 .ec-cart-widget{
@@ -432,13 +433,65 @@ input.ecwid-SearchPanel-field {
 
 
 @media screen and (max-width:768px){
+
+    .col-3.Authorization_Links {
+        width: 30%;
+        float: right;
+        margin-top: -5vh;
+    }
+
+    .grey_Bottom_Homepage_Bar{
+        display:none;
+      }
+
+
+
+      html#ecwid_html body#ecwid_body .ecwid-search-widget__input, html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="search"], html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="text"]{
+          width: 83% !important;
+      }
+
+    #my-search-14190009{
+        margin-left: -6vw;
+    }
+
+    html#ecwid_html body#ecwid_body .ecwid-search-widget {
+        margin-top: -18vh !important;
+        width: 574px !important;
+
+    }
+
+    #Pharmacy_Header_Name{
+        margin-left: 1vw;
+        margin-top: -10vh;
+    }
+
+    #McCormacks_Logo_Middle_Section{
+        margin-top: -2vh;
+        margin-right: 17vw;
+    }
+
+    #menu ul li a:first-child{
+        border:none;
+    }
+
+    #menu ul li a{
+        border: none;
+        padding: 15px 6px;
+    }
+
+    #menu ul{
+        margin-left: 0%; 
+    }
+
+
+
     
 }
 
    
 @media screen and (max-width:480px) {
 
-    #Header_Social_Icons,#Header_Divider,#Header_Info,.Authorization_Links,.ec-cart-widget,#McCormacks_Logo_Middle_Section,#Middle_Section_Image_Logo,.grey_Bottom_Homepage_Bar,#menu{
+    #Header_Social_Icons,#Header_Divider,#Header_Info,.Authorization_Links,.ec-cart-widget,#McCormacks_Logo_Middle_Section,#Middle_Section_Image_Logo,.grey_Bottom_Homepage_Bar,#menu,#Pharmacy_Header_Name{
         display: none;
     }
 
@@ -465,7 +518,7 @@ input.ecwid-SearchPanel-field {
         background: #77ff03;
     }
 
-    .Mobile_Header #McCormacks_Logo_Middle_Section, .Mobile_Header .ec-cart-widget,.Mobile_Header  #Middle_Section_Image_Logo{
+    .Mobile_Header #McCormacks_Logo_Middle_Section, .Mobile_Header .ec-cart-widget,.Mobile_Header  #Middle_Section_Image_Logo,.Mobile_Header #Pharmacy_Header_Name{
         display: inline;
         position: relative;
         z-index:1000;
@@ -516,8 +569,8 @@ input.ecwid-SearchPanel-field {
 
     html#ecwid_html body#ecwid_body .ecwid-search-widget{
         background-clip: none !important;
-        width:300px !important;
-        left:-3vw!important;
+        width:409px !important;
+        left:27vw!important;
         display: inline-block !important;
         position: relative !important ;
         top: -30vh;
