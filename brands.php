@@ -13,14 +13,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
-            console.log("Hello");
-
-            $(window).on("load", function(){
-                
-                $('.ecwid-search-widget__input').css("border-radius","15px");
-            });
-
-            
 
             $('#All_Brands_Container li a').click(function(){
                 $(this).siblings().children().toggleClass("show");

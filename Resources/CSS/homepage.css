@@ -2281,6 +2281,8 @@ height:30%;
   margin-left: 1vw;
 }
 
+
+
 .fa-glass-martini{
   color:#26C6DA;
 }
@@ -2571,7 +2573,7 @@ height:30%;
 }
 
 #Editors_Picks_Section_Sub1_Image,#Editors_Picks_Section_Sub2_Image,#Editors_Picks_Section_Sub3_Image,#Editors_Picks_Section_Sub4_Image,#Editors_Picks_Section_Sub5_Image,#Editors_Picks_Section_Sub6_Image{
-
+  height: 39vh;
   margin-top: -2vh;
   z-index:0;
 }
@@ -2690,6 +2692,7 @@ height:30%;
 
 #Popular_Choices_Section_Sub1_Image,#Popular_Choices_Section_Sub2_Image,#Popular_Choices_Section_Sub3_Image,#Popular_Choices_Section_Sub4_Image
   {
+  height: 39vh;
   margin-top: -2vh;
   z-index:0;
 }
@@ -2912,6 +2915,13 @@ div#chatra{
       width: 169vw;
   }
 
+  #Most_Popular_Section_Sub1_Image, #Most_Popular_Section_Sub2_Image, #Most_Popular_Section_Sub3_Image, #Most_Popular_Section_Sub4_Image, #Most_Popular_Section_Sub5_Image, #Most_Popular_Section_Sub6_Image {
+    min-width: 10vw;
+    min-height: 35vh;
+    height: 39vh;
+    margin-top: 2vh;
+  }
+
 
 
     #Most_Popular_Tag,#Editors_Picks_Tag,#Popular_Choices_Tag{
@@ -3025,6 +3035,7 @@ div#chatra{
   #Cookie_Banner_Explanation{
     top:4%;
     left: 0.5vw;
+    font-size: 12px;
   }
 
   #Accept_And_Close_Button {
@@ -3052,7 +3063,7 @@ div#chatra{
   
 
   #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
-    margin-left: 21vw;
+    margin-left: 18vw;
     min-width: 14rem;
     max-width: 200rem;
     width: 15rem;
@@ -3069,24 +3080,35 @@ div#chatra{
   }
 
   .extra{
-    display: block
+    display: block;
   }
 
 
   .row.Most_Popular_Section {
     margin-top: -70vh;
-    width: 101vw;
+    width: 105vw;
 }
+
+#Most_Popular_Section_Sub1_Image, #Most_Popular_Section_Sub2_Image, #Most_Popular_Section_Sub3_Image, #Most_Popular_Section_Sub4_Image, #Most_Popular_Section_Sub5_Image, #Most_Popular_Section_Sub6_Image {
+  min-width: 10vw;
+  min-height: 35vh;
+  height: 39vh;
+  margin-top: 2vh;
+}
+
+
 
 
 
 
     #Most_Popular_Tag,#Editors_Picks_Tag{
       min-width: 43vw;
+      font-size: 20px;
     }
 
     #Popular_Choices_Tag{
       min-width: 40vw;
+      font-size: 20px;
     }
 
     #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6 {
@@ -3100,8 +3122,13 @@ div#chatra{
     }
 
     #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
-      min-width: 70vw;
-      margin-left: 14vw;
+      min-width: 75vw;
+      margin-left: 12vw;
+      
+    }
+
+    #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Popular_Choices_Section_Heading{
+      font-size: 28px;
     }
 
     #Editors_Picks_Section_Background{
@@ -3122,10 +3149,11 @@ div#chatra{
       margin-left: 9vw;
       margin-top: 2vh;
       min-width: 75vw;
+      
     }
 
     #Popular_Choices_Section_Sub1, #Popular_Choices_Section_Sub2, #Popular_Choices_Section_Sub3, #Popular_Choices_Section_Sub4 {
-      min-width: 44vw;
+      min-width: 42vw;
       min-height: 25vh;
       margin: 1vh 2.06vh 1vh 1vh;
   }
@@ -3136,7 +3164,7 @@ div#chatra{
 
   #Stay_In_The_Know_Section_Social_Media_Container{
     margin-top:3vh;
-    margin-left: 26vw;
+    margin-left: 23vw;
   }
 
   .facebook,.instagram,.twitter,.pinterest{

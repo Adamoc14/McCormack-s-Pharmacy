@@ -15,8 +15,19 @@
     <script>
         $(document).ready(function() {
 
+
+            $('.first_sorter').on('click', function(){
+                var $this = $(this);
+                $this.parents().siblings().toggleClass('show');
+                $(this).toggleClass('flip');
+            });
+
            
-            
+            $('.Hamburger_Close').on('click',function(){
+
+                $('.Nav_Bar_Menu').toggleClass('open');
+
+            });
 
             $('#subscription_email_button').on('click', function(){
   

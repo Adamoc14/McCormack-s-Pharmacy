@@ -506,6 +506,105 @@ input.ecwid-SearchPanel-field {
         margin: 0;
     }
 
+
+    .Nav_Bar_Menu{
+        position: fixed;
+        min-width: 100vw;
+        width: 100vw;
+        min-height: 100vh;
+        height: 150vh;
+        background:white;
+        color:white;
+        z-index:6000;
+        left: 0;
+        top: 0;
+        padding-bottom: 5%;
+        transform: translateX(-100%);
+        transition: transform 0.6s ease;
+    }
+
+    .Nav_Bar_Menu.open{
+        transform: translateX(0);
+    }
+
+    .Dropdown_Nav_Bar_Menu{
+        display: none;
+    }
+
+    .Dropdown_Nav_Bar_Menu.show{
+        display: block;
+    }
+
+    #Nav_Close_button {
+        position: fixed;
+        left: 90vw;
+        width: 5vw;
+        background: pink;
+        top: 3vh;
+        color: #77FF03;
+        background: white;
+        text-align: center;
+    }
+    #Nav_Phone{
+        top: -8vh;
+        margin-left: 1vw;
+        color: #76FF03;
+    }
+
+
+    .Nav_Bar_Menu ul {
+        position: relative;
+        left: 2vw;
+        top: 2vh;
+    }
+
+    .Nav_Bar_Menu ul li{
+        padding: 1%;
+    }
+    .Nav_Bar_Menu ul li a{
+        color:black;
+    }
+
+    .user{
+        color: #76FF03;
+    }
+
+    .long_word{
+        margin-left: -17.5vw;
+    }
+    .long_word2{
+        margin-left: -9.5vw;
+    }
+
+    .long_word3{
+        margin-left: -3.5vw;
+    }
+
+    .first_sorter{
+        color: #BDBDBD;
+        position:relative;
+        left: 58vw;
+        
+    }
+
+    .first_sorter.flip{
+        transform: rotateZ(-180deg);
+        transition: transform 0.1s ease; 
+    }
+
+    .second_sorter{
+        color: #BDBDBD;
+        position:relative;
+        left: 58vw;
+        
+    }
+
+    .second_sorter.flip{
+        transform: rotateZ(-180deg);
+        transition: transform 0.1s ease; 
+    }
+
+
     .Mobile_Nav_Bar{
         display:block;
         margin-top: -56vh;
@@ -525,7 +624,7 @@ input.ecwid-SearchPanel-field {
 
     .Mobile_Header #Middle_Section_Image_Logo {
         margin-top: -6vh;
-        margin-left: 21vw;
+        margin-left: 19vw;
         height: 5vh;
         width: 8vw;
         margin-right: 1vw;
@@ -533,9 +632,9 @@ input.ecwid-SearchPanel-field {
     }
 
     .Mobile_Header #McCormacks_Logo_Middle_Section {
-        margin-right: 27vw;
+        margin-right: 20vw;
         margin-top: -5vh;
-        margin-left: -58vw;
+        margin-left: -54vw;
         position: relative;
         z-index: 1000;
         text-align: center;
@@ -569,22 +668,22 @@ input.ecwid-SearchPanel-field {
         font-size: 20px;
     }
 
-    #McCormacks_Logo_Middle_Section, #Pharmacy_Header_Name {
+     #Pharmacy_Header_Name {
 
         font-size: 130%;
         float: right;
-        margin-left: 15vw;
+        margin-left: 20vw;
     
     }
 
     #my-search-14190009{
-        margin-left: -19vw !important;
+        margin-left: -17vw !important;
     }
 
     html#ecwid_html body#ecwid_body .ecwid-search-widget{
         background-clip: none !important;
         width:409px !important;
-        left:27vw!important;
+        left:18vw!important;
         display: inline-block !important;
         position: relative !important ;
         top: -30vh;

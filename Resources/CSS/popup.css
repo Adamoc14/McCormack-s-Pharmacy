@@ -125,8 +125,29 @@ html{
 
   #Subscription_Pop_Up{
     box-shadow: 20px 20px 10px 11000px rgba(0,0,0,0.8) ;
-    left:10vw;
+    left:3vw;
+    top: 10vh;
+    min-width:355px;
+    min-height: 355px;
   }
+
+  #Subscription_Heading_Pop_Up{
+    font-size: 25px;
+  }
+
+  #Sign_Up_Plea, #Sign_Up_Incentive{
+    font-size:10px;
+  }
+  #Opt_Out_Link{
+    top: 117%;
+  }
+
+  #subscription_email_button{
+    padding:2%;
+  }
+
+
+
   
 
 }

@@ -3,8 +3,409 @@
                     
             
                     <div class="row Mobile_Header">
+
+                        <div class="Nav_Bar_Menu">
+                            <div id="Nav_Close_button"><i class="fas fa-2x Nav_Close_Button Hamburger_Close fa-times"></i></div>
+                            <a id="Nav_Phone" href="tel:+353 52 6199329"><i class="fas fa-1x Nav_Phone fa-phone"></i>&nbsp;052 6199329</a>
+                            <br>
+                            <br>
+                            <ul>
+                                <li><a href="#"><i class="far user fa-user"></i>&nbsp;&nbsp;WELCOME <span><i class="fas fa-2x first_sorter fa-sort-down"></i></span> 
+                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                        <li><a href="#">My Account</a></li>
+                                        <li><a href="#">Register</a></li>
+                                        <li><a href="#">Login</a></li>
+                                    </ul>
+
+                                </a></li>
+
+
+                                <li><a href="#">BRANDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter fa-sort-down"></i></span>
+                                        <ul class="Dropdown_Nav_Bar_Menu">
+                                            <li><a href="#">View All Brands</a></li>
+                                        </ul>
+                            
+                                </a></li>
+
+
+
+                                <li><a href="#">MAKEUP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
+                                    
+                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                        <li><a href="#">Face&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Blushers</a></li>
+                                                <li><a href="#">Concealers</a></li>
+                                                <li><a href="#">Contouring</a></li>
+                                                <li><a href="#">Highlighters</a></li>
+                                                <li><a href="#">Foundation</a></li>
+                                                <li><a href="#">Tinted Moisturisers</a></li>
+                                                <li><a href="#">Powders</a></li>
+                                                <li><a href="#">Primers</a></li>
+                                            </ul>
+                                
+                                        </a></li>
+
+
+
+                                        <li><a href="#">Eyes&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Brows</a></li>
+                                                <li><a href="#">Mascara</a></li>
+                                                <li><a href="#">Eye Shadows</a></li>
+                                                <li><a href="#">Eyeliners</a></li>
+                                                <li><a href="#">Eyelashes</a></li>
+                                                <li><a href="#">Lash &amp; Brow Enhancers</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Lips&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Lipsticks</a></li>
+                                                <li><a href="#">Lip Gloss</a></li>
+                                                <li><a href="#">Lip Liner</a></li>
+                                                <li><a href="#">Lipcare</a></li>
+                                                <li><a href="#">Lip Plumper</a></li>
+                                            </ul>
+                                    
+                                        </a></li>
+
+
+                                        <li><a href="#">Beauty Accessories<span><i class="fas fa-2x first_sorter second_sorter long_word2 fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Makeup Brushes</a></li>
+                                                <li><a href="#">Makeup Bags</a></li>
+                                                <li><a href="#">Tweezers &amp; Eyelash Curlers</a></li>
+                                                <li><a href="#">Brush Cleaners</a></li>
+                                                <li><a href="#">Makeup Sponges</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Nails&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Nail Polish</a></li>
+                                                <li><a href="#">Nail Care</a></li>
+                                                <li><a href="#">Manicure &amp; Pedicure</a></li>
+                                            </ul>
+                                
+                                        </a></li>
+
+
+                                        <li><a href="#">Makeup Palettes</a></li>
+                                        <li><a href="#">Makeup Removers</a></li>
+
+                                    </ul>
+                            
+                                </a></li>
+
+
+                                <li><a href="#">SKINCARE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x  first_sorter fa-sort-down"></i></span>
+                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                        <li><a href="#">Cleanse&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Cleansers</a></li>
+                                                <li><a href="#">Exfoliators</a></li>
+                                                <li><a href="#">Toners</a></li>
+                                                <li><a href="#">Make-Up Removers</a></li>
+                                            </ul>
+                                
+                                        </a></li>
+
+
+                                        <li><a href="#">Moisturisers<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Lotions</a></li>
+                                                <li><a href="#">Serums</a></li>
+                                                <li><a href="#">Oils</a></li>
+                                                <li><a href="#">Moisturiser</a></li>
+                                                <li><a href="#">Balm</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Treatments&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Acne &amp; Oil Control</a></li>
+                                                <li><a href="#">Serums and Anti Ageing</a></li>
+                                            </ul>
+                                    
+                                        </a></li>
+
+
+                                        <li><a href="#">Eyecare&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Eye Creams</a></li>
+                                                <li><a href="#">Eye Masks</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Masks &amp; Peels<span><i class="fas fa-2x first_sorter long_word3 second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Face Mask</a></li>
+                                                <li><a href="#">Sheet Masks</a></li>
+                                                <li><a href="#">Peels</a></li>
+                                            </ul>
+
+                                        </a></li>
+                                        <li><a href="#">Suncare<span><i class="fas fa-2x first_sorter long_word3 second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Sun Protection</a></li>
+                                                <li><a href="#">Aftersun</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                    </ul>
+                                </a></li>
+
+
+                                <li><a href="#">BATH &AMP; BODY&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
+                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                        <li><a href="#">Toiletries&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Deodarants &amp; Antiperspirants</a></li>
+                                                <li><a href="#">Travel Toiletries</a></li>
+                                                <li><a href="#">Female Hygiene</a></li>
+                                                <li><a href="#">Dental&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                
+                                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                                        <li><a href="#">Toothbrushes</a></li>
+                                                    </ul>
+
+                                                </a></li>
+                                                <li><a href="#">Hair Removal</a></li>
+                                            </ul>
+                                
+                                        </a></li>
+
+
+                                        <li><a href="#">Body<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Bath &amp; Shower</a></li>
+                                                <li><a href="#">Moisturisers</a></li>
+                                                <li><a href="#">Hand &amp; Feet</a></li>
+                                                <li><a href="#">Fragrance</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Haircare&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Shampoo</a></li>
+                                                <li><a href="#">Conditioner</a></li>
+                                                <li><a href="#">Dry Shampoo</a></li>
+                                                <li><a href="#">Hair Brushes</a></li>
+                                                <li><a href="#">Hair Treatment</a></li>
+                                            </ul>
+                                    
+                                        </a></li>
+
+
+                                        <li><a href="#">Nails&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Nail Polish</a></li>
+                                                <li><a href="#">False Nails</a></li>
+                                                <li><a href="#">Top &amp; Base Coats</a></li>
+                                                <li><a href="#">Nail Polish Remover</a></li>
+                                                <li><a href="#">Nail Care</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Tanning<span><i class="fas fa-2x first_sorter long_word3 second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Instant Tan</a></li>
+                                                <li><a href="#">Gradual Tan</a></li>
+                                                <li><a href="#">Wash Off Tan</a></li>
+                                                <li><a href="#">Bronzer</a></li>
+                                                <li><a href="#">Tanning Mits</a></li>
+                                            </ul>
+
+                                        </a></li>
+                                    </ul>
+                            
+                                </a></li>
+
+
+
+                                <li><a href="#">MUM &AMP; BABY&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
+
+                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                        <li><a href="#">Feeding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Bottle Feeding</a></li>
+                                                <li><a href="#">Breastfeeding</a></li>
+                                                <li><a href="#">Soothers &amp; Teethers</a></li>
+                                            </ul>
+                                
+                                        </a></li>
+
+
+                                        <li><a href="#">Bathing &amp; Changing<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Shampoos</a></li>
+                                                <li><a href="#">Body Wash</a></li>
+                                                <li><a href="#">Lotions</a></li>
+                                                <li><a href="#">Nappies &amp; Wipes</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Children's Health&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Fever &amp; Pain Relief</a></li>
+                                                <li><a href="#">Vitamins</a></li>
+                                                <li><a href="#">Cough,Cold &amp; Flu</a></li>
+                                                <li><a href="#">Nits, Lice &amp; Worms</a></li>
+                                                <li><a href="#">Skincare Conditions</a></li>
+                                            </ul>
+                                    
+                                        </a></li>
+
+
+                                        <li><a href="#">Pregnancy Care&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Vitamins &amp; Supplements</a></li>
+                                                <li><a href="#">Ovulation &amp; Feritlity Tests</a></li>
+                                                <li><a href="#">Pregnancy Tests</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Accessories<span><i class="fas fa-2x first_sorter long_word3 second_sorter fa-sort-down"></i></span></a></li>
+                                    </ul>
+                                
+                                </a></li>
+
+
+
+                                <li><a href="#">MEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
+                            
+                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                        <li><a href="#">Bath &amp; Shower&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Bath &amp; Body</a></li>
+                                                <li><a href="#">Deodarants &amp; Antiperspirants</a></li>
+                                            </ul>
+                                
+                                        </a></li>
+
+
+                                        <li><a href="#">Shaving &amp; Skincare<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Razors &amp; Blades</a></li>
+                                                <li><a href="#">Post Shave</a></li>
+                                                <li><a href="#">Pre-Shave</a></li>
+                                                <li><a href="#">Aftershave</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Sexual Health&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                    
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Sexual Health Tests</a></li>
+                                                <li><a href="#">Condoms</a></li>
+                                                <li><a href="#">Lubricants &amp; Gels</a></li>
+                                            </ul>
+                                    
+                                        </a></li>
+
+
+                                        <li><a href="#">Haircare&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
+                                
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Shampoo</a></li>
+                                            </ul>
+
+                                        </a></li>
+
+
+                                        <li><a href="#">Skincare<span><i class="fas fa-2x first_sorter long_word3 second_sorter fa-sort-down"></i></span>
+
+                                            <ul class="Dropdown_Nav_Bar_Menu">
+                                                <li><a href="#">Moisturisers</a></li>
+                                            </ul>
+
+                                        </a></li>
+                                    </ul>
+                            
+                            
+                                </a></li>
+                                <li><a href="#">MEDICINES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
+                            
+                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                            <li><a href="#">Pain Relief</a></li>
+                                            <li><a href="#">Allergy</a></li>
+                                            <li><a href="#">Cold &amp; Flu</a></li>
+                                            <li><a href="#">Eye &amp; Ear</a></li>
+                                            <li><a href="#">Stomach</a></li>
+                                            <li><a href="#">Mouth &amp; Lip Care</a></li>
+                                            <li><a href="#">Nicotine Replacement</a></li>
+                                            <li><a href="#">Sexual Health</a></li>
+                                    </ul>
+                                
+                            
+                                </a></li>
+                                <li><a href="#">HEALTH &AMP; WELLBEING<span><i class="fas  fa-2x first_sorter long_word fa-sort-down"></i></span>
+                            
+                            
+                                    <ul class="Dropdown_Nav_Bar_Menu">
+                                            <li><a href="#">Vitamins &amp; Aminos</a></li>
+                                            <li><a href="#">Herbal Treatments</a></li>
+                                            <li><a href="#">Health &amp; Fitness</a></li>
+                                            <li><a href="#">Gut Health &amp; Probiotics</a></li>
+                                            <li><a href="#">Sexual Health</a></li>
+                                            <li><a href="#">Hangover Aids</a></li>
+                                            <li><a href="#">Health Checks</a></li>
+                                            <li><a href="#">Post Operative</a></li>
+                                            <li><a href="#">Probiotics</a></li>
+                                    </ul>
+                            
+                                </a></li>
+                                <li><a href="#">ASK OUR PHARMACIST</a></li>
+                                <li><a href="#">ABOUT US</a></li>
+                                
+                            </ul>
+                        </div>
+
                         <div class="col-2">
-                            <i class="fas fa-2x Hamburger_Menu fa-bars"></i>
+                            <i class="fas fa-2x Hamburger_Menu Hamburger_Close fa-bars"></i>
                         </div>
 
                         <div class="col-8">
