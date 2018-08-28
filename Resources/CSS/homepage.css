@@ -1421,6 +1421,13 @@ div#chatra{
     margin-top: 2vh;
   }
 
+  #Editors_Picks_Section_Sub1_Image, #Editors_Picks_Section_Sub2_Image, #Editors_Picks_Section_Sub3_Image, #Editors_Picks_Section_Sub4_Image, #Editors_Picks_Section_Sub5_Image, #Editors_Picks_Section_Sub6_Image {
+    min-width: 10vw;
+    min-height: 35vh;
+    height: 39vh;
+    margin-top: 2vh;
+  }
+
 
 
     #Most_Popular_Tag,#Editors_Picks_Tag,#Popular_Choices_Tag{

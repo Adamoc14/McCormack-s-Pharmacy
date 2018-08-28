@@ -255,7 +255,7 @@
 
                         <div id="Editors_Picks_Section_Sub1">
                             <div id="Editors_Picks_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div> 
-                            <img src="Resources/Products/bPerfectTan.JPG" alt="" id="Editors_Picks_Section_Sub1_Image">
+                            <img src="Resources/Products/IrishBotanicalSyrup.JPG" alt="" id="Editors_Picks_Section_Sub1_Image">
                             <h3 id="Editors_Picks_Section_Sub1_Product">Irish Botanical Syrup </h3>
                             <h4 id="Editors_Picks_Section_Sub1_Price">€24.99</h4>
                             
