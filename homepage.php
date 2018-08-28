@@ -255,43 +255,43 @@
 
                         <div id="Editors_Picks_Section_Sub1">
                             <div id="Editors_Picks_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div> 
-                            <img src="Resources/Products/bPerfectBodyShimmer.JPG" alt="" id="Editors_Picks_Section_Sub1_Image">
-                            <h3 id="Editors_Picks_Section_Sub1_Product">bPerfect<br> Body Shimmer</h3>
+                            <img src="Resources/Products/bPerfectTan.JPG" alt="" id="Editors_Picks_Section_Sub1_Image">
+                            <h3 id="Editors_Picks_Section_Sub1_Product">Irish Botanical Syrup </h3>
                             <h4 id="Editors_Picks_Section_Sub1_Price">€24.99</h4>
                             
                         </div>
                         <div id="Editors_Picks_Section_Sub2">
                             <div id="Editors_Picks_Tag"><i class="fas fa-tags tags_left"></i>SALE ON<i class="fas fa-tags tags_right"></i></div>
-                            <img src="Resources/Products/bPerfectTan.JPG" alt="" id="Editors_Picks_Section_Sub2_Image">
-                            <h3 id="Editors_Picks_Section_Sub2_Product">bPerfect Tan</h3>
+                            <img src="Resources/Products/CleanMarineKrillOilCapsules.jpg" alt="" id="Editors_Picks_Section_Sub2_Image">
+                            <h3 id="Editors_Picks_Section_Sub2_Product">Clean Marine Krill Oil Capsules</h3>
                             <h4 id="Editors_Picks_Section_Sub2_Price">€24.99</h4>
                             
                         </div>
                         <div id="Editors_Picks_Section_Sub3">
                             <div id="Editors_Picks_Tag"><i class="fas fa-audio-description ad_left"></i>Promotion<i class="fas fa-audio-description ad_right"></i></div>
-                            <img src="Resources/Products/SosuBag.JPG" alt="" id="Editors_Picks_Section_Sub3_Image">
-                            <h3 id="Editors_Picks_Section_Sub3_Product">Sosu Bag</h3>
+                            <img src="Resources/Products/UdosChoicesOmegaCapsules.jpg" alt="" id="Editors_Picks_Section_Sub3_Image">
+                            <h3 id="Editors_Picks_Section_Sub3_Product">Udos Choices Omega Capsules</h3>
                             <h4 id="Editors_Picks_Section_Sub3_Price">€24.99</h4>
                             
                         </div>
                         <div id="Editors_Picks_Section_Sub4">
                             <div id="Editors_Picks_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div>
-                            <img src="Resources/Products/SosuEyeLashes.JPG" alt="" id="Editors_Picks_Section_Sub4_Image">
-                            <h3 id="Editors_Picks_Section_Sub4_Product">Sosu Eye Lashes</h3>
+                            <img src="Resources/Products/CleanMarineLiquidOmega.jpg" alt="" id="Editors_Picks_Section_Sub4_Image">
+                            <h3 id="Editors_Picks_Section_Sub4_Product">Clean Marine Liquid Omega</h3>
                             <h4 id="Editors_Picks_Section_Sub4_Price">€24.99</h4>
                             
                         </div>
                         <div id="Editors_Picks_Section_Sub5">
                             <div id="Editors_Picks_Tag"><i class="fas fa-tags tags_left"></i>SALE ON<i class="fas fa-tags tags_right"></i></div>
-                            <img src="Resources/Products/SosuFakeNails.JPG" alt="" id="Editors_Picks_Section_Sub5_Image">
-                            <h3 id="Editors_Picks_Section_Sub5_Product">Sosu Nails</h3>
+                            <img src="Resources/Products/UdosChoiceDigestiveEnzymes.jpg" alt="" id="Editors_Picks_Section_Sub5_Image">
+                            <h3 id="Editors_Picks_Section_Sub5_Product">Udos Choices Digestive Enzymes</h3>
                             <h4 id="Editors_Picks_Section_Sub5_Price">€24.99</h4>
                             
                         </div>
                         <div id="Editors_Picks_Section_Sub6">
                             <div id="Editors_Picks_Tag"><i class="fas fa-audio-description ad_left"></i>Promotion<i class="fas fa-audio-description ad_right"></i></div>
-                            <img src="Resources/Products/LunaLipGloss.JPG" alt="" id="Editors_Picks_Section_Sub6_Image">
-                            <h3 id="Editors_Picks_Section_Sub6_Product">Luna By Lisa<br> Lip Gloss</h3>
+                            <img src="Resources/Products/CleanMarineCardioCapsules.jpg" alt="" id="Editors_Picks_Section_Sub6_Image">
+                            <h3 id="Editors_Picks_Section_Sub6_Product">Clean Marine Cardio Capsules</h3>
                             <h4 id="Editors_Picks_Section_Sub6_Price">€24.99</h4>
                             
                         </div>
@@ -307,29 +307,29 @@
 
                             <div id="Popular_Choices_Section_Sub1">
                                 <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                <img src="Resources/Products/SosuContour.JPG" alt="" id="Popular_Choices_Section_Sub1_Image">
-                                <h3 id="Popular_Choices_Section_Sub1_Product">Sosu Contour</h3>
+                                <img src="Resources/Products/BariéSunSPF20.jpg" alt="" id="Popular_Choices_Section_Sub1_Image">
+                                <h3 id="Popular_Choices_Section_Sub1_Product">BariéSun After Sun</h3>
                                 <h4 id="Popular_Choices_Section_Sub1_Price">€24.99</h4>
                                 
                             </div>
                             <div id="Popular_Choices_Section_Sub2">
                                 <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                <img src="Resources/Products/BellamiantaTan.JPG" alt="" id="Popular_Choices_Section_Sub2_Image">
-                                <h3 id="Popular_Choices_Section_Sub2_Product">Bellamianta Tan</h3>
+                                <img src="Resources/Products/BéBéCleansingWater.jpg" alt="" id="Popular_Choices_Section_Sub2_Image">
+                                <h3 id="Popular_Choices_Section_Sub2_Product">BéBé Cleansing Water</h3>
                                 <h4 id="Popular_Choices_Section_Sub2_Price">€24.99</h4>
                                 
                             </div>
                             <div id="Popular_Choices_Section_Sub3">
                                 <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                <img src="Resources/Products/SallyHansenTanGlow.JPG" alt="" id="Popular_Choices_Section_Sub3_Image">
-                                <h3 id="Popular_Choices_Section_Sub3_Product">Sally Hansen Tan</h3>
+                                <img src="Resources/Products/BariéSunAfterSun.jpg" alt="" id="Popular_Choices_Section_Sub3_Image">
+                                <h3 id="Popular_Choices_Section_Sub3_Product">BariéSun Cream SPF20</h3>
                                 <h4 id="Popular_Choices_Section_Sub3_Price">€24.99</h4>
                             </div>
 
                             <div id="Popular_Choices_Section_Sub4">
                                 <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                <img src="Resources/Products/SculptedAC.JPG" alt="" id="Popular_Choices_Section_Sub4_Image">
-                                <h3 id="Popular_Choices_Section_Sub4_Product">Sculpted Highlighter/Shader</h3>
+                                <img src="Resources/Products/RoselianeAntiRednessMask.jpg" alt="" id="Popular_Choices_Section_Sub4_Image">
+                                <h3 id="Popular_Choices_Section_Sub4_Product">Roseliane AntiRedness Mask</h3>
                                 <h4 id="Popular_Choices_Section_Sub4_Price">€24.99</h4>
                             </div>
 

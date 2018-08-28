@@ -147,112 +147,42 @@
 }
 
 
+#Our_Team_Container,Our_Team_Container_Member_Area{
 
-#Our_Team_Container{
-    background: pink;
-    border-top: 1px solid #77FF03;
-    border-bottom:1px solid #77FF03;
-    padding: 7% 6%;
-}
-
-
-
-
-#Our_Team_Container_Member_Area{
-
-
-
-
-    overflow-x: scroll;
-}
-
-.galleryPreviewImage{
-    width:0vw;
-
-    background:blue;
-
+    background:#77FF03;
     
 }
 
-.Member1{
+.Members_Image{
+    min-height: 20vh;
+    height: 40vh;
+    min-width: 15vw;
+    width: 20vw;
+    margin-left:-1vw;
 
-}
-.Member2{
-
-    
-}
-.Member3{
-
-    
-}
-
-.Member4{
 
 }
 
-.Member5{
-
-}
-.Member6{
-
-}
-.Member7{
-
-}
-.Member8{
-
-}
-
-.Member9{
-
-}
-
-.Member4 , .Member5 ,.Member6, .Member7, .Member8, .Member9{
- 
-}
-
-.Member_Image{width: 20vw;height: 20vh;}
-
-
-
-
-.Members_Name{
-
-    text-align: center;
-
-    font-family: poiret one;
-}
-.Members_Description{
+.MemberImage{
+    background:white;
+    width: 20vw;
+    top: 2vh;
+    float:left;
+    height: 80vh;
+    padding-top: 5%;
+    border: 1px solid #77FF03;
+    padding-bottom: 7%;
+    padding-left: 3%;
+    /* display: none; */
+    opacity:0;
+    border-radius: 15px;
+    transition: opacity 0.6s ease;
 
 }
 
-.galleryNavigationBullets {
-
+.MemberImage.active{
+    /* display:block; */
+    opacity:1;
 }
-.galleryNavigationBullets span {
-	display: none;
-}
-.galleryNavigationBullets a {
-	width: 20px;
-	height: 20px;
-	display: inline-block;
-	margin-right: 5px;
-    background: #ddd;
-    border-radius: 50%;
-}
-.galleryNavigationBullets a:hover,
-.galleryNavigationBullets a.active {
-	background: #77FF03;
-}
-
-
-
- .sec4{
-     background: url(../Images/download.jpg) no-repeat;
-     background-size:cover;
-     background-position:  center center;
-     background-attachment: fixed;
-     
- }
 
  

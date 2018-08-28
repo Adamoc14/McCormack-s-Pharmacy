@@ -283,75 +283,76 @@
                         "Image" => "Resources/Images/Alan.jpg",
                         "Name"  => "Matt",
                         "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage1",
-                        "class" => "Member1",
-                        "Member" => 1
+                        "Class" => "MemberImage",
 
-                    ),
-                    array(
-                        "Image" => "Resources/Images/Celia.jpg",
-                        "Name"  => "Sally",
-                        "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage2",
-                        "class" => "Member2",
-                        "Member" => 2
-                    ),
-                    array(
-                        "Image" => "Resources/Images/Kary.jpg",
-                        "Name"  => "Marie",
-                        "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage3",
-                        "class" => "Member3",
-                        "Member" => 2
-                    ),
-                    array(
-                        "Image" => "Resources/Images/Marcel.jpg",
-                        "Name"  => "Carl",
-                        "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage4",
-                        "class" => "Member4",
-                        "Member" => 4
                     ),
                     array(
                         "Image" => "Resources/Images/Nathalie.jpg",
                         "Name"  => "Aoife",
                         "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage5",
-                        "class" => "Member5",
-                        "Member" => 5
-                    ),
-                    array(
-                        "Image" => "Resources/Images/Patrick.jpg",
-                        "Name"  => "Tom",
-                        "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage6",
-                        "class" => "Member6",
-                        "Member" => 6
-                    ),
-                    array(
-                        "Image" => "Resources/Images/Victoria.jpg",
-                        "Name"  => "Caroline",
-                        "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage7",
-                        "class" => "Member7",
-                        "Member" => 7
-                    ),
-                    array(
-                        "Image" => "Resources/Images/Virginie.jpg",
-                        "Name"  => "Sarah",
-                        "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage8",
-                        "class" => "Member8",
-                        "Member" => 8
+                        "Class" => "MemberImage",
                     ),
                     array(
                         "Image" => "Resources/Images/Richard.jpg",
                         "Name"  => "Matt",
                         "Description" => "lorem ipsum lorem ipsum",
-                        "Class" => "MemberImage9",
-                        "class" => "Member9",
-                        "Member" => 9
+                        "Class" => "MemberImage",
                     ),
+                    array(
+                        "Image" => "Resources/Images/Celia.jpg",
+                        "Name"  => "Sally",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    array(
+                        "Image" => "Resources/Images/Kary.jpg",
+                        "Name"  => "Marie",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    array(
+                        "Image" => "Resources/Images/Marcel.jpg",
+                        "Name"  => "Carl",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    array(
+                        "Image" => "Resources/Images/Patrick.jpg",
+                        "Name"  => "Tom",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    array(
+                        "Image" => "Resources/Images/Victoria.jpg",
+                        "Name"  => "Caroline",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    array(
+                        "Image" => "Resources/Images/Virginie.jpg",
+                        "Name"  => "Sarah",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    array(
+                        "Image" => "Resources/Images/Virginie.jpg",
+                        "Name"  => "Sarah",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    array(
+                        "Image" => "Resources/Images/Virginie.jpg",
+                        "Name"  => "Sarah",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    array(
+                        "Image" => "Resources/Images/Virginie.jpg",
+                        "Name"  => "Sarah",
+                        "Description" => "lorem ipsum lorem ipsum",
+                        "Class" => "MemberImage",
+                    ),
+                    
 
             );
 
@@ -680,487 +681,9 @@
                     ),
                     
             );
-            $HealthArticles = array(
-				
-                array(
-                    "Class"	=> "Grid_Image1",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image2",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image3",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
+           
                 
-                array(
-                    "Class"	=> "Grid_Image4",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image5",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image6",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image7",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image8",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image9",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image10",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image11",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-                array(
-                    "Class"	=> "Grid_Image12",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image13",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image14",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image15",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image16",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image17",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image18",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image19",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-                array(
-                    "Class"	=> "Grid_Image20",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image21",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image22",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image23",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image24",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image25",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image26",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image27",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-                array(
-                    "Class"	=> "Grid_Image28",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image29",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image30",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image31",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image32",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image33",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image34",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image35",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-                array(
-                    "Class"	=> "Grid_Image36",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image37",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image38",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image39",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image40",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image41",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image42",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image43",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-                array(
-                    "Class"	=> "Grid_Image44",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image45",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image46",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image47",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image48",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image49",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image50",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image51",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-                array(
-                    "Class"	=> "Grid_Image52",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image53",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image54",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image55",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image56",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image57",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image58",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image59",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-                array(
-                    "Class"	=> "Grid_Image60",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image61",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image62",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image63",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image64",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image65",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image66",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image67",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image68",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image69",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image70",
-                    "Image"	=> "Resources/Images/Alan.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image71",
-                    "Image"	=> "Resources/Images/Celia.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image72",
-                    "Image"	=> "Resources/Images/Kary.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-                array(
-                    "Class"	=> "Grid_Image73",
-                    "Image"	=> "Resources/Images/Marcel.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image74",
-                    "Image"	=> "Resources/Images/Nathalie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image75",
-                    "Image"	=> "Resources/Images/Patrick.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image76",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image77",
-                    "Image"	=> "Resources/Images/Virginie.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                array(
-                    "Class"	=> "Grid_Image78",
-                    "Image"	=> "Resources/Images/Victoria.jpg",
-                    "Heading" => "",
-                    "Catchline" => "",
-                ),
-                
-        );
+    
 
 
 
