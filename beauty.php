@@ -23,7 +23,7 @@
 
        
 
-
+		<!--
         <div class="row">
             <div class="col-12">
                 <div id="my-categories-14190009"></div>
@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-
+		-->
 
 
         <div class="row">

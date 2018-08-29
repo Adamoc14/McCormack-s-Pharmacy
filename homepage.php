@@ -182,13 +182,32 @@
 
                 </div>
 
-
+				<!-- Testing -->
+				<div class="row test">
+					<div class="col-12">
+						<h1>Testing</h1>
+					</div>
+				
+					 <div class="col-12">				 
+						<script type='text/javascript' src='https://app.ecwid.com/script.js?14190009 '></script> 
+						<script type='text/javascript'> 
+							xProductBrowser("defaultCategoryId=30881149");
+						</script>
+					 </div>
+				</div>
+			
+				
                 <div class="row Most_Popular_Section">
                         
                     <div class="col-6 Most_Popular_Section_Background ">
                         <h2 id="Most_Popular_Section_Heading">Most Popular (Beauty)</h2>
 
-                        
+						<script type='text/javascript' src='https://app.ecwid.com/script.js?14190009 '></script> 
+						<script type='text/javascript'> 
+							xProductBrowser("defaultCategoryId=30881149");
+						</script>
+						
+                        <!--
                         <div id="Most_Popular_Section_Sub1">
                             <div id="Most_Popular_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div>
                             <img src="Resources/Products/SosuContour.JPG" alt="" id="Most_Popular_Section_Sub1_Image">
@@ -233,6 +252,7 @@
                             <h4 id="Most_Popular_Section_Sub6_Price">€24.99</h4>
                             
                         </div>
+						-->
                     </div>
 
 
@@ -299,6 +319,7 @@
                     
                 </div>
 
+				<!--
                     <br>
                     <br>
                     <div class="row Popular_Choices_Section">
@@ -339,7 +360,8 @@
                     <br>
                     <br>
 
-                    
+                 
+				 
                 <div class="row ">
 
 
@@ -359,7 +381,7 @@
 
                 <?php include("image-grid.php"); ?> 
 
-
+				-->
         </div>
 
     
