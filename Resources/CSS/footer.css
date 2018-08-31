@@ -79,10 +79,7 @@
         
         }
         
-        #Footer_Top_Section2_Sub ul,#Footer_Top_Section3_Sub ul,#Footer_Top_Section4_Sub ul,#Footer_Top_Section5_Sub ul{
-         
-        
-        }
+       
         #Footer_Top_Section2_Sub ul li,#Footer_Top_Section3_Sub ul li,#Footer_Top_Section4_Sub ul li,#Footer_Top_Section5_Sub ul li{
             list-style:none;
             padding: 10px 5px;
@@ -113,12 +110,7 @@
             background:#76FF03;
         }
         
-        /* footer{
-           
-            background: white;
-            padding-bottom: 2%;
-        
-        } */
+      
         
         
             /* This is the styling for the left side of the footer  */
@@ -476,6 +468,10 @@
                                 
                               }
 
+                             
+
+                              
+
 
                               
                               
@@ -491,7 +487,7 @@
 
         @media screen and (max-width:768px) {
 
-            row.Laptop_Footer{
+            .row.Laptop_Footer{
                 display: none;
             }
 

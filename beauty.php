@@ -24,15 +24,6 @@
        
 
 
-        <div class="row">
-            <div class="col-12">
-                <div id="my-categories-14190009"></div>
-                <div>
-                    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?14190009&data_platform=code&data_date=2018-06-22" charset="utf-8"></script>
-                    <script type="text/javascript"> xCategoriesV2("id=my-categories-14190009"); </script>
-                </div>
-            </div>
-        </div>
 
 
 
@@ -44,7 +35,10 @@
             <div class="col-9">
                 <div id="my-store-14190009"></div>
                 <div>
-                    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?14190009&data_platform=code&data_date=2018-06-22" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-14190009");</script>
+                    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?14190009&data_platform=code&data_date=2018-06-22" charset="utf-8"></script>
+                    <script type="text/javascript"> 
+                        xProductBrowser("id=my-store-14190009");
+                    </script>
                 </div>
             </div>
 

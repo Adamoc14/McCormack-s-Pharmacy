@@ -103,7 +103,7 @@
                     
 
                     
-                <div class="row">
+                <div class="row Mobile_Footer">
                         <div class="col-12">
                             <div id="White_Background_Footer"></div>   
                             <hr id="Footer_Divider">
@@ -111,7 +111,7 @@
                 </div>
 
                     
-                <div class="row">
+                <div class="row Mobile_Footer">
 
                     <div class="col-12">
 
@@ -178,7 +178,7 @@
 
 
 
-                            <div class="row">
+                            <div class="row ">
                                 <div class="col-12" id="Footer_Section_1_Left">
 
                                     <img id="Left_Section_Logo" src="Resources/Images/McCormacks.png">

@@ -4,7 +4,27 @@
             
                     <div class="row Mobile_Header">
 
-                        <div class="Nav_Bar_Menu">
+                        <span class="col-2 bars">
+                            <i class="fas fa-2x Hamburger_Menu Hamburger_Close fa-bars"></i>
+                        </span>
+
+                        <span class="col-8 logo">
+                            <a href="homepage.php">
+                                <div id="McCormacks_Header_Middle_Section">
+                                    <img id="Middle_Section_Image_Logo" src="Resources/Images/McCormacks.png">
+                                    <span id="McCormacks_Logo_Middle_Section">MC CORMACK'S </span><strong id="Pharmacy_Header_Name">PHARMACY</strong>
+                                </div>
+                            </a>
+                        </span>
+
+                        <span class="col-2 cart">
+                        
+                                <div class="ec-cart-widget" data-ec-widget-loaded="true"><div class="ec-minicart ec-minicart--empty ec-minicart--m ec-minicart--inline ec-minicart--no-shape ec-minicart--animation-default"><div class="ec-minicart__body"><div class="ec-minicart__icon"><svg class="icon-default" height="30" viewBox="0 0 36 30" width="36" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M7 7h22v18a4 4 0 0 1-4 4H11a4 4 0 0 1-4-4V7z" stroke="currentColor" stroke-width="2"></path><path d="M13 10V6c0-2.993 2.009-5 5-5s5 2.026 5 5v4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><circle class="cart-not-empty" cx="18" cy="18" fill="currentColor" r="4"></circle></g></svg></div><div class="ec-minicart__wrap"><div class="ec-minicart__counter">0</div></div></div></div></div>
+                        </span>
+
+                    </div>
+
+                     <div class="Nav_Bar_Menu">
                             <div id="Nav_Close_button"><i class="fas fa-2x Nav_Close_Button Hamburger_Close fa-times"></i></div>
                             <a id="Nav_Phone" href="tel:+353 52 6199329"><i class="fas fa-1x Nav_Phone fa-phone"></i>&nbsp;052 6199329</a>
                             <br>
@@ -401,34 +421,14 @@
                                 <li><a href="#">ASK OUR PHARMACIST</a></li>
                                 <li><a href="#">ABOUT US</a></li>
                                 
-                            </ul>
-                        </div>
-
-                        <div class="col-2">
-                            <i class="fas fa-2x Hamburger_Menu Hamburger_Close fa-bars"></i>
-                        </div>
-
-                        <div class="col-8">
-                            <a href="homepage.php">
-                                <div id="McCormacks_Header_Middle_Section">
-                                    <img id="Middle_Section_Image_Logo" src="Resources/Images/McCormacks.png">
-                                    <span id="McCormacks_Logo_Middle_Section">MC CORMACK'S </span><strong id="Pharmacy_Header_Name">PHARMACY</strong>
-                                </div>
-                            </a>
-                        </div>
-
-                        <div class="col-2">
-                        
-                                <div class="ec-cart-widget" data-ec-widget-loaded="true"><div class="ec-minicart ec-minicart--empty ec-minicart--m ec-minicart--inline ec-minicart--no-shape ec-minicart--animation-default"><div class="ec-minicart__body"><div class="ec-minicart__icon"><svg class="icon-default" height="30" viewBox="0 0 36 30" width="36" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M7 7h22v18a4 4 0 0 1-4 4H11a4 4 0 0 1-4-4V7z" stroke="currentColor" stroke-width="2"></path><path d="M13 10V6c0-2.993 2.009-5 5-5s5 2.026 5 5v4" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><circle class="cart-not-empty" cx="18" cy="18" fill="currentColor" r="4"></circle></g></svg></div><div class="ec-minicart__wrap"><div class="ec-minicart__counter">0</div></div></div></div></div>
-                                <div>
-                                    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?14190009&amp;data_platform=code&amp;data_date=2018-06-22" charset="utf-8"></script>
-                                    <script type="text/javascript">Ecwid.init();</script>
-                                </div>
-                        </div>
-
+                        </ul>
                     </div>
 
-                        <div class="Mobile_Nav_Bar"></div>
+                
+
+
+
+                        
 
 
 
@@ -493,10 +493,10 @@
                                 </div>
 
                                 <div id="my-search-14190009" style=""><div style="font-size: 14px;">
-                    <div class="ecwid-search-widget"><input type="text" class="ecwid-search-widget__input" maxlength="100" name="search" placeholder="Search products" role="search" style="border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;"><button type="button" class="ecwid-search-widget__btn"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 55" enable-background="new 0 0 50 55" focusable="false"><path class="ecwid-search-widget-icon" fill="#999999" d="M47.3 43.7L34.6 31c2.5-3 3.9-6.9 3.9-11 0-9.6-7.9-17.5-17.5-17.5S3.5 10.4 3.5 20 11.4 37.5 21 37.5c3.7 0 7.1-1.1 9.9-3.1l12.8 12.8 3.6-3.5zM6.5 20C6.5 12 13 5.5 21 5.5S35.5 12 35.5 20 29 34.5 21 34.5 6.5 28 6.5 20z"></path></svg></span></button></div></div></div>
-                                <div>
-                                    <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?14190009&amp;data_platform=code&amp;data_date=2018-06-22" charset="utf-8"></script>
-                                    <script type="text/javascript"> xSearch("id=my-search-14190009"); </script>
+                            <div class="ecwid-search-widget"><input type="text" class="ecwid-search-widget__input" maxlength="100" name="search" placeholder="Search products" role="search" style="border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;"><button type="button" class="ecwid-search-widget__btn"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 55" enable-background="new 0 0 50 55" focusable="false"><path class="ecwid-search-widget-icon" fill="#999999" d="M47.3 43.7L34.6 31c2.5-3 3.9-6.9 3.9-11 0-9.6-7.9-17.5-17.5-17.5S3.5 10.4 3.5 20 11.4 37.5 21 37.5c3.7 0 7.1-1.1 9.9-3.1l12.8 12.8 3.6-3.5zM6.5 20C6.5 12 13 5.5 21 5.5S35.5 12 35.5 20 29 34.5 21 34.5 6.5 28 6.5 20z"></path></svg></span></button></div></div></div>
+                            <div>
+                                <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?14190009&amp;data_platform=code&amp;data_date=2018-06-22" charset="utf-8"></script>
+                                <script type="text/javascript"> xSearch("id=my-search-14190009"); </script>
                             </div>
                     </div>
 
@@ -685,8 +685,6 @@
                     </div>
 
 
-                <php include("image-slider.php") ?></php>
-                <php include("image-grid.php") ?></php>
                
                 
 

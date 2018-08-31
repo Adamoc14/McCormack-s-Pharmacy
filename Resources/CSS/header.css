@@ -423,7 +423,7 @@ input.ecwid-SearchPanel-field {
 }
 
 
-.Mobile_Header,.Mobile_Nav_Bar{
+.Mobile_Header,.Nav_Bar_Menu{
     display: none;
 }
 
@@ -433,6 +433,14 @@ input.ecwid-SearchPanel-field {
 
 
 @media screen and (max-width:768px){
+
+    html#ecwid_html {
+        height: 0vw!important;
+        margin:0 !important;
+        padding:0 !important;
+        overflow-x: hidden !important;
+      }
+
 
     .col-3.Authorization_Links {
         width: 30%;
@@ -491,20 +499,66 @@ input.ecwid-SearchPanel-field {
    
 @media screen and (max-width:480px) {
 
+    html{
+        width: 0% !important;
+    }
+
+    html#ecwid_html {
+        width: 0% !important;
+        height: 0vw!important;
+        margin:0 !important;
+        padding:0 !important;
+        overflow-x: hidden !important;
+      }
+
     #Header_Social_Icons,#Header_Divider,#Header_Info,.Authorization_Links,.ec-cart-widget,#McCormacks_Logo_Middle_Section,#Middle_Section_Image_Logo,.grey_Bottom_Homepage_Bar,#menu,#Pharmacy_Header_Name{
         display: none;
     }
 
     .container.full{
-      width: 90%;
-	  max-width: 150rem;
+      width: 93vw;
+      max-width: 100vw;
+      
     }
+    
 
     .Mobile_Header{
         display: block;
-        padding:5% 5% 3% 2%;
-        margin: 0;
+        margin: -4vh 0;
+        background: #77ff03;
+        min-height: fit-content;
     }
+
+    span.col-2{
+        width: 5vh;
+    }
+
+    span.col-2.bars {
+        margin-top: 2vh;
+    }
+
+
+    span.col-2.cart {
+        height: 5vh;
+        top: 1vh;
+        left: 5vw;
+        position: relative;
+    }
+
+    span.col-8.logo{
+        width: 65vw;
+    }
+
+    .Mobile_Header .ec-cart-widget {
+        position: relative;
+        left: -1vw;
+        z-index: 1000;
+        font-size: 0px;
+        margin-left: 0vw;
+    }
+
+
+
 
 
     .Nav_Bar_Menu{
@@ -521,6 +575,7 @@ input.ecwid-SearchPanel-field {
         padding-bottom: 5%;
         transform: translateX(-100%);
         transition: transform 0.6s ease;
+        display: block;
     }
 
     .Nav_Bar_Menu.open{
@@ -605,16 +660,7 @@ input.ecwid-SearchPanel-field {
     }
 
 
-    .Mobile_Nav_Bar{
-        display:block;
-        margin-top: -56vh;
-        position: relative;
-        z-index: 999;
-        height: 15vh;
-        min-width: 100vw;
-        min-height: 20vh;
-        background: #77ff03;
-    }
+    
 
     .Mobile_Header #McCormacks_Logo_Middle_Section, .Mobile_Header .ec-cart-widget,.Mobile_Header  #Middle_Section_Image_Logo,.Mobile_Header #Pharmacy_Header_Name{
         display: inline;
@@ -622,19 +668,41 @@ input.ecwid-SearchPanel-field {
         z-index:1000;
     }
 
+
+    #McCormacks_Header_Middle_Section {
+        margin-left: -20vw;
+
+    
+    }
+
+    .Mobile_Header #Pharmacy_Header_Name {
+        margin-right: 8vw;
+        margin-top: -1vh;
+        position: relative;
+        z-index: 1000;
+        color: #BDBDBD;
+        font-size: 20px;
+        float: right;
+    }
+
+     #Pharmacy_Header_Name {
+        font-size: 130%;
+        
+    }
+
+    
+
     .Mobile_Header #Middle_Section_Image_Logo {
-        margin-top: -6vh;
-        margin-left: 19vw;
-        height: 5vh;
-        width: 8vw;
-        margin-right: 1vw;
+        margin-top:1vh;
+        margin-left: 24vw;
+        min-height: 5vh;
+        min-width: 8vw;
         border: none;
     }
 
     .Mobile_Header #McCormacks_Logo_Middle_Section {
-        margin-right: 20vw;
-        margin-top: -5vh;
-        margin-left: -54vw;
+        margin-right: 3vw;
+        margin-top: -4vh;
         position: relative;
         z-index: 1000;
         text-align: center;
@@ -642,57 +710,41 @@ input.ecwid-SearchPanel-field {
         font-size: 24px;
     }
 
+    html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--l .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--xl .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--xxl .ec-minicart__icon {
+        height: 36px !important;
+        width: 32.4375px !important;
+        margin-top: -.5vh !important;
+    }
+
+
+
+html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default circle[stroke], html#ecwid_html body#ecwid_body .ec-minicart--l .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart--l .ec-minicart__icon .icon-default circle[stroke], html#ecwid_html body#ecwid_body .ec-minicart--xl .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart--xl .ec-minicart__icon .icon-default circle[stroke], html#ecwid_html body#ecwid_body .ec-minicart--xxl .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart--xxl .ec-minicart__icon .icon-default circle[stroke] {
+    stroke-width: 2.5px !important;
+}
+
+    html#ecwid_html body#ecwid_body .ec-minicart--no-shape{
+        padding: 0 !important;
+    }
+
     html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default path[stroke],  html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default circle[stroke]{
         stroke: white !important;
      }
 
-    .Mobile_Header .ec-cart-widget {
-        position: relative;
-        top: -34vh;
-        left: 80vw;
-        z-index: 1000;
-    }
+     html#ecwid_html body#ecwid_body .ecwid-search-widget{
+         margin: -20vh 0 0 2.4vw !important;
+         max-width: 119vw !important;
+     }
 
-    #McCormacks_Header_Middle_Section {
-
-        margin-top: -8vh;
     
-    }
 
-    .Mobile_Header #Pharmacy_Header_Name {
-        margin-right: 24vw;
-        margin-top: -1vh;
-        position: relative;
-        z-index: 1000;
-        color: #BDBDBD;
-        font-size: 20px;
-    }
 
-     #Pharmacy_Header_Name {
-
-        font-size: 130%;
-        float: right;
-        margin-left: 20vw;
     
-    }
-
-    #my-search-14190009{
-        margin-left: -17vw !important;
-    }
-
-    html#ecwid_html body#ecwid_body .ecwid-search-widget{
-        background-clip: none !important;
-        width:409px !important;
-        left:18vw!important;
-        display: inline-block !important;
-        position: relative !important ;
-        top: -30vh;
-
-    }
+       
+    
+    
 
     .Hamburger_Menu{
         position: relative;
-        top: -4.5vh;
         z-index:1000;
         color:white;
     }
@@ -701,6 +753,9 @@ input.ecwid-SearchPanel-field {
 
    
 }
+
+
+
 
 @media screen and (max-width:251px) {
     

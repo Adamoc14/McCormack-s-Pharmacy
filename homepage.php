@@ -29,6 +29,9 @@
 
             });
 
+
+            
+
             $('#subscription_email_button').on('click', function(){
   
                     var $this = $(this);
@@ -59,6 +62,12 @@
 
 
             });
+
+
+            // if ($('html #ecwid_html').css("backgroundColor","blue")){
+            //     var x = $('html #ecwid_html').css("margin");
+            //     console.log(parseInt(x));
+            // };
         });
 
 
@@ -95,7 +104,7 @@
 </aside>
 
 <div id="Cookie_Banner">
-    <p id="Cookie_Banner_Explanation">This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies. <span id="Find_Out_More_Link" ><a href="legal.php?term=Cookies" target="blank" >Find Out More Here</a> <div id="Accept_Close_Button_Div">
+    <p id="Cookie_Banner_Explanation">This site uses cookies. By continuing to browse this site<br> you are agreeing to our use of cookies. <span id="Find_Out_More_Link" ><a href="legal.php?term=Cookies" target="blank" >Find Out More Here</a> <div id="Accept_Close_Button_Div">
         <a onclick="dismissCookie()" role="button" id="Accept_And_Close_Button">Accept and Close</a>
     </div></span></p>  
 </div>
@@ -188,6 +197,13 @@
                     <div class="col-6 Most_Popular_Section_Background ">
                         <h2 id="Most_Popular_Section_Heading">Most Popular (Beauty)</h2>
 
+
+
+                        <!-- <script type='text/javascript' src='https://app.ecwid.com/script.js?14190009 '></script> 
+                        <script type='text/javascript'> 
+                             xProductBrowser("categoriesPerRow=1","views=grid(2,3)","categoryView=grid","searchView=list","style=","defaultCategoryId=30881149");
+						</script> -->
+
                         
                         <div id="Most_Popular_Section_Sub1">
                             <div id="Most_Popular_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div>
@@ -236,17 +252,7 @@
                     </div>
 
 
-                    <div class="row extra">
-                        <div class="col-12">
-
-                        </div>
-                    </div>
-
-                    <div class="row extra">
-                        <div class="col-12">
-
-                        </div>
-                    </div>
+                    
 
                 
                     <div class="col-6 Editors_Picks_Section_Background">
@@ -307,21 +313,21 @@
 
                             <div id="Popular_Choices_Section_Sub1">
                                 <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                <img src="Resources/Products/BariéSunSPF20.jpg" alt="" id="Popular_Choices_Section_Sub1_Image">
+                                <img src="Resources/Products/BarieSunSPF20.jpg" alt="" id="Popular_Choices_Section_Sub1_Image">
                                 <h3 id="Popular_Choices_Section_Sub1_Product">BariéSun After Sun</h3>
                                 <h4 id="Popular_Choices_Section_Sub1_Price">€24.99</h4>
                                 
                             </div>
                             <div id="Popular_Choices_Section_Sub2">
                                 <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                <img src="Resources/Products/BéBéCleansingWater.jpg" alt="" id="Popular_Choices_Section_Sub2_Image">
+                                <img src="Resources/Products/BeBeCleansingWater.jpg" alt="" id="Popular_Choices_Section_Sub2_Image">
                                 <h3 id="Popular_Choices_Section_Sub2_Product">BéBé Cleansing Water</h3>
                                 <h4 id="Popular_Choices_Section_Sub2_Price">€24.99</h4>
                                 
                             </div>
                             <div id="Popular_Choices_Section_Sub3">
                                 <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                <img src="Resources/Products/BariéSunAfterSun.jpg" alt="" id="Popular_Choices_Section_Sub3_Image">
+                                <img src="Resources/Products/BarieSunAfterSun.jpg" alt="" id="Popular_Choices_Section_Sub3_Image">
                                 <h3 id="Popular_Choices_Section_Sub3_Product">BariéSun Cream SPF20</h3>
                                 <h4 id="Popular_Choices_Section_Sub3_Price">€24.99</h4>
                             </div>
