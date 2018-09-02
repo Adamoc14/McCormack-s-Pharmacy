@@ -304,8 +304,13 @@
 		
 			<div id="products">
 				<div class="row">
-					 <div class="col-12" id="product-list">				 
-						<script type='text/javascript' src='https://app.ecwid.com/script.js?14190009 '></script> 
+					<script type='text/javascript' src='https://app.ecwid.com/script.js?14190009'></script> 
+					 <div class="col-6" id="left-product-list">				 				
+						<script type='text/javascript'> 
+							xProductBrowser("defaultCategoryId=30891180");
+						</script>
+					 </div>
+					 <div class="col-6" id="right-product-list">				 
 						<script type='text/javascript'> 
 							xProductBrowser("defaultCategoryId=30881149");
 						</script>
@@ -315,14 +320,16 @@
 			
 		
 			<script src="Resources/Javascript/homepage.js"></script>
-
+	
+			<!--
 			<div id="footer">
 				<div class="row full-green" >	
 					<div class="col-12 center">
-						<p>This is where the header should go</p>
+						<p>This is where the footer should go</p>
 					</div>
 				</div>
 			</div>
+			-->
 		</div> <!-- End of container -->
    
 </body>
