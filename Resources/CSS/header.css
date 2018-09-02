@@ -8,7 +8,7 @@
 
     color:#000;
     font-family: montserrat;
-    font-size: 20px;
+    /* font-size: 20px; */
     z-index: 999;
     text-decoration: none;
     margin-left: 6vw;
@@ -23,7 +23,7 @@
 #Authorization_Link_Register{
     color:#000;
     font-family: montserrat;
-    font-size: 20px;
+    /* font-size: 20px; */
     z-index: 999;
     text-decoration: none;
     
@@ -40,7 +40,8 @@
 
 
 #Header_Opening_Hours{
-    font-size:12.75px;
+    /* font-size:12.75px; */
+	font-size: .75em; /* .75em == 16px x .75 = 12px */
     font-family: Raleway;
     color: #76FF03;
     float:left;
@@ -350,6 +351,14 @@ input.ecwid-SearchPanel-field {
     background: #BDBDBD;
 }
 
+/* JH. I have added the following CSS rules so as to overwrite the paragraph
+   rules in simple-grid.min.css.
+*/
+.grey_Bottom_Homepage_Bar p {
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
 .fa-truck{
     margin-top:3vh;
     padding: 0.25% 0;
@@ -361,7 +370,8 @@ input.ecwid-SearchPanel-field {
 #Track_Delivery_Heading{
     margin-top: -3vh;
     font-family: Quicksand;
-    font-size: 16.5px;
+    /* font-size: 16.5px;*/
+	font-size: .75em;
     color:white;
 }
 
