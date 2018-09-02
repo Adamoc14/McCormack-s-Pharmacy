@@ -118,9 +118,11 @@
 						
 					<div class="col-10 top-logo-and-tag center">
 						<a href="homepage.php">
-							<img src="Resources/Images/McCormacks.png">
+							<img src="Resources/Images/mclogo.png">
+							<!--
 							<span>MC CORMACK'S </span>
 							<span>PHARMACY</span>
+							-->
 						</a>
 					</div>
 
@@ -307,7 +309,7 @@
 					<script type='text/javascript' src='https://app.ecwid.com/script.js?14190009'></script> 
 					 <div class="col-6" id="left-product-list">				 				
 						<script type='text/javascript'> 
-							xProductBrowser("defaultCategoryId=30891180");
+							xProductBrowser("defaultCategoryId=30087103");
 						</script>
 					 </div>
 					 <div class="col-6" id="right-product-list">				 

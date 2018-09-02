@@ -55,12 +55,18 @@
 	text-decoration: none;
 }
 
+/*
 .top-logo-and-tag a img{
     width:12%;
     height:30%;
     border-radius: 50%;
     border: 1px solid #BDBDBD; 
 	vertical-align: middle;
+}
+*/
+
+.top-logo-and-tag a img {
+	width: 100%;
 }
 
 .top-logo-and-tag a span{
