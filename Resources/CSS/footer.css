@@ -44,7 +44,7 @@
          float: right;
          margin-top:10vh;
          margin-left: 4vw;
-         margin-right: 5vw;
+         margin-right: 3vw;
         }
         
         
@@ -88,7 +88,7 @@
         #Footer_Top_Section2_Sub ul li a,#Footer_Top_Section3_Sub ul li a,#Footer_Top_Section4_Sub ul li a,#Footer_Top_Section5_Sub ul li a{
             color:#424242;
             font-weight: 400;
-            font-size: 100%;
+            font-size: .8em;
         }
         #Footer_Top_Section2_Sub ul li a:hover,#Footer_Top_Section3_Sub ul li a:hover,#Footer_Top_Section4_Sub ul li a:hover,#Footer_Top_Section5_Sub ul li a:hover{
             border-bottom: 1px solid #424242;
@@ -450,8 +450,9 @@
                                 padding: 10px 20px;
                                 display: inline-block;
                                 background: #76FF03;
-                                left: 90vw;
-                                top: 31vh;
+                                position: relative;
+                                left: 2vw;
+                                top: -1vh;
                                 color: white;
                                 border: none;
                                 border-radius: 25px;
@@ -513,7 +514,7 @@
                 padding-bottom: 22vh;
                 background: #76FF03;
                 width: 96vw;
-                margin-left: -3vw;
+                margin-left: 1vw;
                 margin-top: 10vh;
             }
 
@@ -526,7 +527,7 @@
                 height: 35vh;
                 width: 52vw;
                 margin-bottom: 5vh;
-                margin-left: 17vw;
+                margin-left: 22vw;
                 margin-top: 5vh;
             }
 
@@ -590,7 +591,7 @@
                 margin-top: -16vh;
                 width: 100vw;
                 text-align: center;
-                margin-left: -5vw;
+                margin-left: 2vw;
             }
 
 
@@ -607,8 +608,8 @@
             }
 
             #Email_Button_Sign_Up {
-                left: 53vw;
-                top: 6vh;
+                left: 22vw;
+                top: -16vh;
             }
 
             #Footer_Section_2_Middle {
@@ -620,16 +621,16 @@
 
             #Section_Middle_Follow_Us {
                 margin-top: -10vh;
-                margin-left: 27vw;
+                margin-left: 33vw;
             }
 
             #Section_Middle_Perks {
-                margin-left: -16vw;
+                margin-left: -6vw;
                 text-align: center;
             }
 
             #Footer_Social_Icon_Container {
-                margin-left: -8vw;
+                margin-left: -5vw;
             }
 
             .btn--android {

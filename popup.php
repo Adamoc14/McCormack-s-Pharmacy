@@ -1,7 +1,4 @@
-
-
-
-            <div id="Subscription_Pop_Up">
+             <div id="Subscription_Pop_Up">
                 <img src="Resources/Images/McCormacks.png" id="Subcription_Pop_Up_Image">
                     <div id ="Subscription_Pop_Up_Content">
                         <h2 id="Subscription_Heading_Pop_Up">Subscribe to our newsletter.</h2>
@@ -14,4 +11,5 @@
                         <a id="Opt_Out_Link">No Thanks</a>
                     </div>
             </div>
+            
 

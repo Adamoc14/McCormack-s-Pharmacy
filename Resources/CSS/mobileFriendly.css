@@ -1,0 +1,480 @@
+
+
+.Authorization_Links a{
+	color: black;
+  text-decoration: none;
+}
+
+.Authorization_Links a:first-child:after{
+	content: " | ";  
+}
+
+
+
+.green_info{
+	font-size: .8em; /* .8em == 16px x .8  */
+  color: #76FF03;
+	font-weight: bold;
+}
+
+.Tel_Number {
+  color: #76FF03;
+  text-decoration: none;
+
+}
+
+/* This is the code for the icons in the top scetion of the header */
+
+.Social_Icon_Container i{
+  margin-left:12%;
+  color:#76FF03;
+}
+
+/* I added a class bottom_row_border that can be added to grid rows. When the
+   class is added a green border line appears the bottom of the row. This gets
+   rid of the need for <hr> elements.
+*/
+
+.row.bottom_row_border{
+	border-bottom: 1.5px solid #76FF03;
+}
+
+
+.top-logo-and-tag a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+
+.top-logo-and-tag a img {
+  width: 86%;
+}
+
+.top-logo-and-tag a span{
+	display: inline-block;
+	vertical-align: middle;
+    font-size: 2.5em;
+    font-family: Bitter;
+    color:#76FF03;
+}
+
+.top-logo-and-tag a span+span{
+	color: #BDBDBD;
+}
+
+div#ecwid-search .ecwid-search-widget {
+	/* The 2 !important rules below are needed because in the ecwid CSS theame display and width are 
+	   set to block and 600px, I needed to change theis so I could centre the search box */
+	display: inline-block !important;
+    text-align: center;
+    width: 80% !important;
+    margin: -10vh 0 6vh 6vw !important;
+
+}
+
+html#ecwid_html body#ecwid_body .ecwid-search-widget__btn svg{
+  margin-top: 3vh;
+}
+
+.full-green{
+    width:100%;
+    background:#77ff03;
+}
+
+
+/* JH. I have added the following CSS rules so as to overwrite the paragraph
+   rules in simple-grid.min.css.
+*/
+.grey_Bottom_Homepage_Bar span {
+    color:white;
+}
+
+.fa-truck{
+    color:white;
+	margin-right: .2em;
+}
+
+.left span,.center span,.right span {
+  top: -2vh;
+  font-size: 1em;
+  position: relative;
+}
+
+.grey_Bottom_Homepage_Bar span.Bottom_Task_Bar_Green_Info{
+    color:#76FF03;
+	margin-right: .2em;
+}
+   
+
+span.trustpilot {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.fa-star{
+    color: #FDD835;
+    
+}
+
+/* Navbar */
+  
+
+#menu ul{
+	list-style: none;
+	margin-left: 8%;
+	/* Overwriting browsers default margin-top of 16px on ul elements */
+	margin-top: 0px;
+}
+#menu ul li{
+	float: left;
+	margin-right: 0px;
+
+}
+
+#menu ul li:hover a{
+	background:white;
+	color:#77FF03;
+}
+
+#menu ul li a:first-child{
+  border-left: 1px solid white;
+}
+
+#menu ul li a{
+	color: white;
+	display: block;
+	padding: 15px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 18.5px;
+	font-weight: 700;
+	font-family : Quicksand;
+	border-right: .25px solid white;
+}
+
+/* End of Main Navbar */
+
+ /* Beauty Megamenu */
+  
+  #menu ul li #Beauty_Megamenu{
+    position:absolute;
+    padding:28%;
+    left:2vw;
+    min-height:2vh;
+    background: #FFF;
+    display: none;
+    z-index: 257;
+  }
+  #menu ul li:hover #Beauty_Megamenu{
+    display: block;
+  }
+  #Beauty_Megamenu_Title{
+      position:relative;
+      margin-top: -38vh;
+      text-align: center;
+      color:#76FF03;
+      font-family:dosis;
+     
+  }
+  #Beauty_Megamenu_List1_Subtitle,#Beauty_Megamenu_List2_Subtitle,#Beauty_Megamenu_List3_Subtitle,#Beauty_Megamenu_List4_Subtitle,#Beauty_Megamenu_List5_Subtitle{
+      color:#757575;
+  }
+  #Beauty_Megamenu ul li{
+    float: none;
+    margin-right:0;
+  }
+ #Beauty_Megamenu ul li:hover a{
+    color: #e74c3c;
+    background: white;
+  }
+ #Beauty_Megamenu ul li a{
+    padding: 10px 15px;
+    text-transform: capitalize;
+    color: #77ff03;
+  }
+ #Beauty_Megamenu #Beauty_Megamenu_List1{
+    border-right: 2px solid #E0E0E0;
+     float: left;
+     margin-left: -20vw;
+  }
+
+  #Beauty_Megamenu #Beauty_Megamenu_List1 li a{
+      color: #76FF03;
+      font-weight: 800;
+  }
+
+  #Beauty_Megamenu #Beauty_Megamenu_List2 li{
+      display: inline-block;
+      
+  } 
+  #Beauty_Megamenu #Beauty_Megamenu_List2 li a ,#Beauty_Megamenu #Beauty_Megamenu_List3 li a {
+    color: #BDBDBD;
+    border-left :2px solid #76FF03;
+    margin-top: 3%;
+  }
+  
+
+ 
+  #menu ul li #Beauty_Megamenu img{
+    position:absolute;
+    left:75%;
+    top:0;
+    height:100%;
+    width:25%;
+  }
+
+  /* End of Beauty Megamenu */
+
+  
+  #menu ul li #megamenu2{
+    position:absolute;
+    padding: 7%;
+    width:80%;
+    left: 10.5%;
+    background: #e74c3c;
+    display: none;
+  }
+  
+  #menu ul li:hover #megamenu2{
+    display: block;
+  }
+  
+  #menu ul li #megamenu2 #first {
+    width:13.3%;
+    float: left;
+    margin-top:-4.5%;
+  }
+  
+  
+  
+  #menu ul li #megamenu2 #first li{
+    display: block;
+    width:100%;
+    text-align: center;
+    
+  }
+  #menu ul li #megamenu2 #first li:hover a{
+    color:#e74c3c;
+    background:white;
+  }
+  #menu ul li #megamenu2 #second li:hover a{
+    color:#e74c3c;
+    background:white;
+  }
+  
+  #menu ul li #megamenu2 #first li a{
+    border: none;
+    color: white;
+  }
+  
+  #menu ul li #megamenu2 #second{
+    width: 13.3%;
+    position : absolute;
+    left: 20%;
+    top:3%;
+   
+    
+  }
+  
+  #menu ul li #megamenu2 #second li {
+    display: block;
+    width:100%;
+    text-align: center;
+    margin: 2px;
+    
+    
+  }
+  
+  #menu ul li #megamenu2 #second li a{
+    border: none;
+    color: white;
+    
+  }
+  
+  #menu ul li #megamenu2 img {
+    position:absolute;
+    left:80%;
+    top:10%;
+    background: #e74c3c;
+    background-blend-mode: multiply;
+  }
+  
+/**** Image slider ****/
+
+#slider{
+  position:relative;
+  overflow:hidden;
+  margin-left: 1px;
+  min-width:80vw;
+  min-height:100vh;
+  background: transparent;
+
+}
+
+ #status{
+  position: absolute;
+  bottom: 10px;
+ z-index: 585;
+     display: flex;
+     
+
+   
+}
+
+#stat{
+  
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  z-index: 11;
+  margin: 0px 5px;
+  border: 2px solid #BDBDBD;
+}
+
+ #stat[data-active] {
+  background:#BDBDBD;
+}
+
+ #img{
+  object-fit: cover;
+  object-position: center 80%;
+  display:block;
+  width:100%;
+  height:100%;
+  transform: scale(1.1);
+}
+
+#image{
+  position: absolute;
+  width:100%;
+  margin-right:-100%;
+  display: none;
+  transform: translateX(-100%);
+}
+
+
+#image[data-active] {
+  display: block;
+  transform: translateX(0);
+}
+
+
+#image[data-active] img {
+  transform: scale(1.1);
+}
+
+
+#image[data-active] ~ #image {
+  display: none;
+  transform: translateX(100%);
+}
+
+
+
+path{
+  fill:transparent;
+  stroke:#BDBDBD;
+  stroke-width: 3px;
+ 
+}
+
+
+
+#next{
+ right:10px;
+ top:50%;
+ margin-top: -30px;
+ height: 60px;
+ position:absolute;
+ z-index: 1000;
+ cursor: pointer;
+}
+
+
+
+#previous{
+  position:absolute;
+  left:2%;
+  transform: rotate(180deg);
+  top:50%;
+  margin-top: -30px;
+  height: 60px;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+
+/* setting the container max-width to 100% of the screen when full is specified */
+.container.full {
+  max-width: 100%;
+}
+/* By default simple-grid sets the width to be 60% for screens that are 60em or
+ greater. I'm changing this to 90%
+*/
+
+
+@media only screen and (min-width: 26.2em) {  /* 420px */
+
+  div#ecwid-search .ecwid-search-widget{
+    margin: 2vh 0 6vh 0vw !important;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+
+  div#ecwid-search .ecwid-search-widget{
+    margin: 2vh 0 6vh 0vw !important;
+  }
+
+  .row.green_Navbar {
+    background: #77FF03;
+    padding: 0% 13% 0% 13%;
+    margin-left: -10vw;
+}
+
+.ec-cart-widget{
+  left: 95%;
+  bottom: 15vh;
+  font-size: 0px !important;
+  color: white;
+  position: relative;
+}
+
+html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default circle[stroke]{
+  stroke: white !important;
+}
+
+}
+
+
+@media only screen and (min-width: 45em) {  /* 720px */
+	.grey_Bottom_Homepage_Bar{
+		background: #BDBDBD;
+		/* The following vertically aligns all the discs in this row to the bottom */
+		display: flex; /* or inline-flex */
+		flex-flow: row nowrap; /* is default: columns along the main-axis (row) and no wrapping to next lines */
+		align-items: flex-end; /* bottom */
+  }
+  
+  .row.green_Navbar {
+    background: white;
+}
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width:60em) {  /* 920px*/
+  .container {
+    width: 90%;
+  }
+}
+

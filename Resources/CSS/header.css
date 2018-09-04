@@ -1,35 +1,52 @@
 
-#Tel_Number{
-    color:#76FF03;
-    text-decoration: none;
+
+
+div#SearchWidget-1 {
+    display: none;
 }
 
-#Authorization_Link_Log_In{
 
+
+
+.Authorization_Links a{
     color:#000;
     font-family: montserrat;
     font-size: 20px;
     z-index: 999;
     text-decoration: none;
-    margin-left: 6vw;
-    
+
 }
 
-#Authorization_Link_Log_In:after{
-    content: " | ";
-    
-}
-
-#Authorization_Link_Register{
-    color:#000;
-    font-family: montserrat;
-    font-size: 20px;
-    z-index: 999;
-    text-decoration: none;
-    
+.Authorization_Links a:first-child:after{
+	content: " | ";  
 }
 
 
+
+.green_info{
+	font-size: .8em; /* .8em == 16px x .8  */
+  color: #76FF03;
+	font-weight: bold;
+}
+
+.Tel_Number {
+  color: #76FF03;
+  text-decoration: none;
+
+}
+
+/* This is the code for the icons in the top scetion of the header */
+
+.Social_Icon_Container i{
+  margin-left:12%;
+  color:#76FF03;
+}
+
+.row.bottom_row_border{
+    border-bottom: 1.5px solid #76FF03;
+    width: 95vw;
+    margin-left: 2vw;
+}
 
 
 
@@ -69,10 +86,7 @@
  /* This is the end of the  code for the icons in the top section of the header */
 
 /* This is the code for the dividing line to divide the header into two parts  */
-#Header_Divider{
-    border: 1.5px solid #76FF03;
-    position:relative;
-}
+
 
 /* This is the code to end the dividing line to divide the header into two parts  */
 
@@ -81,38 +95,26 @@
 
 
 
-#Middle_Section_Image_Logo{
-	float:left;
-    margin-top:-2vh;
-    width:12%;
-    height:30%;
-    border-radius: 50%;
-    border: 1px solid #BDBDBD; 
-    margin-left: 3vw;
-
-
+.top-logo-and-tag a{
+	display: inline-block;
+	text-decoration: none;
 }
 
 
+.top-logo-and-tag a img {
+  width: 86%;
+}
 
-#McCormacks_Logo_Middle_Section{
-	float:right;
-    font-size: 44.5px;
+.top-logo-and-tag a span{
+	display: inline-block;
+	vertical-align: middle;
+    font-size: 2.5em;
     font-family: Bitter;
     color:#76FF03;
-    margin-top: 1vh;
-    margin-right: 10vw;
-    
-
 }
 
-
-
-#Pharmacy_Header_Name{
-    color:#BDBDBD;
-    font-size:44.5px;
-    letter-spacing: .2em; 
-    font-family: bitter;  
+.top-logo-and-tag a span+span{
+	color: #BDBDBD;
 }
 
 .ec-cart-widget{
@@ -128,24 +130,13 @@
     color:#76FF03;
 }
 
+html#ecwid_html body#ecwid_body .ecwid-search-widget{
+    max-width: 102vw ;
+    width: 52vw ;
+    top: -10vh ;
+    left: -15vw ;
+  }
 
-    
-input.ecwid-SearchPanel-field {
-    width: 100px; 
-    height: 20px; 
-    border: solid 1px #77ff03; 
-    background-color: #77ff03; 
-    font-size: 12px; 
-    color: #000000; 
-   }
-   
-
-#my-search-14190009{
-	margin-top: 10vh;
-	margin-left: 30vw;
-	border:none;
-	outline:none;
-}
 
 
 /* End of the Middle Section in the header */
@@ -344,78 +335,41 @@ input.ecwid-SearchPanel-field {
     
     
   }
-  
+
 
 .grey_Bottom_Homepage_Bar{
-    background: #BDBDBD;
+      background: #BDBDBD;
+}
+
+.grey_Bottom_Homepage_Bar span {
+    color:white;
 }
 
 .fa-truck{
-    margin-top:3vh;
-    padding: 0.25% 0;
     color:white;
-    margin-right: 1vw;
-    margin-left: 1vw;
+	margin-right: .2em;
 }
 
-#Track_Delivery_Heading{
-    margin-top: -3vh;
-    font-family: Quicksand;
-    font-size: 16.5px;
-    color:white;
+.left span,.center span,.right span {
+  font-size: 1em;
+  position: relative;
 }
 
-
-
-
-#Excellent_Star_Rating{
-    font-family: Quicksand;
-    font-size: 16.5px;
-    color:white;
-    float:left;
-    padding:1%;
+.grey_Bottom_Homepage_Bar span.Bottom_Task_Bar_Green_Info{
+    color:#76FF03;
+	margin-right: .2em;
 }
+   
 
-
+span.trustpilot {
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
 
 .fa-star{
     color: #FDD835;
     
 }
-
-
-
-#Trustpilot_Heading{
-    text-transform: uppercase;
-    letter-spacing: .4em;
-    color:white;
-	margin-top:1%;
-    float:right;
-}
-
-
-
-#Bottom_Task_Bar_Homepage3_Heading1{
-    color:#76FF03;
-    font-family: Quicksand;
-    font-size: 19.5px; 
-   float:left;
-    margin-left: 5vw;
-    margin-right:0.5vw;
-    margin-top:1%;
-   
-   
-}
-
-#Bottom_Task_Bar_Homepage3_Heading2{
-    font-family: Quicksand;
-    font-size: 16.5px;
-    color:white;
-    padding:1%;
-    
-    
-}
-
 
 .full-green{
     width:100%;
@@ -432,87 +386,17 @@ input.ecwid-SearchPanel-field {
 
 
 
-@media screen and (max-width:768px){
 
-    html#ecwid_html {
-        height: 0vw!important;
-        margin:0 !important;
-        padding:0 !important;
-        overflow-x: hidden !important;
-      }
-
-
-    .col-3.Authorization_Links {
-        width: 30%;
-        float: right;
-        margin-top: -5vh;
-    }
-
-    .grey_Bottom_Homepage_Bar{
-        display:none;
-      }
-
-
-
-      html#ecwid_html body#ecwid_body .ecwid-search-widget__input, html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="search"], html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="text"]{
-          width: 83% !important;
-      }
-
-    #my-search-14190009{
-        margin-left: -6vw;
-    }
-
-    html#ecwid_html body#ecwid_body .ecwid-search-widget {
-        margin-top: -18vh !important;
-        width: 574px !important;
-
-    }
-
-    #Pharmacy_Header_Name{
-        margin-left: 1vw;
-        margin-top: -10vh;
-    }
-
-    #McCormacks_Logo_Middle_Section{
-        margin-top: -2vh;
-        margin-right: 17vw;
-    }
-
-    #menu ul li a:first-child{
-        border:none;
-    }
-
-    #menu ul li a{
-        border: none;
-        padding: 15px 6px;
-    }
-
-    #menu ul{
-        margin-left: 0%; 
-    }
-
-
-
-    
-}
 
    
-@media screen and (max-width:480px) {
-
-    html{
-        width: 0% !important;
-    }
+ @media screen and (min-width:26.2em) { 
 
     html#ecwid_html {
-        width: 0% !important;
-        height: 0vw!important;
+        width: 100% !important;
+        height: 100% !important;
         margin:0 !important;
         padding:0 !important;
         overflow-x: hidden !important;
-      }
-
-    #Header_Social_Icons,#Header_Divider,#Header_Info,.Authorization_Links,.ec-cart-widget,#McCormacks_Logo_Middle_Section,#Middle_Section_Image_Logo,.grey_Bottom_Homepage_Bar,#menu,#Pharmacy_Header_Name{
-        display: none;
     }
 
     .container.full{
@@ -530,31 +414,29 @@ input.ecwid-SearchPanel-field {
     }
 
     span.col-2{
-        width: 5vh;
+        width: 5vw;
     }
 
     span.col-2.bars {
-        margin-top: 2vh;
+        margin-top: 3vh;
+        top: 2vh;
+        margin-bottom: 0;
+        position: relative;
+        left: 4vw;
     }
-
 
     span.col-2.cart {
         height: 5vh;
-        top: 1vh;
-        left: 5vw;
+        margin-top: -6vh;
+        left: 80vw;
         position: relative;
     }
 
-    span.col-8.logo{
-        width: 65vw;
-    }
 
     .Mobile_Header .ec-cart-widget {
         position: relative;
-        left: -1vw;
         z-index: 1000;
         font-size: 0px;
-        margin-left: 0vw;
     }
 
 
@@ -660,54 +542,19 @@ input.ecwid-SearchPanel-field {
     }
 
 
-    
-
-    .Mobile_Header #McCormacks_Logo_Middle_Section, .Mobile_Header .ec-cart-widget,.Mobile_Header  #Middle_Section_Image_Logo,.Mobile_Header #Pharmacy_Header_Name{
-        display: inline;
-        position: relative;
-        z-index:1000;
-    }
-
-
     #McCormacks_Header_Middle_Section {
         margin-left: -20vw;
 
     
     }
 
-    .Mobile_Header #Pharmacy_Header_Name {
-        margin-right: 8vw;
-        margin-top: -1vh;
-        position: relative;
-        z-index: 1000;
-        color: #BDBDBD;
-        font-size: 20px;
-        float: right;
+    span.col-8.top-logo-and-tag.center{
+        height: 0vh;
     }
 
-     #Pharmacy_Header_Name {
-        font-size: 130%;
-        
-    }
-
-    
-
-    .Mobile_Header #Middle_Section_Image_Logo {
-        margin-top:1vh;
-        margin-left: 24vw;
-        min-height: 5vh;
-        min-width: 8vw;
-        border: none;
-    }
-
-    .Mobile_Header #McCormacks_Logo_Middle_Section {
-        margin-right: 3vw;
-        margin-top: -4vh;
-        position: relative;
-        z-index: 1000;
-        text-align: center;
-        color: white;
-        font-size: 24px;
+    .top-logo-and-tag a img {
+        width: 60%;
+        top: -7vh;
     }
 
     html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--l .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--xl .ec-minicart__icon, html#ecwid_html body#ecwid_body .ec-minicart--xxl .ec-minicart__icon {
@@ -730,19 +577,19 @@ html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default
         stroke: white !important;
      }
 
-     html#ecwid_html body#ecwid_body .ecwid-search-widget{
-         margin: -20vh 0 0 2.4vw !important;
-         max-width: 119vw !important;
+     html#ecwid_html body#ecwid_body .Mobile_Header .ecwid-search-widget{
+        margin: -31vh 0 0 7vw !important;
+        top: 22vh !important;
+        left: 0vw !important;
+        width: 102vw !important;
+        max-width: 102vw !important;
+        display: inline-block !important;
      }
 
+     html#ecwid_html body#ecwid_body .ecwid-search-widget__input, html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="search"], html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="text"]{
+        width: 83% !important;
+    }
     
-
-
-    
-       
-    
-    
-
     .Hamburger_Menu{
         position: relative;
         z-index:1000;
@@ -754,11 +601,55 @@ html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default
    
 }
 
+@media screen and (min-width:33.75em){
+
+    .container.full{
+      width: 100vw;
+      max-width: 100vw;
+      
+    }
 
 
+      html#ecwid_html body#ecwid_body .ecwid-search-widget__input, html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="search"], html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="text"]{
+          width: 83% !important;
+      }
 
-@media screen and (max-width:251px) {
+
     
+} 
 
 
+
+@media only screen and (min-width: 45em) {  /* 720px */
+
+    .large-hidden{
+        display:none;
+    }
+
+    span.col-8.top-logo-and-tag.center{
+        height: 0vh;
+    }
+
+    .top-logo-and-tag a img {
+        width: 60%;
+        top: -1vh;
+        left: 8vw;
+    }
+
+    span.col-2.cart {
+        height: 5vh;
+        margin-top: -1vh;
+        left: 70vw;
+        position: relative;
+    }
+
+    html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default circle[stroke], html#ecwid_html body#ecwid_body .ec-minicart--l .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart--l .ec-minicart__icon .icon-default circle[stroke], html#ecwid_html body#ecwid_body .ec-minicart--xl .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart--xl .ec-minicart__icon .icon-default circle[stroke], html#ecwid_html body#ecwid_body .ec-minicart--xxl .ec-minicart__icon .icon-default path[stroke], html#ecwid_html body#ecwid_body .ec-minicart--xxl .ec-minicart__icon .icon-default circle[stroke] {
+        stroke-width: 2.5px !important;
+    }
+    html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default path[stroke],  html#ecwid_html body#ecwid_body .ec-minicart__icon .icon-default circle[stroke]{
+        stroke: white !important;
+     }
+
+
+  
 }

@@ -33,41 +33,25 @@
             
 
             $('#subscription_email_button').on('click', function(){
-  
-                    var $this = $(this);
-                    var $email = $('#subscription_email');
-            
-                    if ($email.length === 0){
-                    alert("Please enter an email");
 
-                        
-                    } else {
-                      $this.parents('#Subscription_Pop_Up').addClass('hidden');
-                    }
+                 var $this = $(this);
+
+                $this.parents('#Subscription_Pop_Up').addClass('hidden');
+  
+                    // Need to make email link work 
             
             
             });
             $('#Opt_Out_Link').on('click', function(){
+
+                 var $this = $(this);
+
+                $this.parents('#Subscription_Pop_Up').addClass('hidden');
   
-                    var $this = $(this);
-                    var $email = $('#subscription_email');
-
-                    if ($email.length === 0){
-                    alert("Please enter an email");
-
-                        
-                    } else {
-                      $this.parents('#Subscription_Pop_Up').addClass('hidden');
-                    }
+                //    Need to make email link work 
 
 
             });
-
-
-            // if ($('html #ecwid_html').css("backgroundColor","blue")){
-            //     var x = $('html #ecwid_html').css("margin");
-            //     console.log(parseInt(x));
-            // };
         });
 
 
@@ -104,9 +88,9 @@
 </aside>
 
 <div id="Cookie_Banner">
-    <p id="Cookie_Banner_Explanation">This site uses cookies. By continuing to browse this site<br> you are agreeing to our use of cookies. <span id="Find_Out_More_Link" ><a href="legal.php?term=Cookies" target="blank" >Find Out More Here</a> <div id="Accept_Close_Button_Div">
-        <a onclick="dismissCookie()" role="button" id="Accept_And_Close_Button">Accept and Close</a>
-    </div></span></p>  
+    <span>This site uses cookies. By continuing to browse this site you are agreeing to our use of cookies.</span>
+    <a href="legal.php?term=Cookies" target="blank" class="Find_Out_More_Link" >Find Out More Here</a>
+    <a onclick="dismissCookie()" role="button" class="Accept_And_Close_Button right">Accept and Close</a>
 </div>
     
 <?php include("popup.php"); ?>  
@@ -126,9 +110,9 @@
                     <div class="col-3 Section_Height">
 
                         <div id="Skincare_Section" class="full-width">
-                            <h1 id="Skincare_Section_Heading">Skincare</h1>
+                                <h1 id="Skincare_Section_Heading">Skincare</h1>
                                 <img src="Resources/Images/Skincare.png" alt="" id="Skincare_Section_Image">
-                            <a href="" id="Skincare_Products_Link">See all in Skincare</a>
+                                <a href="" id="Skincare_Products_Link">See all in Skincare</a>
                                 <ul>
                                     <li>
                                         <a href="#">Best Selling</a>
@@ -143,9 +127,9 @@
                     <div class="col-3 Section_Height">
 
                         <div id="Health_Section" class="full">
-                            <h1 id="Health_Section_Heading">Health</h1>
+                                <h1 id="Health_Section_Heading">Health</h1>
                                 <img src="Resources/Images/Health_Image.png" alt="" id="Health_Section_Image">
-                            <a href="" id="Health_Products_Link">See all in Health</a>
+                                <a href="" id="Health_Products_Link">See all in Health</a>
                                 <ul>
                                     <li>
                                         <a href="#">Best Selling</a>
@@ -159,9 +143,9 @@
 
                     <div class="col-3 Section_Height">
                         <div id="Beauty_Section" class="full">
-                            <h1 id="Beauty_Section_Heading">Beauty</h1>
+                                <h1 id="Beauty_Section_Heading">Beauty</h1>
                                 <img src="Resources/Images/Beauty_Image.png" alt="" id="Beauty_Section_Image">
-                            <a href="" id="Beauty_Products_Link">See all in Beauty</a>
+                                <a href="" id="Beauty_Products_Link">See all in Beauty</a>
                                 <ul>
                                     <li>
                                         <a href="#">Best Selling</a>
@@ -175,9 +159,9 @@
 
                     <div class="col-3 Section_Height">
                         <div id="Medicines_Section" class="full">
-                            <h1 id="Medicines_Section_Heading">Medicines</h1>
+                                <h1 id="Medicines_Section_Heading">Medicines</h1>
                                 <img src="Resources/Images/Medicines.png" alt="" id="Medicines_Section_Image">
-                            <a href="" id="Medicines_Products_Link">See all in Medicines</a>
+                                <a href="" id="Medicines_Products_Link">See all in Medicines</a>
                                 <ul>
                                     <li>
                                         <a href="#">Best Selling</a>
@@ -192,7 +176,7 @@
                 </div>
 
 				<!-- Testing -->
-				<div class="row test">
+				<!-- <div class="row test">
 					<div class="col-12">
 						<h1>Testing</h1>
 					</div>
@@ -203,7 +187,7 @@
 							xProductBrowser("defaultCategoryId=30881149");
 						</script>
 					 </div>
-				</div>
+				</div> -->
 			
 				
                 <div class="row Most_Popular_Section">
@@ -263,7 +247,6 @@
                             <h4 id="Most_Popular_Section_Sub6_Price">€24.99</h4>
                             
                         </div>
-						-->
                     </div>
 
 
@@ -320,7 +303,7 @@
                     
                 </div>
 
-				<!--
+				
                     <br>
                     <br>
                     <div class="row Popular_Choices_Section">
@@ -382,7 +365,7 @@
 
                 <?php include("image-grid.php"); ?> 
 
-				-->
+				
         </div>
 
     
