@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="McCormacks Pharmacy is one of the leading online pharmacy stores in Ireland that offers a complete range of pharmaceutical drugs, health & beauty products, fragrances for men & women from leading brands, and much more! We have the most genuine prices from all other stores! Explore our pharmacy today and shop your way!">
+<<<<<<< HEAD
 	<link href="https://fonts.googleapis.com/css?family=Caveat|PT+Serif:400i|Indie+Flower|Quicksand|Raleway|Bitter|Dosis|Sirin+Stencil|" rel="stylesheet">
 	<!-- I'm using simple-grid as opposed to your modified simple-grid.min.css -->
 	<?php include ("style.php"); ?>
@@ -13,10 +14,23 @@
 	<link rel="stylesheet" href="Resources/CSS/homepage.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <title>McCormacks | Home</title>
+=======
+    
+	<!-- I'm using simple-grid as opposed to your modified simple-grid.min.css -->
+    <link rel="stylesheet" href="Resources/CSS/simple-grid.css">
+	<link rel="stylesheet" href="Resources/normalize/normalize.css">
+	<link rel="stylesheet" href="Resources/CSS/mobileFriendly.css">
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	
+    <title>McCormacks | Home</title>
+	
+>>>>>>> 30b992a231ee805adeb3a82c461c90cd473c6fca
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         $(document).ready(function() {
 
+<<<<<<< HEAD
 			var width = $(window).width(); 
 
 			// if (width >= 540) {
@@ -44,6 +58,8 @@
    			 });
 			
 
+=======
+>>>>>>> 30b992a231ee805adeb3a82c461c90cd473c6fca
 
             $('.first_sorter').on('click', function(){
                 var $this = $(this);
@@ -294,21 +310,33 @@
 					</div>
 				</div>
 
+<<<<<<< HEAD
 			<div class="row grey_Bottom_Homepage_Bar hidden-sm">
+=======
+				<div class="row grey_Bottom_Homepage_Bar hidden-sm">
+>>>>>>> 30b992a231ee805adeb3a82c461c90cd473c6fca
 
 				<div class="col-4 left">
 					<i class="fas fa-2x fa-truck"></i><span>Order By 3pm for Next Day Delivery</span>
 				</div>
 				<div class="col-4 center">
 					<span>Excellent <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+<<<<<<< HEAD
 					<span class="trustpilot">TrustPilot</span>
+=======
+					<span>TrustPilot</span>
+>>>>>>> 30b992a231ee805adeb3a82c461c90cd473c6fca
 				</div>
 				<div class="col-4 right">
 					<span class="Bottom_Task_Bar_Green_Info">€ Low </span><span>Prices all  year round</span>
 				</div>
 
 			</div>          
+<<<<<<< HEAD
 			
+=======
+			</div>
+>>>>>>> 30b992a231ee805adeb3a82c461c90cd473c6fca
 			
 			<div id="image_slider" class="hidden-sm">
 				<div class="row">
@@ -374,6 +402,7 @@
 		
 			<script src="Resources/Javascript/homepage.js"></script>
 	
+<<<<<<< HEAD
 			
 			<div id="footer">
 				<div class="row full-green" >	
@@ -386,3 +415,18 @@
    
 </body>
 </html>
+=======
+			<!--
+			<div id="footer">
+				<div class="row full-green" >	
+					<div class="col-12 center">
+						<p>This is where the footer should go</p>
+					</div>
+				</div>
+			</div>
+			-->
+		</div> <!-- End of container -->
+   
+</body>
+</html>
+>>>>>>> 30b992a231ee805adeb3a82c461c90cd473c6fca

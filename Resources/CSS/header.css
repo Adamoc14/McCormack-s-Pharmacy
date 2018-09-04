@@ -11,7 +11,7 @@ div#SearchWidget-1 {
 .Authorization_Links a{
     color:#000;
     font-family: montserrat;
-    font-size: 20px;
+    /* font-size: 20px; */
     z-index: 999;
     text-decoration: none;
 
@@ -57,7 +57,8 @@ div#SearchWidget-1 {
 
 
 #Header_Opening_Hours{
-    font-size:12.75px;
+    /* font-size:12.75px; */
+	font-size: .75em; /* .75em == 16px x .75 = 12px */
     font-family: Raleway;
     color: #76FF03;
     float:left;
