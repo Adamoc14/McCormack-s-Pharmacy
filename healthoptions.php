@@ -1,5 +1,5 @@
 
-    <div class="container grid-display">
+    <div class="container full">
 
         <div class="row">
             <div class="col-3">

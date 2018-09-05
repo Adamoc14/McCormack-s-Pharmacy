@@ -661,14 +661,19 @@ html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default
       div#Show{
           display: block !important;
       }
+
+      .col-10.top-logo-and-tag.center {
+        margin-bottom: -10vh;
+    }
       
-      .top-logo-and-tag a img{
+    .top-logo-and-tag a img {
         left: -1vw;
+        top: -7vh;
         width: 71%;
-      }
+    }
 
       html#ecwid_html body#ecwid_body .ecwid-search-widget{
-        top: -6vh;
+        top: -10vh;
         left: 11vw;
         width: 60vw !important;
       }
@@ -682,7 +687,7 @@ html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default
      }
      .ec-cart-widget{
         position: relative;
-        top: -5vh;
+        top: -10vh !important;
         left: -2vw;
      }
      #menu ul{

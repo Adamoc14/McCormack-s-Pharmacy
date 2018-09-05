@@ -78,7 +78,7 @@
 
 
 
-            <div class="container grid-display">
+            <div class="container full">
 
 
                 <div class="row">

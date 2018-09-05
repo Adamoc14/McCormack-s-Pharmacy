@@ -30,7 +30,7 @@
                             <img  id="img" src="Resources/Images/Natural-Life.png" alt="">
                         </div>
                         <div id="image" data-key="3">
-                            <img  id="img" src="http://www.pestleandmortar.com/wp-content/uploads/2017/05/Best-Cleanser-pestle-and-mortar-.png" alt="">
+                            <img  id="img" src="Resources/Images/MortarPestle.png" alt="">
                         </div>
                         <div id="image" data-key="4" data-active>
                             <img  id="img" src="http://splashcake.com/cake/uploads/1526547245_BOX-GLASS-SACHETS%20323%20.jpg" alt="">

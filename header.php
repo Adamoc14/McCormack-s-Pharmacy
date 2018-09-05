@@ -50,7 +50,7 @@
 
                                 <li><a href="#">BRANDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter fa-sort-down"></i></span>
                                         <ul class="Dropdown_Nav_Bar_Menu">
-                                            <li><a href="#">View All Brands</a></li>
+                                            <li><a href="brands.php">View All Brands</a></li>
                                         </ul>
                             
                                 </a></li>
@@ -432,13 +432,7 @@
                         </ul>
                     </div>
 
-                    <div class="row hidden-sm large-hidden" id="Show">
-                        <div class="col-9"></div>
-                        <div class="col-3 Authorization_Links right hidden-sm">
-                            <a href="">Log In</a>
-                            <a href=""> Register</a>
-                        </div>
-                    </div>
+                    
 
                     <div class="row bottom_row_border hidden-sm large-hidden" id="Show">
 
@@ -452,6 +446,14 @@
                             <a href="#"><i class="fab fa-2x fa-snapchat-ghost"></i></a>
 					    </div>
 
+                    </div>
+
+                    <div class="row hidden-sm large-hidden" id="Show">
+                        <div class="col-9"></div>
+                        <div class="col-3 Authorization_Links right hidden-sm">
+                            <a href="">Log In</a>
+                            <a href=""> Register</a>
+                        </div>
                     </div>
 
 
@@ -488,9 +490,7 @@
                             </div>
                         </div>
 
-                        <div class="col-1 large-hidden">
-                                
-                        </div>
+                       
                     </div>
 
 
@@ -538,7 +538,7 @@
                                                         </ul> -->
                                                         <ul id="Beauty_Megamenu_List4">
                                                             <h2 id="Beauty_Megamenu_List4_Subtitle">List Of Brands</h2>
-                                                            <a href="#">View All Brands</a>
+                                                            <a href="brands.php">View All Brands</a>
                                                         </ul>
                                                         <ul id="Beauty_Megamenu_List5">
                                                             <h2 id="Beauty_Megamenu_List5_Subtitle">Events In Stores</h2>
@@ -580,7 +580,7 @@
                                                 </ul> -->
                                                 <ul id="Beauty_Megamenu_List4">
                                                     <h2 id="Beauty_Megamenu_List4_Subtitle">List Of Brands</h2>
-                                                    <a href="#">View All Brands</a>
+                                                    <a href="brands.php">View All Brands</a>
                                                 </ul>
                                                 <ul id="Beauty_Megamenu_List5">
                                                     <h2 id="Beauty_Megamenu_List5_Subtitle">Events In Stores</h2>
@@ -617,7 +617,7 @@
                                                     </ul> -->
                                                     <ul id="Beauty_Megamenu_List4">
                                                         <h2 id="Beauty_Megamenu_List4_Subtitle">List Of Brands</h2>
-                                                        <a href="#">View All Brands</a>
+                                                        <a href="brands.php">View All Brands</a>
                                                     </ul>
                                                     <ul id="Beauty_Megamenu_List5">
                                                         <h2 id="Beauty_Megamenu_List5_Subtitle">Events In Stores</h2>

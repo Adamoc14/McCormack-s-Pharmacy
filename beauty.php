@@ -19,7 +19,7 @@
     <?php include("header.php"); ?>
 
 
-    <div class="container grid-display store-container">
+    <div class="container full store-container">
 
        
 

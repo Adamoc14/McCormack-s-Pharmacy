@@ -23,10 +23,10 @@
                                         <li><a href="#">Account Details</a></li>
                                         <li><a href="#">Wishlist</a></li>
                                         <li><a href="#">Orders</a></li>
-                                        <li><a href="#">Shop</a></li>
+                                        <li><a href="beauty.php">Shop</a></li>
                                         <li><a href="#">Best Sellers</a></li>
                                         <li><a href="#">Contact Us</a></li>
-                                        <li><a href="#">Brands</a></li>
+                                        <li><a href="brands.php">Brands</a></li>
                                     </ul>
 
                                 </section>
@@ -38,14 +38,14 @@
                                 <section id="Footer_Top_Section4_Sub">
                                         <ul>
                                             <h2 id="Footer_Top_Section4_Sub_Heading">Services</h2>
-                                            <li><a href="#">Ask Our Pharmacist</a></li>
+                                            <li><a href="AskPharmacist.php">Ask Our Pharmacist</a></li>
                                             <li><a href="#">First Aid Advice and Supplies</a></li>
                                             <li><a href="#">Advice</a></li>
-                                            <li><a href="#">Contact Us</a></li>
+                                            <li><a href="contactUs.php">Contact Us</a></li>
                                             <li><a href="#">Buy A Gift Card</a></li>
                                             <li><a href="#">Health Advice and News</a></li>
                                             <li><a href="#">Order Status</a></li>
-                                            <li><a href="#">Delivery and Returns</a></li>
+                                            <li><a href="legal.php?term=Delivery-Information">Delivery and Returns</a></li>
                                             <li><a href="gallery.php">Gallery</a></li>
                                         </ul>
 
@@ -56,9 +56,9 @@
                                 <section id="Footer_Top_Section3_Sub">
                                     <ul>
                                         <h2 id="Footer_Top_Section3_Sub_Heading">Explore Shop</h2>
-                                        <li><a href="#">Health</a></li>
-                                        <li><a href="#">Beauty</a></li>
-                                        <li><a href="#">Skincare</a></li>
+                                        <li><a href="health.php">Health</a></li>
+                                        <li><a href="beauty.php">Beauty</a></li>
+                                        <li><a href="skincare.php">Skincare</a></li>
                                         <li><a href="#">Makeup</a></li>
                                         <li><a href="#">Nails</a></li>
                                         <li><a href="#">Eyes</a></li>

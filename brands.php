@@ -14,7 +14,7 @@
     <script>
         $(document).ready(function() {
 
-            $('#All_Brands_Container li a').click(function(){
+            $('.All_Brands_Container li a').click(function(){
                 $(this).siblings().children().toggleClass("show");
                 $(this).siblings().children().children().css("transform", "rotate(180deg)");
             });
@@ -39,103 +39,368 @@
 
     <?php include("header.php"); ?>
 
-    <div id="All_Brands_Heading">These are all the brands we stock</div>
+    <div class="container full">
 
-    <div id="All_Brands_Container">
-        <ul>
-            <li><a>A &#9656;</a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contcate</a></li>
-                    <li><a href="#">vvvvv</a></li>
-                    <li><a href="#">hjbigugiug</a></li>
-                    <li><a href="#">vdshvh</a></li>
-                    <li><a href="#">dsh</a></li>
-                    <li><a href="#">bub</a></li>
-                </ul>
-            </li>
-            <li><a href="">B</a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contcate</a></li>
-                    <li><a href="#">vvvvv</a></li>
-                    <li><a href="#">hjbigugiug</a></li>
-                    <li><a href="#">vdshvh</a></li>
-                    <li><a href="#">dsh</a></li>
-                    <li><a href="#">bub</a></li>
-                </ul>
-            </li>
-            <li><a href="#">C</a></li>
-            <li><a href="#">D</a></li>
-            <li><a href="#">E</a></li>
-            <li><a href="#">F</a></li>
-            <li><a href="#">G</a></li>
-            <li><a href="#">H</a></li>
-            <li><a href="#">I</a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contcate</a></li>
-                    <li><a href="#">vvvvv</a></li>
-                    <li><a href="#">hjbigugiug</a></li>
-                    <li><a href="#">vdshvh</a></li>
-                    <li><a href="#">dsh</a></li>
-                    <li><a href="#">bub</a></li>
-                </ul>
-            </li>
-            <li><a href="#">J</a></li>
-            <li><a href="#">K</a></li>
-            <li><a href="#">L</a></li>
-            <li><a href="#">M</a></li>
-            <li><a href="#">N</a></li>
-            <li><a href="#">O</a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contcate</a></li>
-                    <li><a href="#">vvvvv</a></li>
-                    <li><a href="#">hjbigugiug</a></li>
-                    <li><a href="#">vdshvh</a></li>
-                    <li><a href="#">dsh</a></li>
-                    <li><a href="#">bub</a></li>
-                </ul>
-            </li>
-            <li><a href="#">P</a></li>
-            <li><a href="#">Q</a></li>
-            <li><a href="#">R</a></li>
-            <li><a href="#">S</a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contcate</a></li>
-                    <li><a href="#">vvvvv</a></li>
-                    <li><a href="#">hjbigugiug</a></li>
-                    <li><a href="#">vdshvh</a></li>
-                    <li><a href="#">dsh</a></li>
-                    <li><a href="#">bub</a></li>
-                </ul>
-            </li>
-            <li><a href="#">T</a></li>
-            <li><a href="#">U</a></li>
-            <li><a href="#">V</a></li>
-            <li><a href="#">W</a></li>
-            <li><a href="#">X</a></li>
-            <li><a href="#">Y</a>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contcate</a></li>
-                    <li><a href="#">vvvvv</a></li>
-                    <li><a href="#">hjbigugiug</a></li>
-                    <li><a href="#">vdshvh</a></li>
-                    <li><a href="#">dsh</a></li>
-                    <li><a href="#">bub</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Z</a></li>
-        </ul>
+            <div class="row">
+                <div class="col-12 All_Brands_Container">
+                    <ul>
+
+                                <div class="row">
+
+                                    <div class="col-2"></div>
+                                    <div class="col-8">
+                                        <h3 id="All_Brands_Heading">These are all the brands we stock</h3>
+                                    </div>
+
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                                <li><a>A &#9656;</a>
+                                                    <ul>
+                                                        <li><a href="#">Home</a></li>
+                                                        <li><a href="#">About</a></li>
+                                                        <li><a href="#">Contcate</a></li>
+                                                        <li><a href="#">vvvvv</a></li>
+                                                        <li><a href="#">hjbigugiug</a></li>
+                                                        <li><a href="#">vdshvh</a></li>
+                                                        <li><a href="#">dsh</a></li>
+                                                        <li><a href="#">bub</a></li>
+                                                    </ul>
+                                                </li>
+                                    </div>
+                                    <div class="col-1"></div>
+                                </div>
+
+
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                        <li><a href="">B</a>
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Contcate</a></li>
+                                                <li><a href="#">vvvvv</a></li>
+                                                <li><a href="#">hjbigugiug</a></li>
+                                                <li><a href="#">vdshvh</a></li>
+                                                <li><a href="#">dsh</a></li>
+                                                <li><a href="#">bub</a></li>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                    <div class="col-1"></div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                                
+                                        <li><a href="#">C</a></li>
+
+                                    </div>
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">D</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">E</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">F</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">G</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">H</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                        <li><a href="#">I</a>
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Contcate</a></li>
+                                                <li><a href="#">vvvvv</a></li>
+                                                <li><a href="#">hjbigugiug</a></li>
+                                                <li><a href="#">vdshvh</a></li>
+                                                <li><a href="#">dsh</a></li>
+                                                <li><a href="#">bub</a></li>
+                                            </ul>
+                                        </li> 
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">J</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">K</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">L</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">M</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                        <li><a href="#">N</a>
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Contcate</a></li>
+                                                <li><a href="#">vvvvv</a></li>
+                                                <li><a href="#">hjbigugiug</a></li>
+                                                <li><a href="#">vdshvh</a></li>
+                                                <li><a href="#">dsh</a></li>
+                                                <li><a href="#">bub</a></li>
+                                            </ul>
+                                        </li> 
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">O</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">P</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">Q</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">R</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                        <li><a href="#">S</a>
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Contcate</a></li>
+                                                <li><a href="#">vvvvv</a></li>
+                                                <li><a href="#">hjbigugiug</a></li>
+                                                <li><a href="#">vdshvh</a></li>
+                                                <li><a href="#">dsh</a></li>
+                                                <li><a href="#">bub</a></li>
+                                            </ul>
+                                        </li> 
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">T</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">U</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">V</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">W</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                        <li><a href="#">X</a>
+                                            <ul>
+                                                <li><a href="#">Home</a></li>
+                                                <li><a href="#">About</a></li>
+                                                <li><a href="#">Contcate</a></li>
+                                                <li><a href="#">vvvvv</a></li>
+                                                <li><a href="#">hjbigugiug</a></li>
+                                                <li><a href="#">vdshvh</a></li>
+                                                <li><a href="#">dsh</a></li>
+                                                <li><a href="#">bub</a></li>
+                                            </ul>
+                                        </li> 
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">Y</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-1"></div>
+                                    <div class="col-9">
+                                    
+                                                
+                                        <li><a href="#">Z</a></li>
+                                    </div>
+                                    
+                                    <div class="col-1"></div>
+                                </div>
+
+                    </ul>
+                </div>
+            </div>
+
+    
+    
     </div>
 
     <?php include("footer.php"); ?>

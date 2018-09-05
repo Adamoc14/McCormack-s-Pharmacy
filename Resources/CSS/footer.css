@@ -846,6 +846,7 @@
                 position: relative;
                 margin-top: -73vh;
                 margin-left: -26vw;
+                width: 20vw;
               }
 
               #Verify_Site_Image{
@@ -854,8 +855,11 @@
               }
 
               #Welcome_McCormacks_Heading{
-                margin-left: -27vw;
-                margin-top: 56vh;
+                position: relative;
+                top: -5vh;
+                width: 25vw;
+                margin-left: 31vw;
+                margin-bottom: -5vh;
               }
               #Footer_Section_1_Left{
                 position: relative;
@@ -917,6 +921,7 @@
                 position: relative;
                 top: 10vh;
                 height: 47vh;
+                margin-bottom: 16vh;
             }
             #Left_Section_Logo {
                 height: 4vh;
