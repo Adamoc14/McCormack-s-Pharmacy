@@ -1,7 +1,7 @@
 <?php include("arrays.php"); ?>
     <div class="container full-width">
 
-            <div class="row Mobile_Footer">
+            <div class="row Mobile_Footer" id="Hide">
         
                 <div class="row" id="Footer_Top_Section">
                     <div class="col-12">
@@ -103,7 +103,7 @@
                     
 
                     
-                <div class="row Mobile_Footer">
+                <div class="row Mobile_Footer" id="Hide">
                         <div class="col-12">
                             <div id="White_Background_Footer"></div>   
                             <hr id="Footer_Divider">
@@ -111,7 +111,7 @@
                 </div>
 
                     
-                <div class="row Mobile_Footer">
+                <div class="row Mobile_Footer" id="Hide">
 
                     <div class="col-12">
 
@@ -199,7 +199,7 @@
             </div>
 
 
-        <div class="row Laptop_Footer">
+        <div class="row Laptop_Footer" id="Show">
             <div class="col-12">
                 <div id="Footer_Top_Section">
 
@@ -295,7 +295,7 @@
         
 
         
-        <div class="row Laptop_Footer">
+        <div class="row Laptop_Footer" id="Show">
             <div class="col-12">
                 <div id="White_Background_Footer"></div>   
                 <hr id="Footer_Divider">
@@ -303,7 +303,7 @@
         </div>
 
         
-        <div class="row Laptop_Footer">
+        <div class="row Laptop_Footer" id="Show">
 
             <div class="col-8">
                         <!-- <footer> -->

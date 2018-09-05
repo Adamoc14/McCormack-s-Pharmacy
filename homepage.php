@@ -52,6 +52,12 @@
 
 
             });
+
+             var width = $(window).width();
+             if(width >= 1280){
+                 $('row Mobile_Footer').hide();
+                 $('row Laptop_Footer').show();
+             }
         });
 
 

@@ -1,5 +1,5 @@
         <div class="container full">
-                    <div class="row Mobile_Header">
+                    <div class="row Mobile_Header" id="Hide">
 
                         <span class="col-2 bars">
                             <i class="fas fa-2x Hamburger_Menu Hamburger_Close fa-bars"></i>
@@ -22,7 +22,7 @@
 
                     </div>
 
-                    <div class="row Mobile_Header">
+                    <div class="row Mobile_Header" id="Hide">
 
                             <div class="ecwid-search-widget"><input type="text" class="ecwid-search-widget__input" maxlength="100" name="search" placeholder="Search products" role="search" style="border-top-left-radius: 0px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;"><button type="button" class="ecwid-search-widget__btn"><span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 55" enable-background="new 0 0 50 55" focusable="false"><path class="ecwid-search-widget-icon" fill="#999999" d="M47.3 43.7L34.6 31c2.5-3 3.9-6.9 3.9-11 0-9.6-7.9-17.5-17.5-17.5S3.5 10.4 3.5 20 11.4 37.5 21 37.5c3.7 0 7.1-1.1 9.9-3.1l12.8 12.8 3.6-3.5zM6.5 20C6.5 12 13 5.5 21 5.5S35.5 12 35.5 20 29 34.5 21 34.5 6.5 28 6.5 20z"></path></svg></span></button></div></div></div>
                             <div>
@@ -104,7 +104,7 @@
                                         </a></li>
 
 
-                                        <li><a href="#">Beauty Accessories<span><i class="fas fa-2x first_sorter second_sorter long_word2 fa-sort-down"></i></span>
+                                        <li><a href="beauty.php/search?category:id=30951090">Beauty Accessories<span><i class="fas fa-2x first_sorter second_sorter long_word2 fa-sort-down"></i></span>
                                     
                                             <ul class="Dropdown_Nav_Bar_Menu">
                                                 <li><a href="#">Makeup Brushes</a></li>
@@ -432,7 +432,7 @@
                         </ul>
                     </div>
 
-                    <div class="row hidden-sm large-hidden">
+                    <div class="row hidden-sm large-hidden" id="Show">
                         <div class="col-9"></div>
                         <div class="col-3 Authorization_Links right hidden-sm">
                             <a href="">Log In</a>
@@ -440,7 +440,7 @@
                         </div>
                     </div>
 
-                    <div class="row bottom_row_border hidden-sm large-hidden">
+                    <div class="row bottom_row_border hidden-sm large-hidden" id="Show">
 
                         <div class="col-9 left green_info">
                             Open 6 days a week: &nbsp;<a class="Tel_Number" href="tel:+353 52 6199329">Tel:&nbsp;052 6199329</a> | info@McCormacksPharmacy.ie
@@ -457,7 +457,7 @@
 
 
 
-                    <div class="row hidden-sm large-hidden">
+                    <div class="row hidden-sm large-hidden" id="Show">
 
                         <div class="col-1">
                                 
@@ -495,12 +495,12 @@
 
 
 
-                    <div class="row full-green large-hidden" >
+                    <div class="row full-green large-hidden" id="Show" >
 
                         
 
                             
-                        <div class="col-12 hidden-sm large-hidden" id="menu">
+                        <div class="col-12 hidden-sm large-hidden" id="menu Show">
                                                     
                                 <div id="menu">
                         
@@ -552,7 +552,7 @@
                                                 <h2 id="Beauty_Megamenu_Title">Beauty Inspiration, products and services</h2>
                                                 <ul id="Beauty_Megamenu_List1">
                                                     <h2 id="Beauty_Megamenu_List1_Subtitle">Express Access</h2>
-                                                    <li><a href="#">Dermo-Cosmetics</a></li>
+                                                    <li><a href="beauty.php/search?category:id=30951090">Accessories</a></li>
                                                     <li><a href="#">Fragrances</a></li>
                                                     <li><a href="#">Beauty Top Picks</a></li>
                                                     <li><a href="#">Makeup</a></li>
