@@ -29,6 +29,15 @@
 
             });
 
+            setTimeout(function(){
+
+  
+            document.getElementById("Subscription_Pop_Up").style.display = "block";
+
+
+            },8000);
+
+
 
             
 
@@ -53,6 +62,7 @@
 
             });
 
+            
            
 
 

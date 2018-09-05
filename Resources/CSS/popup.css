@@ -21,6 +21,7 @@
 
 #Subscription_Pop_Up{
   position:absolute;
+  display: none;
   top:30%;
   height:40%;
   width:30%;
@@ -36,7 +37,7 @@
 }
 
 #Subscription_Pop_Up.hidden {
-  display: none;
+  display: none !important;
 }
 
 #Subscription_Pop_Up_Content{

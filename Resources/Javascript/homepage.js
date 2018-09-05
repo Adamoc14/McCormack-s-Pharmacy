@@ -210,7 +210,9 @@ function topFunction() {
 
 window.onload = function () {this.setTimeout(function(){
 
+  
   document.getElementById("Cookie_Banner").style.display = "block";
+  
 
 },3000)};
 
