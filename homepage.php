@@ -53,6 +53,17 @@
 
             });
 
+           
+
+
+			var timer;
+			$("#menu ul li").mouseenter(function(){timer = setTimeout(function(){$('#Beauty_Megamenu').show();}, 800);})
+			$("#menu ul li").mouseout(function(){clearTimeout(timer);$('#Beauty_Megamenu').hide()})
+
+
+
+
+
              var width = $(window).width();
              if(width >= 1280){
                  $('row Mobile_Footer').hide();

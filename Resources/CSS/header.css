@@ -201,9 +201,6 @@ html#ecwid_html body#ecwid_body .ecwid-search-widget{
     display: none;
     z-index: 257;
   }
-  #menu ul li:hover #Beauty_Megamenu{
-    display: block;
-  }
   #Beauty_Megamenu_Title{
       position:relative;
       margin-top: -38vh;
@@ -433,6 +430,7 @@ span.trustpilot {
         position: relative;
         z-index: 1000;
         font-size: 0px;
+        border: 0px !important;
     }
 
 
@@ -580,6 +578,7 @@ html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default
         width: 102vw !important;
         max-width: 102vw !important;
         display: inline-block !important;
+        border: none !important;
      }
 
      html#ecwid_html body#ecwid_body .ecwid-search-widget__input, html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="search"], html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="text"]{
@@ -670,12 +669,14 @@ html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default
         left: -1vw;
         top: -7vh;
         width: 71%;
+        position: relative;
     }
 
       html#ecwid_html body#ecwid_body .ecwid-search-widget{
         top: -10vh;
         left: 11vw;
         width: 60vw !important;
+        border: none !important;
       }
 
       .large-hidden{
