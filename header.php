@@ -426,8 +426,8 @@
                                     </ul>
                             
                                 </a></li>
-                                <li><a href="#">ASK OUR PHARMACIST</a></li>
-                                <li><a href="#">ABOUT US</a></li>
+                                <li><a href="AskPharmacist.php">ASK OUR PHARMACIST</a></li>
+                                <li><a href="AboutUs.php">ABOUT US</a></li>
                                 
                         </ul>
                     </div>
