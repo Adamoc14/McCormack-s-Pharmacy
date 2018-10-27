@@ -344,7 +344,7 @@ margin-right: .2vw;
 
         #Store_No1_Details,#Store_No2_Details,#Store_No3_Details{
             float:  right;
-            margin-top: -33vh;
+            margin-top: 10vh;
             position: relative;
             left: -3vw;
         }
