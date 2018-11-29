@@ -13,18 +13,7 @@
 }
 
 
-@media only screen and (min-width:60em) {
-    .container {
-      width: 90%;
-      max-width: 90rem;
-    }
-    
-    .container.full-width {
-        width: 110%;
-        margin-left: -5vw;
-        max-width: 200rem;
-    }
-  }
+
 
 
 .sec1{
@@ -184,5 +173,62 @@
     /* display:block; */
     opacity:1;
 }
+
+
+
+@media screen and (min-width:33.75em){ /*540px*/
+
+    .container.full{
+      width: 109vw;
+      max-width: 147vw;
+      
+    }
+
+    .top-logo-and-tag a {
+        margin-top: -5.5vh;
+        position: relative;
+        z-index: 2000000000000;
+    }
+
+    img#Our_Story_Logo {
+        margin-top: 6vh;
+        margin-left: 29vw;
+    }
+
+    h1#Our_Story_Heading ,  h1#Our_Philosphy_Heading , h1#Our_Team_Heading {
+        text-align: center;
+    }
+
+
+    hr#Our_Story_Underline , hr#Our_Philosphy_Underline, hr#Our_Team_Underline  {
+        margin-left: 52vw;
+    }
+
+    h1#Sec2_Nationwide_Heading {
+        font-size: 40px;
+    }
+
+    html#ecwid_html body#ecwid_body .ecwid-search-widget__input, html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="search"], html#ecwid_html body#ecwid_body .ecwid-search-widget__input[type="text"]{
+        width: 83% !important;
+    }
+
+
+    
+} 
+
+
+@media only screen and (min-width:60em) {
+    .container {
+      width: 90%;
+      max-width: 90rem;
+    }
+    
+    .container.full-width {
+        width: 110%;
+        margin-left: -5vw;
+        max-width: 200rem;
+    }
+  }
+
 
  
