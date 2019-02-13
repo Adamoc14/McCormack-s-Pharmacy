@@ -24,7 +24,7 @@
                             <img id="img" src="Resources/Images/age-protect-range-hd.jpg" alt="">
                         </div>
                         <div id="image" data-key="1">
-                            <img  id="img" src="Resources/Images/GAMME_BARIESUN_BD.png" alt="">
+                            <img  id="img" src="Resources/Images/McCMC.png" alt="">
                         </div>
                         <div id="image" data-key="2">
                             <img  id="img" src="Resources/Images/Natural-Life.png" alt="">

@@ -1,3 +1,8 @@
+
+
+
+
+
 // Support for IE
 
 Element.prototype.remove = function() {
@@ -222,5 +227,15 @@ function dismissCookie()  {
    cookie.style.display = "none";
 }
 
+
+
+var app = new Vue({
+  el: '#app',
+  mounted() {
+     axios.get('https://sheets.googleapis.com/v4/spreadsheets/1tsalHSuO_Qt3oSGi3o6X4ZE7GstOlK2tOP6aQyI5gVQ/values/Sheet1?key=AIzaSyD-8poX-toKfN-LVyfp0uD9HMFzPIZ1NsM').then(function(response){
+      console.log(response);
+    })
+  }
+})
 
 

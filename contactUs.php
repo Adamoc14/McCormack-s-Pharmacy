@@ -90,7 +90,7 @@
                             }
 
                             // Add the recipient email to a variable
-                            $to = "oceallaighadam96@gmail.com";
+                            $to = "info@mccormackspharmacy.ie";
 
                             //Create a subject
                             $email_subject= "$name sent you a message via your contact form";
@@ -123,9 +123,9 @@
                         ?>
                         
                         <!-- Show success message after email has sent -->
-                        <h5>Thanks for contacting Franklin's!</h5>
+                        <h5>Thanks for contacting McCormack's!</h5>
                         <p>Please allow 24 hours for a response.</p>
-                        <p><a href="/final" class="button block">&laquo; Go to Home Page</a></p>
+                        <p><a href="./contactUs.php" class="button block">&laquo; Go to Home Page</a></p>
                         
                         <?php
                             } else {
@@ -169,7 +169,7 @@
             </div>
 
             <div class="col-3">
-                <span id="Number_Three_Details"><i class="fas fa-3x envelope fa-envelope"></i>Need Product Info?<br><em>Email <span>info@McCormacksPharmacy.ie<span></em></span>
+                <span id="Number_Three_Details"><i class="fas fa-3x envelope fa-envelope"></i>Need Product Info?<br><em>Email <span>enquiries@mccormackspharmacy.ie<span></em></span>
             </div>
 
             <div class="col-3">
@@ -193,7 +193,7 @@
                                     <i class="fas fa-map-marker" id="Store_No1_Marker"></i><h3 id="Store_No1_Marker_Heading">Stop By <br><h5 id="Actual_Address" >23 Bolton St, Oldbridge, Clonmel, Co. Tipperary
                                     </h5></h3>
                                     <i class="fas fa-phone" id="Store_No1_Phone"></i><h3 id="Store_No1_Phone_Heading">Let's Chat<br><h5 id="Actual_Phone" >052 6199329</h5></h3>
-                                    <i class="fas fa-envelope" id="Store_No1_Envelope"></i><h3 id="Store_No1_Envelope_Heading">Email Us<br><h5 id="Actual_Email" >info@McCormacksPharmacy.ie</h5></h3>
+                                    <i class="fas fa-envelope" id="Store_No1_Envelope"></i><h3 id="Store_No1_Envelope_Heading">Email Us<br><h5 id="Actual_Email" >mccormacksclonmel@gmail.com</h5></h3>
                                     <i class="fas fa-clock" id="Store_No1_Clock"></i><h3 id="Store_No1_Clock_Heading">Pop In<br><h5 id="Actual_Clock">
                                         Thursday	8:30a.m.–6:30p.m. <br>
                                         Friday	8:30a.m.–6:30p.m.<br>
@@ -221,7 +221,7 @@
                                         <i class="fas fa-map-marker" id="Store_No2_Marker"></i><h3 id="Store_No2_Marker_Heading">Stop By <br><h5 id="Actual_Address2" >Fairway centre, Blackrock Rd, Dundalk, Co. Louth
                                         </h5></h3>
                                         <i class="fas fa-phone" id="Store_No2_Phone"></i><h3 id="Store_No2_Phone_Heading">Let's Chat<br><h5 id="Actual_Phone2" >042 9322677</h5></h3>
-                                        <i class="fas fa-envelope" id="Store_No2_Envelope"></i><h3 id="Store_No2_Envelope_Heading">Email Us<br><h5 id="Actual_Email2" >info@McCormacksPharmacy.ie</h5></h3>
+                                        <i class="fas fa-envelope" id="Store_No2_Envelope"></i><h3 id="Store_No2_Envelope_Heading">Email Us<br><h5 id="Actual_Email2" >mccormacksdundalk@gmail.com</h5></h3>
                                         <i class="fas fa-clock" id="Store_No2_Clock"></i><h3 id="Store_No2_Clock_Heading">Pop In<br><h5 id="Actual_Clock2">
                                         Friday	9a.m.–7p.m.<br>
                                         Saturday	9a.m.–6p.m.<br>

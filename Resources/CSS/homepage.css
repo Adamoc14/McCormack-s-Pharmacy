@@ -13,6 +13,8 @@
   transition-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
 }
 
+
+
 .row{
   position: unset !important;
 }
@@ -81,7 +83,7 @@ aside ul li {
 aside ul li a{
   position:relative;
   margin-left:20%;
-  background: red;
+
 }
 
 .pin,.tweet{
@@ -130,6 +132,28 @@ aside ul li a{
   padding: 10% 0%;
   position: relative;
 
+}
+
+#snapchat_username{
+  display: none;
+  position: relative;
+  background: #FFFC00;
+  width: 60vw;
+  height: 15vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  text-align: center;
+}
+
+#snapchat_username h3{
+  
+  width:100vw;
+}
+
+#snapchat_username h5 {
+  background:white;
+  width:100vw;
 }
 
 
@@ -220,6 +244,14 @@ aside ul li a{
   transform: scale(1.1);
 }
 
+@media only screen and (min-width: 45em) {  /* 720px */
+  #img{
+    object-position: center 35%;
+    width:100vw;
+    height:60vh;
+  }
+}
+
 #image{
   position: absolute;
   width:100%;
@@ -278,961 +310,6 @@ path{
   z-index: 1000;
   cursor: pointer;
 }
-
-
-
-
-
-
-/* This is the code for the main grid image section of the website */
-
-.grid-wrapper {
-  display: -ms-grid;
-  display: grid;
-  width: 100%;
-  height: 110vh;
-  margin-bottom: 20vh;
-  -ms-grid-rows: 100px 200px 200px 200px;
-  -ms-grid-columns: 1em;
-  grid-template: 100px repeat(3, 200px) /repeat(3, 1fr);
-  grid-gap: 2rem;
-  padding: 16px;
-  margin-top: 8vh;
-  margin-left: -1.15vw;
-}
-
-.button2{
-  color:#77FF03;
-  position:absolute;
-  text-transform:uppercase;
-  z-index:6000;
-  top: 10%;
-  left:90%;
-  padding:1% 1%;
-  background:transparent;
-  outline:none;
-  border: 1px solid #77FF03;
-  display:none;
-}
-button{
-  color:#77FF03;
-  position:absolute;
-  text-transform:uppercase;
-  z-index:6000;
-  padding:1% 1%;
-  background:transparent;
-  outline:none;
-  border: 1px solid #77FF03;
-  display:none;
-}        
-
-button,button:after{
-  -webkit-transition: all 2s;
-  transition: all 2s;
-}
-
-button:hover{
-  color:white;
-  
-}
-button:before,
-button:after {
-  background: #77FF03;
-  content: '';
-  position: absolute;
-  z-index: -1;
-}
-
-button:after {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 0;
-}
-
-button:hover:after {
-  width: 100%;
-}
-
-
-.btn-1{
-  position:absolute;
-  left:29%;
-  top: 22%;
-}
-
-.btn-2{
-  position:absolute;
-  padding:.5% .5%;
-  top: 12%;
-  left: 80%;
-}
-
-.btn-3{
-  position:absolute;
-  padding:1% 1%;
-  left:80%;
-  top: 30%;
-}
-
-.btn-4{
-  position:absolute;
-  padding:1% 1%;
-  left:13%;
-  top: 53%;
-}
-
-.btn-5{
-  position:absolute;
-  padding:1% 1%;
-  top: 76%;
-  left:13.5%;
-}
-
-.btn-6{
-   position:absolute;
-   left:65%;
-   top: 65%;
-}
-
-.btn-7{
-  position:absolute;
-  left:31%;
-  top: 81%;
-}
-
-.btn-8{
-  position:absolute;
-  padding:1% 1%;
-  left:80%;
-  top: 72%;
-}
-
-.btn-9{
-  position:absolute;
-  padding:1% 1%;
-  left:80%;
-  top: 90%;
-}
-
-.grid-item:hover{
-  background:black;
-  z-index:2000;
-}
-
-.grid-1:hover > #Subscription_Pop_Up{
-  position:absolute;
-  z-index:9000;
-}
-
-
-
-.grid-item:hover > img{
-  opacity:0.3;
-}
-.grid-item:hover > button{
-  display:block;
-}
-
-
-.grid-item:hover > .heading_1 {
-   visibility:hidden;
-}
-
-.grid-item:hover > .heading_2 {
-   visibility:hidden;
-}
-
-
-.grid-1:hover:before{
-  content: "Blank Canvas";
-  font-family:Montserrat;
-  z-index:6000;
-  left:4%;
-  color:white;
-  font-size:30px;
-  position:absolute;
-  top: 36%;
-}
-.grid-2:hover:before{
-  content: "Uriage";
-  font-family:Montserrat;
-  z-index:8000;
-  left:69%;
-  color:white;
-  font-size:20px;
-  position:absolute;
-  top: 15%;
-}
-
-.grid-3:hover:before{
-  content: "Revive Active";
-  font-family:Montserrat;
-  z-index:8000;
-  left:69%;
-  color:white;
-  font-size:25px;
-  position:absolute;
-  top: 37%;
-}
-
-.grid-4:hover:before{
-  content: "Miss Fit";
-  font-family:Montserrat;
-  z-index:8000;
-  left: 3%;
-  color:white;
-  font-size:25px;
-  position:absolute;
-  top: 60%;
-}
-
-.grid-5:hover:before{
-  content: "Pestle + Mortar";
-  font-family:Montserrat;
-  z-index:8000;
-  left: 3%;
-  color:white;
-  font-size:25px;
-  position:absolute;
-  top: 83%;
-}
-
-.grid-6:hover:before{
-  content: "Sosu";
-  font-family:Montserrat;
-  z-index:8000;
-  left:38%;
-  color:white;
-  font-size:25px;
-  position:absolute;
-  top: 83%;
-}
-
-
-
-
-
-
-.heading_1{
-  text-align:center;
-  position:relative;
-  top:45%;
-  left:-2%;
-  z-index: 1000;
-  color:#77FF03;
-  font-family:Montserrat;
-  
-}
-
-.heading_2{
-  position:relative;
-  left: 45%;
-  top:-75%;
-  z-index: 1000;
-  color:#77FF03;
-  font-family:Montserrat;
-}
-
-.heading_3{
-  position:relative;
-  margin-top:7%;
-  z-index: 1000;
-  font-family:Montserrat;
-}
-.heading_6{
-  position:relative;
-  margin-top:10%;
-  margin-left: 5%;
-  z-index: 1000;
-  font-family:Montserrat;
-}
-
-img{
-  position:relative;
-  width:100%;
-  height:100%;
-  z-index:10;
-}
-
-.grid-1 {
-  -ms-grid-column-span: 4;
-  -ms-grid-column: 1;
-  grid-column: 1 /span 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-row: 1;
-  grid-row: 1 /span 2;
-}
-
-.grid-2 {
-  background: red;
-  -ms-grid-column: 5;
-}
-
-.grid-3 {
-  background: yellow;
-  -ms-grid-column: 5;
-  -ms-grid-column-span: 1;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 1;
-}
-
-.grid-4 {
-  background: orange;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-}
-
-
-.grid-5 {
-  background: green;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 1;
-}
-
-.grid-6 {
-  background: pink;
-  -ms-grid-column-span: 2;
-  -ms-grid-column: 4;
-  grid-column: 2 /span 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-row: 3;
-  grid-row: 3 /span 2;
-}
-
-
-    
-/* this is the code to end the main grid image section of the website */
-
-/* this is the code for the subsections of the website health skincare beauty */
-
-.Section_Height{
-  min-height:95vh;
-}
-
-#Skincare_Section{
-    width: 19vw;
-    padding-top: 4vh;
-    margin-top: 8vh;
-    padding-bottom: 10vh; 
-    background:lightcoral;
-    float:left;
-
-}
-
-#Health_Section{
-	width: 19vw;
-     padding-top: 4vh;
-    margin-top: 8vh;
-   padding-bottom: 10vh; 
-  	background:lightblue;
-    float: right;
-    min-height:40vh;
-
-}
-
-
-#Beauty_Section{
-    width: 19vw;
-    padding-top: 4vh;
-    margin-top: 8vh;
-    padding-bottom: 10vh;
-    background: yellowgreen;
-    float: left;
-
-    
-}
-
-#Medicines_Section{
-    float:right;
-    width: 19vw;
-     padding-top: 4vh;
-    margin-top: 8vh;
-    padding-bottom: 10vh; 
-    min-height:40vh;
-    background:lightsalmon;
-}
-
-
-
-#Skincare_Section_Heading , #Health_Section_Heading , #Beauty_Section_Heading , #Medicines_Section_Heading{
-  font-family:dosis;
-  text-align: center ;
-}
-#Skincare_Section_Image{
-  height:30%;
-  width:60%;
-  margin-top:5vh;
-  margin-left: 3vw;
-  
- 
-}
-
-#Health_Section_Image{
-height:30%;
-  width:62%;
-  margin-top:5vh;
-  margin-left: 4vw;
-
-}
-#Beauty_Section_Image{
-
-height:30%;
-  width:60%;
-  margin-top:5vh;
-  margin-left: 4vw;
-
-}
-
-#Medicines_Section_Image{
-  height:30%;
-  width:60%;
-  margin-top:5vh;
-  margin-left: 4vw;
-}
-
-
-
-#Skincare_Products_Link {
-  display:block;
-  margin-top:5vh;
-  text-decoration-line: underline; 
-  -webkit-text-decoration-line: underline;
-  text-decoration-color: #77FF03;
-  -webkit-text-decoration-color:#77FF03; 
-  font-size: 20px;
-  font-family: montserrat;
-    text-align: center ;
-}
-
-#Health_Products_Link {
-  display:block;
-  margin-top:5vh;
-  text-decoration-line: underline; 
-  -webkit-text-decoration-line: underline;
-  text-decoration-color: #77FF03;
-  -webkit-text-decoration-color:#77FF03; 
-  font-size: 20px;
-  font-family: montserrat;
-    text-align: center ;
-}
-#Beauty_Products_Link {
-    display:block;
-    margin-top:5vh;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-color: #77FF03;
-  -webkit-text-decoration-color:#77FF03; 
-  font-size: 20px;
-  font-family: montserrat;
-    text-align: center ;
-}
-#Medicines_Products_Link {
-  margin-top:5vh;
-  display:block;
-  text-decoration-line: underline;
-  -webkit-text-decoration-line: underline;
-  text-decoration-color: #77FF03;
-  -webkit-text-decoration-color:#77FF03; 
-  font-size: 20px;
-  font-family: montserrat;
-  text-align: center ;
-}
-
-#Skincare_Section ul,#Health_Section ul, #Beauty_Section ul, #Medicines_Section ul {
-  margin-top: 10vh;
-  margin-left: 1vw;
-  width: 100%;
-  background: transparent;
-
-}
-#Skincare_Section ul:hover li a{
-  color:none;
-  background: transparent;
-}
-
-#Skincare_Section ul li,#Health_Section ul li, #Beauty_Section ul li, #Medicines_Section ul li {
-  display:block;
-  width:100%;
-  margin-top: -14%; 
-  margin-left: -5%;
-  border: none;
-
-}
-
-#Skincare_Section ul li a,#Health_Section ul li a, #Beauty_Section ul li a, #Medicines_Section ul li a{
-  display: block;
-  width:100%;
-  left:-5%;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  font-family: quicksand;
-  font-size: 20px;
-
-}
-
-#Skincare_Section ul li a:hover,#Health_Section ul li a:hover, #Beauty_Section ul li a:hover, #Medicines_Section ul li a:hover{
-  color: #77FF03;
-  background: transparent;
-}
-
-.star_left,.tags_left,.martini_left,.ad_left {
-  margin-right: 1vw;
-}
-.star_right,.tags_right,.martini_right,.ad_right {
-  margin-left: 1vw;
-}
-
-
-
-.fa-glass-martini{
-  color:#26C6DA;
-}
-
-
-.fa-tags{
-  color:white;
-}
-
-.fa-audio-description{
-  color:white;
-}
-
-
-
-
-.Most_Popular_Section_Background{
-  background:#E91E63;
-  float:left;
-  margin-top:-8vh;
-  
-  
-}
-
-#Most_Popular_Section_Heading{
-  color: #E91E63;
-  border-radius: 15px;
-  margin-top: 2vh;
-  width: 30vw;
-  margin-left: 5vw;
-  background: white;
-  font-family: Dosis;
-  text-align: center;
-  font-size: 32px;
-}
-    
-
-
-#Most_Popular_Section_Sub1{
-    width:17vw;
-    height: 15vh;
-    margin-top: 5vh;
-    padding-bottom:35vh;
-    margin-left: 2.5vw;
-  background:white;
-  border-radius:15px;
-  float:left;
-
-
-}
-
-#Most_Popular_Section_Sub2{
-	width:17vw;
-    height: 15vh;
-    margin-top: 5vh;
-    margin-right: 2.5vw;
-    padding-bottom:35vh;
-  background:white;
-  border-radius:15px;
-  float:right;
-
-
-}
-#Most_Popular_Section_Sub3{
-	width:17vw;
-    height: 15vh;
-    margin-top: 5vh;
-    margin-left: 2.5vw;
-    padding-bottom:35vh;
-  	background:white;
-  	float:left;
-    border-radius:15px;
-    z-index:-3000000;
-  
-
-}
-
-#Most_Popular_Tag {
-  border-radius: 15px;
-  font-size: 1.1em;
-  background: #E91E63;
-  color: white;
-  width: 15vw;
-  height: 4vh;
-  float: left;
-  text-align: center;
-  margin-top: 1.05vh;
-  margin-left: 1vw;
-  font-family: dosis;
-  position: relative;
-  z-index: 889;
-  text-transform: uppercase;
-}
-
-
-#Most_Popular_Section_Sub4{
-   height: 15vh;
-    margin-top: 5vh;
-    padding-bottom:35vh;
-	width:17vw;
-    margin-right: 2.5vw;
-  background:white;
-  float:right;
-  border-radius:15px;
-
-
-
-}
-
-#Most_Popular_Section_Sub5{
-	height: 15vh;
-  float: left;
-	width:17vw;
-    padding-bottom:35vh;
-    margin-top: 5vh;
-    margin-left: 2.5vw;
-  background:white;
-    margin-bottom: 5vh;
-  border-radius:15px;
-
-
-}
-#Most_Popular_Section_Sub6{
-	float: right;
-	width:17vw;
-    padding-bottom:35vh;
-    height: 15vh;
-    margin-right: 2.5vw;
-   margin-top: 5vh;
-  background:white;
-
-  border-radius:15px;
-
-
-}
-
-#Most_Popular_Section_Sub1_Image,#Most_Popular_Section_Sub2_Image,#Most_Popular_Section_Sub3_Image,#Most_Popular_Section_Sub4_Image,#Most_Popular_Section_Sub5_Image,#Most_Popular_Section_Sub6_Image{
-	min-width: 10vw;
-    min-height: 35vh;
-    margin-top: 2vh;
-}
-
-#Most_Popular_Section_Sub1_Image,#Most_Popular_Section_Sub2_Image,#Most_Popular_Section_Sub3_Image,#Most_Popular_Section_Sub4_Image,#Most_Popular_Section_Sub5_Image,#Most_Popular_Section_Sub6_Image
-  {
-  margin-top: -2vh;
-  z-index:0;
-}
-
-#Most_Popular_Section_Sub1_Product,#Most_Popular_Section_Sub2_Product,#Most_Popular_Section_Sub3_Product,#Most_Popular_Section_Sub4_Product,#Most_Popular_Section_Sub5_Product,#Most_Popular_Section_Sub6_Product{
- 
-  font-size:1em;
-  text-align: center;
-  font-family: dosis;
-  z-index:22;
-}
-#Most_Popular_Section_Sub1_Price,#Most_Popular_Section_Sub2_Price,#Most_Popular_Section_Sub3_Price,#Most_Popular_Section_Sub4_Price,#Most_Popular_Section_Sub5_Price,#Most_Popular_Section_Sub6_Price{
- 
-
-  text-align: center;
-  font-size:.7em;
-
-}
-
-
-  
-
-
-
-.Editors_Picks_Section_Background{
-  background:#77FF03;
-  float: right;
-  
-}
-
-#Editors_Picks_Section_Heading{
-  color: #77FF03;
-  border-radius: 15px;
-  margin-top: 2vh;
-  width: 30vw;
-  margin-left: 5vw;
-  background: white;
-  font-family: Dosis;
-  text-align: center;
-  font-size: 32px;
-}
-
-#Editors_Picks_Tag{
-  border-radius: 15px;
-  font-size: 1.1em;
-  background: #77FF03;
-  color: white;
-  width: 15vw;
-  height: 4vh;
-  float: left;
-  text-align: center;
-  margin-top: 1.05vh;
-  margin-left: 1vw;
-  font-family: dosis;
-  position: relative;
-  z-index: 889;
-  text-transform: uppercase;
-  
-}
-
-#Editors_Picks_Section_Sub1{
-  width:17vw;
-    height: 15vh;
-    margin-top: 5vh;
-    padding-bottom:35vh;
-    margin-left: 2.5vw;
-  background:white;
-  border-radius:15px;
-  float:left;
-  
-
-
-}
-
-#Editors_Picks_Section_Sub2{
-  width:17vw;
-    height: 15vh;
-    margin-top: 5vh;
-    margin-right: 2.5vw;
-    padding-bottom:35vh;
-  background:white;
-  border-radius:15px;
-  float:right;
-
-
-}
-#Editors_Picks_Section_Sub3{
- width:17vw;
-    height: 15vh;
-    margin-top: 5vh;
-    margin-left: 2.5vw;
-    padding-bottom:35vh;
-  	background:white;
-  	float:left;
-  	border-radius:15px;
-    
-
-}
-#Editors_Picks_Section_Sub4{
-  height: 15vh;
-    margin-top: 5vh;
-    padding-bottom:35vh;
-	width:17vw;
-    margin-right: 2.5vw;
-  background:white;
-  float:right;
-  border-radius:15px;
-
-
-}
-
-#Editors_Picks_Section_Sub5{
- height: 15vh;
-  float: left;
-	width:17vw;
-    padding-bottom:35vh;
-    margin-top: 5vh;
-    margin-left: 2.5vw;
-  background:white;
-    margin-bottom: 5vh;
-  border-radius:15px;
-
-
-}
-#Editors_Picks_Section_Sub6{
-  float: right;
-	width:17vw;
-    padding-bottom:35vh;
-    height: 15vh;
-    margin-right: 2.5vw;
-   margin-top: 5vh;
-  background:white;
-
-  border-radius:15px;
-
-
-}
-
-#Editors_Picks_Section_Sub1_Image,#Editors_Picks_Section_Sub2_Image,#Editors_Picks_Section_Sub3_Image,#Editors_Picks_Section_Sub4_Image,#Editors_Picks_Section_Sub5_Image,#Editors_Picks_Section_Sub6_Image{
-    min-width: 10vw;
-    min-height: 35vh;
-    margin-top: 2vh;
-    
-}
-
-#Editors_Picks_Section_Sub1_Image,#Editors_Picks_Section_Sub2_Image,#Editors_Picks_Section_Sub3_Image,#Editors_Picks_Section_Sub4_Image,#Editors_Picks_Section_Sub5_Image,#Editors_Picks_Section_Sub6_Image{
-  z-index:0;
-}
-
-#Editors_Picks_Section_Sub1_Product,#Editors_Picks_Section_Sub2_Product,#Editors_Picks_Section_Sub3_Product,#Editors_Picks_Section_Sub4_Product,#Editors_Picks_Section_Sub5_Product,#Editors_Picks_Section_Sub6_Product{
-  font-size:1em;
-  text-align: center;
-  font-family: dosis;
-  z-index:222222;
-}
-#Editors_Picks_Section_Sub1_Price,#Editors_Picks_Section_Sub2_Price,#Editors_Picks_Section_Sub3_Price,#Editors_Picks_Section_Sub4_Price,#Editors_Picks_Section_Sub5_Price,#Editors_Picks_Section_Sub6_Price{
-  text-align: center;
-  font-size:.7em;
-}
-
-
-
-.Popular_Choices_Section_Background{
-  background: #29B6F6;
-    padding-top: 0vh;
-    float: left;
-    margin-top: -8vh;
-    padding: 4% 0% 
-  
-  
-}
-
-#Popular_Choices_Section_Heading{
-    color: #29B6F6;
-    border-radius: 15px;
-    width: 30vw;
-    margin-left: 28vw;
-    margin-bottom: 2vh;
-    margin-top: -3vh;
-    background: white;
-    font-family: Dosis;
-    text-align: center;
-    font-size: 32px;
-    
-}
-
-#Popular_Choices_Tag {
-  border-radius: 15px;
-  font-size: 1.1em;
-  background: #29B6F6;
-  color: white;
-  width: 15vw;
-  height: 4vh;
-  float: left;
-  text-align: center;
-  margin-top: 1.05vh;
-  margin-left: 1vw;
-  font-family: dosis;
-  position: relative;
-  z-index: 889;
-}
-
-#Popular_Choices_Section_Sub1{
-    width:17vw;
-    height: 15vh;
-    margin-top: 2vh;
-    padding-bottom:35vh;
-    margin-left: 6vw;
-    margin-right: 2vw;
-  background:white;
-  border-radius:15px;
-  float:left;
-
-
-}
-#Popular_Choices_Section_Sub2{
-	width:17vw;
-    height: 15vh;
-    margin-top: 2vh;
-    margin-right: 2vw;
-    padding-bottom:35vh;
-  background:white;
-  border-radius:15px;
-  float:left;
-
-
-}
-#Popular_Choices_Section_Sub3{
-	width:17vw;
-    height: 15vh;
-    margin-top: 2vh;
-    margin-right: 2vw;
-    padding-bottom:35vh;
-  	background:white;
-  	float:left;
-    border-radius:15px;
-    z-index:-3000000;
-  
-
-}
-
-#Popular_Choices_Section_Sub4{
-   height: 15vh;
-    margin-top: 2vh;
-    padding-bottom:35vh;
-	width:17vw;
-  margin-right: 2vw;
-  background:white;
-  float:left;
-  border-radius:15px;
-
-
-
-}
-
-#Popular_Choices_Section_Sub1_Image,#Popular_Choices_Section_Sub2_Image,#Popular_Choices_Section_Sub3_Image,#Popular_Choices_Section_Sub4_Image{
-	min-width: 10vw;
-    min-height: 35vh;
-    margin-top: 2vh;
-}
-
-#Popular_Choices_Section_Sub1_Image,#Popular_Choices_Section_Sub2_Image,#Popular_Choices_Section_Sub3_Image,#Popular_Choices_Section_Sub4_Image
-  {
-    height: 33vh;
-    width: 5vw;
-    margin-left: 3vw;
-}
-
-#Popular_Choices_Section_Sub1_Product,#Popular_Choices_Section_Sub2_Product,#Popular_Choices_Section_Sub3_Product,#Popular_Choices_Section_Sub4_Product{
- 
-  font-size:1em;
-  text-align: center;
-  font-family: dosis;
-  z-index:22;
-}
-#Popular_Choices_Section_Sub1_Price,#Popular_Choices_Section_Sub2_Price,#Popular_Choices_Section_Sub3_Price,#Popular_Choices_Section_Sub4_Price{
- 
-
-  text-align: center;
-  font-size:.7em;
-
-}
-
-
-.fa-medkit{
-  color: white;
-}
-
-.medkit_right{
-  margin-left: 1vw;
-}
-
-.medkit_left{
-  margin-right: 1vw;
-}
-
-
-
-
 
 
 .Stay_In_The_Know_Section{
@@ -1317,19 +394,9 @@ div#chatra{
 }
 
 
-
-
-
 .row.Mobile_Footer{
   display: none !important;
 }
-
-
-
-
-
-
-
 
 
 
@@ -1392,101 +459,27 @@ div#chatra{
 
 
   #slider{
-    margin-left: -2vw;
-    margin-bottom: -21vh;
+    margin-bottom: -36vh;
     top: 18vh;
   }
-
-
-  .row.Section_Height {
-    max-width: 95vh;
-    width: 100vh;
-    margin-bottom: -30vh;
-    display: none;
-}
-
-.col-3.Section_Height {
-  width: 75vw;
-}
-
-  
-
-  #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
-    margin-left: 18vw;
-    min-width: 14rem;
-    max-width: 200rem;
-    width: 15rem;
-    float: none;
-  }
-
-  #Skincare_Section,#Health_Section,#Beauty_Section,#Medicines_Section{
-    display: none;
-  }
-
-   
-
-
-
-  .row.Most_Popular_Section {
-    
-    width: 105vw;
-}
-
-.row.Most_Popular_Section_Background{
-  margin-top: -20vh;
-}
-
-#Most_Popular_Section_Sub1_Image, #Most_Popular_Section_Sub2_Image, #Most_Popular_Section_Sub3_Image, #Most_Popular_Section_Sub4_Image, #Most_Popular_Section_Sub5_Image, #Most_Popular_Section_Sub6_Image {
-  min-width: 10vw;
-  min-height: 35vh;
-  height: 39vh;
-  margin-top: 2vh;
-}
-
-
-
-
-
-
-    #Most_Popular_Tag,#Editors_Picks_Tag{
-      min-width: 43vw;
-      font-size: 1em;
-    }
 
     #Popular_Choices_Tag{
       min-width: 40vw;
       font-size: 1em;
     }
 
-    #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6 {
-      min-width: 45vw;
-      min-height: 25vh;
-    }
 
-    #Editors_Picks_Section_Sub1, #Editors_Picks_Section_Sub2, #Editors_Picks_Section_Sub3, #Editors_Picks_Section_Sub4, #Editors_Picks_Section_Sub5, #Editors_Picks_Section_Sub6 {
-      min-width: 45vw;
-      min-height: 25vh;
-    }
-
-    #Editors_Picks_Section_Sub1_Image, #Editors_Picks_Section_Sub2_Image, #Editors_Picks_Section_Sub3_Image, #Editors_Picks_Section_Sub4_Image, #Editors_Picks_Section_Sub5_Image, #Editors_Picks_Section_Sub6_Image{
-      height: 20vh;
-      left: 10vw;
-      width: 27vw;
-    }
-
-    #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
+   #Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
       min-width: 75vw;
       margin-left: 12vw;
       
     }
 
-    #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Popular_Choices_Section_Heading{
+   #Popular_Choices_Section_Heading,#Popular_Choices_Section_Heading{
       font-size: 28px;
     }
 
-    #Editors_Picks_Section_Background{
-      margin-top: 10vh;
-    }
+    
 
 
     #Stay_In_The_Know_Section_Heading{
@@ -1597,13 +590,6 @@ div#chatra{
   
   
   
-    #slider{
-      margin-left: -2vw;
-      margin-bottom: 3vh;
-      top: 18vh;
-    }
-  
-  
     .row.Section_Height {
       max-width: 95vh;
       width: 100vh;
@@ -1614,109 +600,12 @@ div#chatra{
   .col-3.Section_Height {
     width: 75vw;
   }
-  
-    
-  
-    #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
-      margin-left: 18vw;
-      min-width: 14rem;
-      max-width: 200rem;
-      width: 15rem;
-      float: none;
-    }
-  
-    #Skincare_Section,#Health_Section,#Beauty_Section,#Medicines_Section{
-      display: none;
-    }
-  
-     
-  
-  
-  
-    .row.Most_Popular_Section {
-      
-      width: 105vw;
-  }
-  
-  .row.Most_Popular_Section_Background{
-    margin-top: -20vh;
-  }
-  
-  #Most_Popular_Section_Sub1_Image, #Most_Popular_Section_Sub2_Image, #Most_Popular_Section_Sub3_Image, #Most_Popular_Section_Sub4_Image, #Most_Popular_Section_Sub5_Image, #Most_Popular_Section_Sub6_Image {
-    min-width: 10vw;
-    min-height: 35vh;
-    height: 35vh;
-    width: 32vw;
-    margin-left: 6vh;
-  }
-  
-  
-  
-  
-  
-  
-      #Most_Popular_Tag,#Editors_Picks_Tag{
-        min-width: 43vw;
-        font-size: 1em;
-      }
-  
-      #Popular_Choices_Tag{
-        min-width: 40vw;
-        font-size: 1em;
-      }
-  
-      #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6 {
-        min-width: 45vw;
-        min-height: 25vh;
-      }
-  
-      #Editors_Picks_Section_Sub1, #Editors_Picks_Section_Sub2, #Editors_Picks_Section_Sub3, #Editors_Picks_Section_Sub4, #Editors_Picks_Section_Sub5, #Editors_Picks_Section_Sub6 {
-        min-width: 45vw;
-        min-height: 25vh;
-      }
 
-      #Editors_Picks_Section_Sub1_Image, #Editors_Picks_Section_Sub2_Image, #Editors_Picks_Section_Sub3_Image, #Editors_Picks_Section_Sub4_Image, #Editors_Picks_Section_Sub5_Image, #Editors_Picks_Section_Sub6_Image{
-        height: 20vh;
-        left: 10vw;
-        width: 21vw;
-      }
-  
-      #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
-        min-width: 75vw;
-        margin-left: 12vw;
-        
-      }
-  
-      #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Popular_Choices_Section_Heading{
-        font-size: 28px;
-      }
-  
-      #Editors_Picks_Section_Background{
-        margin-top: 10vh;
-      }
-  
   
       #Stay_In_The_Know_Section_Heading{
         margin-top:2vh;
       }
   
-      .row.Popular_Choices_Section {
-        width: 101vw;
-        margin-left: 0vw;
-    }
-  
-      #Popular_Choices_Section_Heading{
-        margin-left: 9vw;
-        margin-top: 2vh;
-        min-width: 75vw;
-        
-      }
-  
-      #Popular_Choices_Section_Sub1, #Popular_Choices_Section_Sub2, #Popular_Choices_Section_Sub3, #Popular_Choices_Section_Sub4 {
-        min-width: 42vw;
-        min-height: 25vh;
-        margin: 1vh 2.06vh 1vh 1vh;
-    }
   
     #eapps-instagram-feed-1{
       min-width: 90vw !important;
@@ -1757,10 +646,6 @@ div#chatra{
   }
   
   
-    #myBtn,.grid-wrapper{
-      display: none !important;
-  
-    }
     
     #previous,#next{
       top:20%;
@@ -1797,9 +682,7 @@ div#chatra{
   
   
     #slider{
-      margin-left: -2vw;
-      margin-bottom: 22vh;
-      top: 18vh;
+      margin-bottom: -8vh;
     }
   
   
@@ -1813,94 +696,15 @@ div#chatra{
   .col-3.Section_Height {
     width: 75vw;
   }
-  
-    
-  
-    #Skincare_Section.full-width,#Health_Section,#Beauty_Section,#Medicines_Section{
-      margin-left: 18vw;
-      min-width: 14rem;
-      max-width: 200rem;
-      width: 15rem;
-      float: none;
-    }
-  
-    #Skincare_Section,#Health_Section,#Beauty_Section,#Medicines_Section{
-      display: none;
-    }
-  
-     
-  
-  
-  
-    .row.Most_Popular_Section {
-      width: 97vw;
 
-  }
 
-  .col-6.Most_Popular_Section_Background {
-    width: 100%;
-  }
   
-  
-  .row.Most_Popular_Section_Background{
-    margin-top: -20vh;
-  }
-  
-  #Most_Popular_Section_Sub1_Image, #Most_Popular_Section_Sub2_Image, #Most_Popular_Section_Sub3_Image, #Most_Popular_Section_Sub4_Image, #Most_Popular_Section_Sub5_Image, #Most_Popular_Section_Sub6_Image {
-    min-width: 10vw;
-    min-height: 35vh;
-    height: 35vh;
-    width: 32vw;
-    margin-left: 6vh;
-  }
-  
-  
-  
-  
-  
-  
-      #Most_Popular_Tag,#Editors_Picks_Tag{
-        min-width: 43vw;
-        font-size: 1em;
-      }
-  
-      #Popular_Choices_Tag{
-        min-width: 40vw;
-        font-size: 1em;
-      }
-  
-      #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6 {
-        min-width: 45vw;
-        min-height: 25vh;
-      }
-
-      .col-6.Editors_Picks_Section_Background {
-        width: 100%;
-      }
-  
-      #Editors_Picks_Section_Sub1, #Editors_Picks_Section_Sub2, #Editors_Picks_Section_Sub3, #Editors_Picks_Section_Sub4, #Editors_Picks_Section_Sub5, #Editors_Picks_Section_Sub6 {
-        min-width: 45vw;
-        min-height: 25vh;
-      }
-
-      #Editors_Picks_Section_Sub1_Image, #Editors_Picks_Section_Sub2_Image, #Editors_Picks_Section_Sub3_Image, #Editors_Picks_Section_Sub4_Image, #Editors_Picks_Section_Sub5_Image, #Editors_Picks_Section_Sub6_Image{
-        height: 20vh;
-        left: 10vw;
-        width: 21vw;
-      }
-  
-      #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
+ 
+ 
+    #Stay_In_The_Know_Section_Heading{
         min-width: 75vw;
         margin-left: 12vw;
         
-      }
-  
-      #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Popular_Choices_Section_Heading{
-        font-size: 28px;
-      }
-  
-      #Editors_Picks_Section_Background{
-        margin-top: 10vh;
       }
   
   
@@ -1908,23 +712,6 @@ div#chatra{
         margin-top:2vh;
       }
   
-      .row.Popular_Choices_Section {
-        width: 101vw;
-        margin-left: 0vw;
-    }
-  
-      #Popular_Choices_Section_Heading{
-        margin-left: 12vw;
-        margin-top: 2vh;
-        min-width: 75vw;
-        
-      }
-  
-      #Popular_Choices_Section_Sub1, #Popular_Choices_Section_Sub2, #Popular_Choices_Section_Sub3, #Popular_Choices_Section_Sub4 {
-        min-width: 42vw;
-        min-height: 25vh;
-        margin: 1vh 2.06vh 1vh 4vh;
-    }
   
     #eapps-instagram-feed-1{
       min-width: 90vw !important;
@@ -2002,12 +789,6 @@ div#chatra{
     }
   
   
-  
-    #slider{
-      margin-bottom: 42vh;
-    }
-  
-  
     .row.Section_Height {
       max-width: 95vh;
       width: 100vh;
@@ -2032,132 +813,24 @@ div#chatra{
     #Skincare_Section,#Health_Section,#Beauty_Section,#Medicines_Section{
       display: none;
     }
-  
-     
-  
-  
-  
-    .row.Most_Popular_Section {
-      width: 97vw;
-
-  }
-
-  #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6{
-    min-width: 32vw;
-  }
-
-  #Most_Popular_Section_Sub1{
-    margin-left: 10.5vw;
-  }
-
-  #Most_Popular_Section_Sub2{
-    margin-right: 9.5vw;
-  }
-
-  #Most_Popular_Section_Sub3{
-    margin-left: 10.5vw;
-  }
-
-  #Most_Popular_Section_Sub4{
-    margin-right: 9.5vw;
-  }
-
-  #Most_Popular_Section_Sub5{
-    margin-left: 10.5vw;
-  }
-
-  #Most_Popular_Section_Sub6{
-    margin-right: 9.5vw;
-  }
-
-
-  .col-6.Most_Popular_Section_Background {
-    width: 95%;
-  }
-  
-  
-  .row.Most_Popular_Section_Background{
-    margin-top: -20vh;
-  }
-  
-  #Most_Popular_Section_Sub1_Image, #Most_Popular_Section_Sub2_Image, #Most_Popular_Section_Sub3_Image, #Most_Popular_Section_Sub4_Image, #Most_Popular_Section_Sub5_Image, #Most_Popular_Section_Sub6_Image {
-    min-width: 10vw;
-    min-height: 35vh;
-    height: 35vh;
-    width: 22vw;
-    margin-left: 6vh;
-  }
-  
-  
-  
-  
-  
-  
-      #Most_Popular_Tag,#Editors_Picks_Tag{
-        min-width: 30vw;
-        font-size: 1em;
-      }
+ 
   
       #Popular_Choices_Tag{
         min-width: 33vw;
         font-size: 1em;
       }
 
-      .col-6.Editors_Picks_Section_Background {
-        width: 95%;
-      }
-  
-      #Editors_Picks_Section_Sub1, #Editors_Picks_Section_Sub2, #Editors_Picks_Section_Sub3, #Editors_Picks_Section_Sub4, #Editors_Picks_Section_Sub5, #Editors_Picks_Section_Sub6 {
-        min-width: 32vw;
-      }
-
-      #Editors_Picks_Section_Sub1_Image, #Editors_Picks_Section_Sub2_Image, #Editors_Picks_Section_Sub3_Image, #Editors_Picks_Section_Sub4_Image, #Editors_Picks_Section_Sub5_Image, #Editors_Picks_Section_Sub6_Image{
-        height: 20vh;
-        left: 5vw;
-        width: 21vw;
-      }
-
-      #Editors_Picks_Section_Sub1{
-        margin-left: 10.5vw;
-      }
-    
-      #Editors_Picks_Section_Sub2{
-        margin-right: 9.5vw;
-      }
-    
-      #Editors_Picks_Section_Sub3{
-        margin-left: 10.5vw;
-      }
-    
-      #Editors_Picks_Section_Sub4{
-        margin-right: 9.5vw;
-      }
-    
-      #Editors_Picks_Section_Sub5{
-        margin-left: 10.5vw;
-      }
-    
-      #Editors_Picks_Section_Sub6{
-        margin-right: 9.5vw;
-      }
-
-
-
-  
-      #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
+     #Popular_Choices_Section_Heading,#Stay_In_The_Know_Section_Heading{
         min-width: 75vw;
         margin-left: 12vw;
         
       }
   
-      #Most_Popular_Section_Heading,#Editors_Picks_Section_Heading,#Popular_Choices_Section_Heading,#Popular_Choices_Section_Heading{
+     #Popular_Choices_Section_Heading,#Popular_Choices_Section_Heading{
         font-size: 28px;
       }
   
-      #Editors_Picks_Section_Background{
-        margin-top: 10vh;
-      }
-  
+     
   
       #Stay_In_The_Know_Section_Heading{
         margin-top:2vh;
@@ -2227,7 +900,6 @@ div#chatra{
   }
 
   #slider{
-    margin-bottom: 20vh;
     width: 82vw;
     height: 101vh;
     top: 6vh;
@@ -2236,110 +908,15 @@ div#chatra{
   }
 
   #status{
-    top: 631.484px;
+    top: 77% !important;
   }
 
   #previous, #next{
     top: 327.734px;
   }
-
-  .row.Most_Popular_Section{
-    width: 120vw;
-  }
-
   
-  .col-6.Most_Popular_Section_Background,.col-6.Editors_Picks_Section_Background{
-    width: 39%;
-    margin-right: 0vw;
-  }
-
-  #Most_Popular_Section_Sub1, #Most_Popular_Section_Sub2, #Most_Popular_Section_Sub3, #Most_Popular_Section_Sub4, #Most_Popular_Section_Sub5, #Most_Popular_Section_Sub6{
-    min-width: 20vw;
-  }
-
-  #Most_Popular_Tag, #Editors_Picks_Tag{
-    min-width: 17vw;
-  }
-
-  #Most_Popular_Section_Heading, #Editors_Picks_Section_Heading, #Popular_Choices_Section_Heading, #Stay_In_The_Know_Section_Heading{
-    min-width: 23vw;
-    margin-left: 8vw;
-  }
-
-  #Most_Popular_Section_Sub1_Image, #Most_Popular_Section_Sub2_Image, #Most_Popular_Section_Sub3_Image, #Most_Popular_Section_Sub4_Image, #Most_Popular_Section_Sub5_Image, #Most_Popular_Section_Sub6_Image{
-    min-width: 10vw;
-    width: 13vw;
-  }
-  #Most_Popular_Section_Sub1{
-    margin-left: 32px;
-  }
-  #Most_Popular_Section_Sub2{
-    margin-right: 32px;
-  }
-  #Most_Popular_Section_Sub3{
-    margin-left: 32px;
-  }
-  #Most_Popular_Section_Sub4{
-    margin-right: 32px;
-  }
-  #Most_Popular_Section_Sub5{
-    margin-left: 32px;
-  }
-  #Most_Popular_Section_Sub6{
-    margin-right: 32px;
-  }
-
-  #Editors_Picks_Section_Sub1, #Editors_Picks_Section_Sub2, #Editors_Picks_Section_Sub3, #Editors_Picks_Section_Sub4, #Editors_Picks_Section_Sub5, #Editors_Picks_Section_Sub6{
-    min-width: 19vw;
-  }
-
-  #Editors_Picks_Section_Sub1_Image, #Editors_Picks_Section_Sub2_Image, #Editors_Picks_Section_Sub3_Image, #Editors_Picks_Section_Sub4_Image, #Editors_Picks_Section_Sub5_Image, #Editors_Picks_Section_Sub6_Image{
-    left: 3vw;
-    width: 12vw;
-  }
-
-  #Editors_Picks_Section_Sub1{
-    margin-left: 32px;
-  }
-  #Editors_Picks_Section_Sub2{
-    margin-right: 32px;
-  }
-  #Editors_Picks_Section_Sub3{
-    margin-left: 32px;
-  }
-  #Editors_Picks_Section_Sub4{
-    margin-right: 32px;
-  }
-  #Editors_Picks_Section_Sub5{
-    margin-left: 32px;
-  }
-  #Editors_Picks_Section_Sub6{
-    margin-right: 32px;
-  }
-
-  #Popular_Choices_Section_Heading{
-    margin-left: 12vw;
-    min-width: 75vw;
-  }
-
-  #Popular_Choices_Section_Sub1, #Popular_Choices_Section_Sub2, #Popular_Choices_Section_Sub3, #Popular_Choices_Section_Sub4{
-    min-width: 15vw;
-    margin: 1vh 2.06vh 1vh 9vh;
-  }
-
-  #Popular_Choices_Section_Sub1_Image, #Popular_Choices_Section_Sub2_Image, #Popular_Choices_Section_Sub3_Image, #Popular_Choices_Section_Sub4_Image{
-    width: 11vw;
-    position: relative;
-    left: -5vw;
-  }
-
-  #Popular_Choices_Tag{
-    min-width: 14vw;
-  }
-
   #Stay_In_The_Know_Section_Heading{
     position: relative;
-    left: 24vw;
   }
 
   #facebook, #pinterest, #twitter, #instagram, #snapchat{
@@ -2364,9 +941,6 @@ div#chatra{
 }
 
 @media screen and (min-width:50em) {
-  #status{
-    top: 75%;
-  }
 
   #facebook,#pinterest,#twitter,#instagram,#snapchat{
     min-width: 10vw;
@@ -2374,24 +948,14 @@ div#chatra{
 
 }
 
-@media screen and (min-width:55em) {
-  #status{
-    top: 90%;
-  }
-}
 
 
 
 
 
 
-/* .grid-display [class^="col"] {
-    background: #FBCED1;
-    border: 1px solid #FE7880;
-    border-radius: 4px;
-    box-sizing: border-box;
-    text-align: center;
-} */
+
+
 
 
 

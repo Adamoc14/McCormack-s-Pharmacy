@@ -11,7 +11,6 @@ div#SearchWidget-1 {
 .Authorization_Links a{
     color:#000;
     font-family: montserrat;
-    /* font-size: 20px; */
     z-index: 999;
     text-decoration: none;
 
@@ -64,12 +63,6 @@ div#SearchWidget-1 {
     float:left;
 }
 
-
-
-
-/* This is the end of the  code for the header info in the top section of the header */
-
-
 /* This is the code for the icons in the top scetion of the header */
 
 #Social_Icon_Container .fa-facebook-f{
@@ -86,18 +79,12 @@ div#SearchWidget-1 {
 }
  /* This is the end of the  code for the icons in the top section of the header */
 
-/* This is the code for the dividing line to divide the header into two parts  */
-
-
-/* This is the code to end the dividing line to divide the header into two parts  */
-
-
 /* This is the code for the Middle Section of the header */
 
 
 
-.top-logo-and-tag a{
-	display: inline-block;
+.center a{
+    display: inline-block;
 	text-decoration: none;
 }
 
@@ -418,6 +405,12 @@ span.trustpilot {
         left: 4vw;
     }
 
+    .top-logo-and-tag a{
+        display: inline-block;
+        margin-top: -6vh;
+        text-decoration: none;
+    }
+
     span.col-2.cart {
         height: 5vh;
         margin-top: -6vh;
@@ -438,11 +431,11 @@ span.trustpilot {
 
 
     .Nav_Bar_Menu{
-        position: fixed;
+        position: absolute;
         min-width: 100vw;
         width: 100vw;
         min-height: 100vh;
-        height: 150vh;
+        height: 105vh;
         background:white;
         color:white;
         z-index:6000;
@@ -491,9 +484,15 @@ span.trustpilot {
 
     .Nav_Bar_Menu ul li{
         padding: 1%;
+        margin: 2vh;
+        background: white;
+        list-style:none;
+        width:90vw;
     }
     .Nav_Bar_Menu ul li a{
-        color:black;
+        color:#76FF03;
+        list-style:none;
+
     }
 
     .user{
@@ -625,10 +624,13 @@ html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default
         height: 0vh;
     }
 
+    .center a{
+        margin-top: -1vh;
+    }
     .top-logo-and-tag a img {
         width: 60%;
         top: -1vh;
-        left: 8vw;
+        margin-left: 8vw;
     }
 
     span.col-2.cart {
@@ -667,7 +669,8 @@ html#ecwid_html body#ecwid_body .ec-minicart--m .ec-minicart__icon .icon-default
       
     .top-logo-and-tag a img {
         left: -1vw;
-        top: -7vh;
+        top: -3.6vh;
+        margin-bottom:1vh;
         width: 71%;
         position: relative;
     }

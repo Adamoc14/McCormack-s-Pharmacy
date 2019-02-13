@@ -12,12 +12,479 @@
     <link rel="stylesheet" href="Resources/CSS/popup.css">
     <title>McCormacks | Home</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+    <script src="Resources/Javascript/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+    <style>
+
+            .Boxes{
+                display: flex;
+                max-width: 620px;
+                flex-wrap:wrap;
+            }
+
+
+             @media only screen and (min-width: 45em) {  /* 720px */
+                .Boxes{
+                    width: 100vw;
+                    margin:0 auto;
+                } 
+            }
+
+            @media screen and (min-width:80em){  /*1280px*/
+                .Boxes{
+                    max-width: 100vw;
+                    margin: 0 1.5vw 0;
+                } 
+            }
+
+            @media screen and (min-width:88.75em){  /*1420px*/
+                .Boxes{
+                    max-width: 100vw;
+                    margin: 0 6vw;
+                } 
+            }
+
+            .Most_Popular_Section{
+                display: flex;
+                max-width: 620px;
+                background:#E91E63;
+                flex-wrap:wrap;
+            }
+
+            
+
+            .Most_Popular_Section h1{
+                font-size: 20px;
+                text-align: center;
+                background: white;
+                color: #E91E63;
+                width: 50vw;
+                border-radius: 15px;
+                margin: 2vh auto;
+                font-family: Dosis;
+                
+            }
+
+             @media screen and (min-width:20em) { /*320px*/
+                .Most_Popular_Section h1{
+                    width: 100vw;
+                }
+            }
+
+            @media screen and (min-width:80em){  /*1280px*/
+                .Most_Popular_Section h1{
+                    width: 43vw;
+                }
+            }
+
+
+            .Most_Popular_Section_Sub{
+                margin: 2vw auto;
+                height: 39vh;
+                background: white;
+                border-radius: 15px;
+            }
+
+             @media screen and (min-width:20em) { /*320px*/
+                .Most_Popular_Section_Sub{
+                    width: 48vw;
+                    margin: 1vw;
+                }
+            }
+            @media only screen and (min-width: 45em) {  /* 720px */
+                .Most_Popular_Section_Sub{
+                    width: 41vw;
+                }
+            }
+
+            @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Most_Popular_Section_Sub{
+                    width: 20vw;
+                }
+            }
+
+            @media screen and (min-width:80em){  /*1280px*/
+                .Most_Popular_Section_Sub{
+                margin: 2vw auto;
+                }
+            }
+
+            .Most_Popular_Section_Sub #tag {
+                background: #E91E63;
+                width: 15vw;
+                margin: 1vh auto;
+                text-align: center;
+                border-radius: 15px;
+                color: white;
+            }
+            @media screen and (min-width:20em) { /*320px*/
+                .Most_Popular_Section_Sub #tag{
+                    margin:1vh auto;
+                    width:30vw;
+
+                }
+            }
+            @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Most_Popular_Section_Sub #tag{
+                    width: 16vw;
+                }
+            }
+
+            
+            
+
+            .Most_Popular_Section_Sub h2, .Most_Popular_Section_Sub article, .Most_Popular_Section_Sub #tag {
+                display: flex;
+                font-size: 12px;
+                justify-content: center;
+                font-family: 'Lato', Helvetica, sans-serif;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Most_Popular_Section_Sub h2{
+                    font-size: 10px;
+
+                }
+            }
+
+            .Most_Popular_Section_Sub img{
+                width: 20vw;
+                height: 26vh;
+                border-radius: 15px;
+            }
+            
+            @media screen and (min-width:20em) { /*320px*/
+                .Most_Popular_Section_Sub img{
+                    margin: 0 1vw;
+                    width: 40vw;
+
+                }
+            }
+
+            @media only screen and (min-width: 45em) {  /* 720px */
+                .Most_Popular_Section_Sub img{
+                    width: 38vw;
+                }
+            }
+
+            @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Most_Popular_Section_Sub img{
+                    width: 17vw;
+                }
+            }
+
+
+
+
+            /* End of Most Popular Section */
+            
+
+            .Editors_Picks_Section{
+                display: flex;
+                max-width: 620px;
+                background: #77ff03;
+                flex-wrap:wrap;
+                
+
+            }
+            .Editors_Picks_Section h1{
+                font-size: 20px;
+                text-align: center;
+                background: white;
+                color: #77ff03;
+                width: 50vw;
+                border-radius: 15px;
+                margin: 2vh auto;
+                font-family: Dosis;
+                
+            }
+
+             @media screen and (min-width:20em) { /*320px*/
+                .Editors_Picks_Section h1{
+                    width: 100vw;
+                }
+            }
+
+             @media screen and (min-width:80em){  /*1280px*/
+                .Editors_Picks_Section h1{
+                    width: 43vw;
+                }
+            }
+
+
+            .Editors_Picks_Section_Sub{
+                margin: 2vw auto;
+                height: 39vh;
+                background: white;
+                border-radius: 15px;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Editors_Picks_Section_Sub{
+                    width: 48vw;
+                    margin: 1vw;
+                }
+            }
+
+            @media only screen and (min-width: 45em) {  /* 720px */
+                .Editors_Picks_Section_Sub{
+                    width: 41vw;
+                }
+            }
+
+            @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Editors_Picks_Section_Sub{
+                    width: 20vw;
+                }
+            }
+
+            @media screen and (min-width:80em){  /*1280px*/
+                .Editors_Picks_Section_Sub{
+                margin: 2vw auto;
+                }
+            }
+
+            .Editors_Picks_Section_Sub #tag {
+                background: #77ff03;
+                width: 15vw;
+                margin: 1vh auto;
+                text-align: center;
+                border-radius: 15px;
+                color: white;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Editors_Picks_Section_Sub #tag{
+                    margin:1vh auto;
+                    width:30vw;
+
+                }
+            }
+
+
+
+            @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Editors_Picks_Section_Sub #tag{
+                    width: 16vw;
+                }
+            }
+
+            .Editors_Picks_Section_Sub h2, .Editors_Picks_Section_Sub article, .Editors_Picks_Section_Sub #tag {
+                display: flex;
+                font-size: 12px;
+                justify-content: center;
+                font-family: 'Lato', Helvetica, sans-serif;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Editors_Picks_Section_Sub h2{
+                    font-size: 10px;
+
+                }
+            }
+
+            .Editors_Picks_Section_Sub img{
+                width: 20vw;
+                height: 26vh;
+                border-radius: 15px;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Editors_Picks_Section_Sub img{
+                    margin: 0 1vw;
+                    width: 40vw;
+
+                }
+            }
+
+            @media only screen and (min-width: 45em) {  /* 720px */
+                .Editors_Picks_Section_Sub img{
+                    width: 29vw;
+                    margin: 0 4vw;
+                }
+            }
+
+             @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Editors_Picks_Section_Sub img{
+                    width: 16vw;
+                    margin: 0 2vw;
+                }
+            }
+
+            /* End of Editors Picks Section */
+
+             .Popular_Choice_Section{
+                display: flex;
+                max-width: 620px;
+                background:#29B6F6;
+                flex-wrap:wrap;
+                
+
+            }
+
+             @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Popular_Choice_Section{
+                    max-width: 100vw;
+                    width: 97vw;
+                }
+            }
+
+            @media only screen and (min-width: 88.75em) {  /* 142px */
+                .Popular_Choice_Section{
+                    width: 88vw;
+                }
+            }
+            .Popular_Choice_Section h1{
+                font-size: 20px;
+                text-align: center;
+                background: white;
+                color: #29B6F6;
+                width: 50vw;
+                border-radius: 15px;
+                margin: 2vh auto;
+                font-family: Dosis;
+                
+            }
+
+             @media screen and (min-width:20em) { /*320px*/
+                .Popular_Choice_Section h1{
+                    width: 100vw;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            
+            @media only screen and (min-width:80em) {  /* 1280px*/
+                .Popular_Choice_Section h1{
+                    width: 83vw;
+                }
+            }
+
+            .Popular_Choice_Section_Sub{
+                margin: 2vw auto;
+                height: 39vh;
+                background: white;
+                border-radius: 15px;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Popular_Choice_Section_Sub{
+                    width: 48vw;
+                    margin: 1vw;
+                }
+            }
+
+            @media only screen and (min-width: 45em) {  /* 720px */
+                .Popular_Choice_Section_Sub{
+                    width: 41vw;
+                }
+            }
+
+             @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Popular_Choice_Section_Sub{
+                    width: 31vw;
+                }
+            }
+
+             @media only screen and (min-width:80em) {  /* 1280px*/
+                .Popular_Choice_Section_Sub{
+                    width: 16vw;
+                    margin: 5vw auto;
+                }
+            }
+
+            .Popular_Choice_Section_Sub #tag {
+                background: #29B6F6;
+                width: 15vw;
+                margin: 1vh auto;
+                text-align: center;
+                border-radius: 15px;
+                color: white;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Popular_Choice_Section_Sub #tag{
+                    margin:1vh auto;
+                    width:30vw;
+
+                }
+            }
+
+             @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Popular_Choice_Section_Sub #tag{
+                    width:22vw;
+
+                }
+            }
+
+
+            @media screen and (min-width:80em){  /*1280px*/
+                .Popular_Choice_Section_Sub #tag{
+                    width:14vw;
+                }
+            }
+            
+
+            .Popular_Choice_Section_Sub h2, .Popular_Choice_Section_Sub article, .Popular_Choice_Section_Sub #tag {
+                display: flex;
+                font-size: 12px;
+                justify-content: center;
+                font-family: 'Lato', Helvetica, sans-serif;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Popular_Choice_Section_Sub h2{
+                    font-size: 10px;
+
+                }
+            }
+
+            .Popular_Choice_Section_Sub img{
+                width: 20vw;
+                height: 26vh;
+                border-radius: 15px;
+            }
+
+            @media screen and (min-width:20em) { /*320px*/
+                .Popular_Choice_Section_Sub img{
+                    margin: 0 11vw;
+                    width: 26vw;
+
+                }
+            }
+
+            @media only screen and (min-width: 45em) {  /* 720px */
+                .Popular_Choice_Section_Sub img{
+                    width: 17vw;
+                }
+            }
+
+             @media only screen and (min-width:57.5em) {  /* 920px*/
+                .Popular_Choice_Section_Sub img{
+                    margin: 0 7vw;
+                }
+            }
+
+             @media only screen and (min-width:80em) {  /* 1280px*/
+                .Popular_Choice_Section_Sub img{
+                    margin: 0 5vw;
+                    width: 7vw;
+                }
+            }
+
+            /* End of Popular Choice Section */
+
+
+
+
+    </style>
+   <script>
         $(document).ready(function() {
 
-
-            $('.first_sorter').on('click', function(){
+            $('.first_sorter').on('click', function(event){
                 var $this = $(this);
+                var $target = event.target | event.srcElement;
                 $this.parents().siblings().toggleClass('show');
                 $(this).toggleClass('flip');
             });
@@ -29,38 +496,42 @@
 
             });
 
-            setTimeout(function(){
+            // setTimeout(function(){
 
   
-            document.getElementById("Subscription_Pop_Up").style.display = "block";
+            // // document.getElementById("Subscription_Pop_Up").style.display = "block";
 
-
-            },8000);
-
-
+            // document.body.scrollTop = 0; // For Safari
+            // document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 
             
 
-            $('#subscription_email_button').on('click', function(){
+            // },8000);
 
-                 var $this = $(this);
 
-                $this.parents('#Subscription_Pop_Up').addClass('hidden');
-  
-                    // Need to make email link work 
             
             
-            });
-            $('#Opt_Out_Link').on('click', function(){
 
-                 var $this = $(this);
+            // $('#subscription_email_button').on('click', function(){
 
-                $this.parents('#Subscription_Pop_Up').addClass('hidden');
+            //      var $this = $(this);
+
+            //     $this.parents('#Subscription_Pop_Up').addClass('hidden');
   
-                //    Need to make email link work 
+            //         // Need to make email link work 
+            
+            
+            // });
+            // $('#Opt_Out_Link').on('click', function(){
+
+            //      var $this = $(this);
+
+            //     $this.parents('#Subscription_Pop_Up').addClass('hidden');
+  
+            //     //    Need to make email link work 
 
 
-            });
+            // });
 
             
            
@@ -81,7 +552,7 @@
              }
         });
 
-
+       
 
     </script> 
     <script>
@@ -106,11 +577,11 @@
 
 <aside id="aside">
     <ul>
-        <li id="facebook"><a href="" ></a><i class="fab fa-2x  face fa-facebook fa-facebook-f"></i></li>
-        <li id="pinterest"><a href="" ></a><i class="fab fa-2x  pin fa-pinterest"></i></li>
-        <li id="twitter"><a href="" ></a><i class="fab fa-2x  tweet fa-twitter"></i></li>
-        <li id="instagram"><a href="" ></a><i class="fab  fa-instagram2 fa-2x fa-instagram"></i></li>
-        <li id="snapchat"><a href="" ></a><i class="fab fa-2x fa-snapchat fa-snapchat-ghost"></i></li>
+        <li id="facebook"><a href="https://www.facebook.com/mccormacks.clonmel"><i class="fab fa-2x  face fa-facebook fa-facebook-f"></i></a></li>
+        <li id="pinterest"><a href="https://www.pinterest.ie/mccormackspharmacyonline/" ><i class="fab fa-2x  pin fa-pinterest"></i></a></li>
+        <li id="twitter"><a href="https://twitter.com/cormacks_mc?lang=en"><i class="fab fa-2x  tweet fa-twitter"></i></a></li>
+        <li id="instagram"><a href="https://www.instagram.com/mccormackspharmacy/?hl=en" ><i class="fab  fa-instagram2 fa-2x fa-instagram"></i></a></li>
+        <li id="snapchat"><a></a><i class="fab fa-2x fa-snapchat fa-snapchat-ghost"></i></li>
     </ul>
 </aside>
 
@@ -120,301 +591,122 @@
     <a onclick="dismissCookie()" role="button" class="Accept_And_Close_Button right">Accept and Close</a>
 </div>
     
-<?php include("popup.php"); ?>  
+<!-- <//?php include("popup.php"); ?>   -->
 
 <?php include("header.php"); ?>
 
 <?php include("image-slider.php");?>
 
 
- 
-
-
-        <div class="container full">
-
-                <div class="row Section_Height">
-
-                    <div class="col-3 Section_Height">
-
-                        <div id="Skincare_Section" class="full-width">
-                                <h1 id="Skincare_Section_Heading">Skincare</h1>
-                                <img src="Resources/Images/Skincare.png" alt="" id="Skincare_Section_Image">
-                                <a href="" id="Skincare_Products_Link">See all in Skincare</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Best Selling</a>
-                                        <a href="#">Face</a>
-                                        <a href="#">Expert Skincare</a>
-                                        <a href="#">Next</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-3 Section_Height">
-
-                        <div id="Health_Section" class="full">
-                                <h1 id="Health_Section_Heading">Health</h1>
-                                <img src="Resources/Images/Health_Image.png" alt="" id="Health_Section_Image">
-                                <a href="" id="Health_Products_Link">See all in Health</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Best Selling</a>
-                                        <a href="#">First Aid</a>
-                                        <a href="#">Diabetes</a>
-                                        <a href="#">Cold / Flu</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-3 Section_Height">
-                        <div id="Beauty_Section" class="full">
-                                <h1 id="Beauty_Section_Heading">Beauty</h1>
-                                <img src="Resources/Images/Beauty_Image.png" alt="" id="Beauty_Section_Image">
-                                <a href="" id="Beauty_Products_Link">See all in Beauty</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Best Selling</a>
-                                        <a href="#">Face</a>
-                                        <a href="#">Makeup Brushes</a>
-                                        <a href="#">Eyes</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-3 Section_Height">
-                        <div id="Medicines_Section" class="full">
-                                <h1 id="Medicines_Section_Heading">Medicines</h1>
-                                <img src="Resources/Images/Medicines.png" alt="" id="Medicines_Section_Image">
-                                <a href="" id="Medicines_Products_Link">See all in Medicines</a>
-                                <ul>
-                                    <li>
-                                        <a href="#">Best Selling</a>
-                                        <a href="#">Pain Relief</a>
-                                        <a href="#">Hayfever</a>
-                                        <a href="#">Stomach</a>
-                                    </li>
-                                </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-				<!-- Testing -->
-				<!-- <div class="row test">
-					<div class="col-12">
-						<h1>Testing</h1>
-					</div>
-				
-					 <div class="col-12">				 
-						<script type='text/javascript' src='https://app.ecwid.com/script.js?14190009 '></script> 
-						<script type='text/javascript'> 
-							xProductBrowser("defaultCategoryId=30881149");
-						</script>
-					 </div>
-				</div> -->
-			
-				
-                <div class="row Most_Popular_Section">
-                        
-                    <div class="col-6 Most_Popular_Section_Background ">
-                        <h2 id="Most_Popular_Section_Heading">Most Popular (Beauty)</h2>
-
-
-
-                        <!-- <script type='text/javascript' src='https://app.ecwid.com/script.js?14190009 '></script> 
-                        <script type='text/javascript'> 
-                             xProductBrowser("categoriesPerRow=1","views=grid(2,3)","categoryView=grid","searchView=list","style=","defaultCategoryId=30881149");
-						</script> -->
-
-                        <a href="http://mccormackspharmacy.ie/beauty.php#!/SOSU-Cream-Stick-Conceal/p/110736092/category=0">
-                            <div id="Most_Popular_Section_Sub1">
-                                <div id="Most_Popular_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div>
-                                <img src="Resources/Products/SosuContour.JPG" alt="" id="Most_Popular_Section_Sub1_Image">
-                                <h3 id="Most_Popular_Section_Sub1_Product">Sosu Contour</h3>
-                                <h4 id="Most_Popular_Section_Sub1_Price">€15.95</h4>
-                                
+            <div class="Boxes">
+                    <div class = "Most_Popular_Section">
+                        <h1>Most Popular (Beauty)</h1>
+                            <div class="Most_Popular_Section_Sub" v-for= "mitem in products.slice(1,7)" :key= "mitem.id">
+                                <div id="tag">{{tagSelected}}</div>
+                                <img :src = "mitem.image" >
+                                <h2>{{mitem.name}}</h2>
+                                <a :href="mitem.link"></a>
+                                <article >€ {{mitem.price}}</article>
                             </div>
-                        </a>
-                        <a href="http://mccormackspharmacy.ie/beauty.php#!/Bellamianta-Crystal-Clear-Self-Tanning-Clear-Mousse/p/110747003">
-                            <div id="Most_Popular_Section_Sub2">
-                                <div id="Most_Popular_Tag"><i class="fas fa-glass-martini martini_left"></i>Nightout<i class="fas fa-glass-martini martini_right"></i></div>
-                                <img src="Resources/Products/BellamiantaTan.JPG" alt="" id="Most_Popular_Section_Sub2_Image">
-                                <h3 id="Most_Popular_Section_Sub2_Product">Bellamianta Tan</h3>
-                                <h4 id="Most_Popular_Section_Sub2_Price">€24.95</h4>
-                                
-                            </div>
-                        </a>
-                        <a href="http://mccormackspharmacy.ie/beauty.php#!/Sally-Hansen-Air-Brush-Legs-Tan-Glow-Spray-Tan/p/112810223">
-                            <div id="Most_Popular_Section_Sub3">
-                                <div id="Most_Popular_Tag"><i class="fas fa-tags tags_left"></i>Sale On<i class="fas fa-tags tags_right"></i></div>
-                                <img src="Resources/Products/SallyHansenTanGlow.JPG" alt="" id="Most_Popular_Section_Sub3_Image">
-                                <h3 id="Most_Popular_Section_Sub3_Product">Sally Hansen Tan</h3>
-                                <h4 id="Most_Popular_Section_Sub3_Price">€8.50</h4>
-                                
-                                
-                            </div>
-                        </a>
-
-                        <a href="http://mccormackspharmacy.ie/beauty.php#!/SCULPTED-by-Aimee-Connolly-The-All-In-One-Shader-&-Highlighter-Palette/p/110737135">
-                            <div id="Most_Popular_Section_Sub4">
-                                <div id="Most_Popular_Tag"><i class="fas fa-audio-description ad_left"></i>Promotion<i class="fas fa-audio-description ad_right"></i></div>
-                                <img src="Resources/Products/SculptedAC.JPG" alt="" id="Most_Popular_Section_Sub4_Image">
-                                <h3 id="Most_Popular_Section_Sub4_Product">Sculpted Highlighter/Shader</h3>
-                                <h4 id="Most_Popular_Section_Sub4_Price">€24.95</h4>
-                                
-                            </div>
-                        </a>
-
-                        <a href="http://mccormackspharmacy.ie/beauty.php#!/Blank-Canvas-Standee-Compact-Upright-Standing-Brush-Pouch/p/111755719">
-                            <div id="Most_Popular_Section_Sub5">
-                                <div id="Most_Popular_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div>
-                                <img src="Resources/Products/BlackCanvasCosmetics.JPG" alt="" id="Most_Popular_Section_Sub5_Image">
-                                <h3 id="Most_Popular_Section_Sub5_Product">Blank Canvas<br>Brush Pouch</h3>
-                                <h4 id="Most_Popular_Section_Sub5_Price">€19.95</h4>
-                            </div>
-                        </a>
-
-                        <a href="http://mccormackspharmacy.ie/beauty.php#!/Luna-By-Lisa-Blush-Edition-Lip-Gloss-Collection/p/110736046">
-                            <div id="Most_Popular_Section_Sub6">
-                                <div id="Most_Popular_Tag"><i class="fas fa-glass-martini martini_left"></i>Nightout<i class="fas fa-glass-martini martini_right"></i></div>
-                                <img src="Resources/Products/LunaLipGloss.JPG" alt="" id="Most_Popular_Section_Sub6_Image">
-                                <h3 id="Most_Popular_Section_Sub6_Product">Luna By Lisa<br> Lip Gloss Collection</h3>
-                                <h4 id="Most_Popular_Section_Sub6_Price">€30.00</h4>
-                                
-                            </div>
-                        </a>
-                    </div>
-
-
-                    
-
-                
-                    <div class="col-6 Editors_Picks_Section_Background">
-
-                        <h2 id="Editors_Picks_Section_Heading">Editor's Picks (Health)</h2>
-
-                        <a href="http://mccormackspharmacy.ie/health.php#!/Irish-Botanica-Botanical-Syrup-150ml/p/114317646">
-                            <div id="Editors_Picks_Section_Sub1">
-                                <div id="Editors_Picks_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div> 
-                                <img src="Resources/Products/IrishBotanicalSyrup.JPG" alt="" id="Editors_Picks_Section_Sub1_Image">
-                                <h3 id="Editors_Picks_Section_Sub1_Product">Irish Botanical Syrup </h3>
-                                <h4 id="Editors_Picks_Section_Sub1_Price">€24.99</h4>
-                                
-                            </div>
-                        </a>
-
-                        <a href="http://mccormackspharmacy.ie/health.php#!/Clean-Marine-For-Women-60-Capsules-600mg/p/114317741">
-                            <div id="Editors_Picks_Section_Sub2">
-                                <div id="Editors_Picks_Tag"><i class="fas fa-tags tags_left"></i>SALE ON<i class="fas fa-tags tags_right"></i></div>
-                                <img src="Resources/Products/CleanMarineKrillOilCapsules.jpg" alt="" id="Editors_Picks_Section_Sub2_Image">
-                                <h3 id="Editors_Picks_Section_Sub2_Product">Clean Marine Krill Oil Capsules</h3>
-                                <h4 id="Editors_Picks_Section_Sub2_Price">€24.99</h4>
-                                
-                            </div>
-                        </a>
-
-                        <a href="http://mccormackspharmacy.ie/health.php#!/Udos-Choice-Ultimate-Oil-Blend-Omega-3-6-9/p/114317608">
-                            <div id="Editors_Picks_Section_Sub3">
-                                <div id="Editors_Picks_Tag"><i class="fas fa-audio-description ad_left"></i>Promotion<i class="fas fa-audio-description ad_right"></i></div>
-                                <img src="Resources/Products/UdosChoicesOmegaCapsules.jpg" alt="" id="Editors_Picks_Section_Sub3_Image">
-                                <h3 id="Editors_Picks_Section_Sub3_Product">Udos Choices Omega Capsules</h3>
-                                <h4 id="Editors_Picks_Section_Sub3_Price">€24.99</h4>
-                                
-                            </div>
-                        </a>
-
-                        <a href="http://mccormackspharmacy.ie/health.php#!/Clean-Marine-Orange-Burst-For-Kids-150ml/p/114317751">
-                            <div id="Editors_Picks_Section_Sub4">
-                                <div id="Editors_Picks_Tag"><i class="fas fa-star star_left"></i>Best Seller<i class="fas fa-star star_right"></i></div>
-                                <img src="Resources/Products/CleanMarineLiquidOmega.jpg" alt="" id="Editors_Picks_Section_Sub4_Image">
-                                <h3 id="Editors_Picks_Section_Sub4_Product">Clean Marine Liquid Omega</h3>
-                                <h4 id="Editors_Picks_Section_Sub4_Price">€24.99</h4>
-                                
-                            </div>
-                        </a>
-
-                        <a href="http://mccormackspharmacy.ie/health.php#!/Udos-Choice-Digestive-Enzyme-Blend-176mg/p/114315680">
-                            <div id="Editors_Picks_Section_Sub5">
-                                <div id="Editors_Picks_Tag"><i class="fas fa-tags tags_left"></i>SALE ON<i class="fas fa-tags tags_right"></i></div>
-                                <img src="Resources/Products/UdosChoiceDigestiveEnzymes.jpg" alt="" id="Editors_Picks_Section_Sub5_Image">
-                                <h3 id="Editors_Picks_Section_Sub5_Product">Udos Choices Digestive Enzymes</h3>
-                                <h4 id="Editors_Picks_Section_Sub5_Price">€24.99</h4>
-                                
-                            </div>
-                        </a>
-
-                        <a href="http://mccormackspharmacy.ie/health.php#!/Clean-Marine-Cardio-40/p/114317757">
-                            <div id="Editors_Picks_Section_Sub6">
-                                <div id="Editors_Picks_Tag"><i class="fas fa-audio-description ad_left"></i>Promotion<i class="fas fa-audio-description ad_right"></i></div>
-                                <img src="Resources/Products/CleanMarineCardioCapsules.jpg" alt="" id="Editors_Picks_Section_Sub6_Image">
-                                <h3 id="Editors_Picks_Section_Sub6_Product">Clean Marine Cardio Capsules</h3>
-                                <h4 id="Editors_Picks_Section_Sub6_Price">€24.99</h4>
-                                
-                            </div>
-                        </a>
-
-
                     </div>
                     
-                </div>
 
-				
-                    <br>
-                    <br>
-                    <div class="row Popular_Choices_Section">
-                        <div class="col-12 Popular_Choices_Section_Background">
-                            <h2 id="Popular_Choices_Section_Heading">Popular Choice (Skincare)</h2>
-
-                            <a href="http://mccormackspharmacy.ie/skincare.php#!/Uriage-Bariesun-Brume-SPF-20-Mist-Medium-Protection/p/114346066">
-                                <div id="Popular_Choices_Section_Sub1">
-                                    <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                    <img src="Resources/Products/BarieSunSPF20.jpg" alt="" id="Popular_Choices_Section_Sub1_Image">
-                                    <h3 id="Popular_Choices_Section_Sub1_Product">BariéSun After Sun</h3>
-                                    <h4 id="Popular_Choices_Section_Sub1_Price">€24.99</h4>
-                                    
-                                </div>
-                            </a>
-
-                            <a href="http://mccormackspharmacy.ie/skincare.php#!/Uriage-Bebe-1st-Cleansing-Cream/p/113189649">
-                                <div id="Popular_Choices_Section_Sub2">
-                                    <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                    <img src="Resources/Products/BeBeCleansingWater.jpg" alt="" id="Popular_Choices_Section_Sub2_Image">
-                                    <h3 id="Popular_Choices_Section_Sub2_Product">BéBé Cleansing Water</h3>
-                                    <h4 id="Popular_Choices_Section_Sub2_Price">€12.50</h4>
-                                    
-                                </div>
-                            </a>
-
-                            <a href="http://mccormackspharmacy.ie/skincare.php#!/Uriage-Bariesun-Soothing-Cream-After-Sun-50ml/p/114339922">
-                                <div id="Popular_Choices_Section_Sub3">
-                                    <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                    <img src="Resources/Products/BarieSunAfterSun.jpg" alt="" id="Popular_Choices_Section_Sub3_Image">
-                                    <h3 id="Popular_Choices_Section_Sub3_Product">BariéSun Cream SPF20</h3>
-                                    <h4 id="Popular_Choices_Section_Sub3_Price">€24.99</h4>
-                                </div>
-                            </a>
-
-
-                            <a href="http://mccormackspharmacy.ie/skincare.php#!/Uriage-Ros%C3%A9liane-Anti-Redness-Mask/p/113189976">
-                                <div id="Popular_Choices_Section_Sub4">
-                                    <div id="Popular_Choices_Tag"><i class="fas fa-medkit medkit_left"></i>First Aid<i class="fas fa-medkit medkit_right"></i></div>
-                                    <img src="Resources/Products/RoselianeAntiRednessMask.jpg" alt="" id="Popular_Choices_Section_Sub4_Image">
-                                    <h3 id="Popular_Choices_Section_Sub4_Product">Roseliane AntiRedness Mask</h3>
-                                    <h4 id="Popular_Choices_Section_Sub4_Price">€18.50</h4>
-                                </div>
-                            </a>
-
+                     <div class = "Editors_Picks_Section">
+                        <h1>Editor's Picks(Health)</h1>
+                        <div class="Editors_Picks_Section_Sub" v-for= "mitem in products.slice(8,14)" :key= "mitem.id">
+                            <div id="tag">{{tagSelected}}</div>
+                            <img :src = "mitem.image" alt="">
+                            <h2 >{{mitem.name}}</h2>
+                            <a :href="mitem.link"></a>
+                            <article >€ {{mitem.price}}</article>
                         </div>
                     </div>
 
-                    <br>
-                    <br>
+                    
+                    <div class = "Popular_Choice_Section">
+                        <h1>Popular Choice(Skincare)</h1>
+                        <div class="Popular_Choice_Section_Sub" v-for= "mitem in products.slice(15,19)" :key= "mitem.id">
+                            <div id="tag">🚑 Popular 🚑 </div>
+                            <img :src = "mitem.image" alt="">
+                            <h2 >{{mitem.name}}</h2>
+                            <a :href="mitem.link"></a>
+                            <article >€ {{mitem.price}}</article>
+                        </div>
+                    </div>
+            </div>
 
-                 
-				 
+                    <script>
+                         var app = new Vue({
+                                el: '.Boxes',
+                                created() {
+                                    $(document).ready(function(){
+                                        $(".Most_Popular_Section_Sub").click(function(){
+                                            window.location = $(this).find("a").attr("href");
+                                            return false;     
+                                         });
+                                         $(".Editors_Picks_Section_Sub").click(function(){
+                                            window.location = $(this).find("a").attr("href");
+                                            return false;     
+                                         });   
+                                         $(".Popular_Choice_Section_Sub").click(function(){
+                                            window.location = $(this).find("a").attr("href");
+                                            return false;     
+                                         });                                       
+                                    });
+                                    
+                                },
+                                mounted() {
+
+                                    //How to handle an all object response 
+                                        let vm = this
+                                            
+                                        axios.get('https://sheets.googleapis.com/v4/spreadsheets/1tsalHSuO_Qt3oSGi3o6X4ZE7GstOlK2tOP6aQyI5gVQ/values/Sheet1?key=AIzaSyD-8poX-toKfN-LVyfp0uD9HMFzPIZ1NsM').then(function(response){
+                                            console.log(response.data);
+                                        
+                                            let specials = response.data.values;
+                                                for (let index = 0; index < specials.length; index++) {
+                                                    const product = specials[index];
+                                                    let mitem = {
+                                                        name: product[0],
+                                                        price: product[1],
+                                                        image: product[2],
+                                                        link: product[3],
+                                                    }
+                                                vm.products = vm.products.concat(mitem);
+                                                vm.rNumber = Math.floor( Math.random() * 7 );
+                                                vm.tagSelected = vm.tags[vm.rNumber];
+                                                vm.link = mitem.link;
+
+                                                
+                                                
+
+                                                }
+
+                                            }).catch(function (error) {
+                                            // handle error
+                                            console.log(error);
+                                            })
+
+                                            
+                                             
+                                           
+                                            
+
+                                },
+                                data() {
+                                    return {
+                                            tags: ["⭐️️ Best Seller ⭐️  " , " 🍸 Nightout 🍸" , "🏷 Sale On 🏷 " , " 👍 Promotion 👍 " , " ⭐️️ Best Seller ⭐️ " , "🙌🏻 Popular 🙌🏻 " ],
+                                            tagSelected: "",
+                                            rNumber: 0,
+                                            products: [],
+                                            link: "",
+                                            
+                                    }
+                                }
+                        })
+
+                    </script>
+    				 
                 <div class="row ">
 
 
@@ -423,8 +715,8 @@
                         <div id="Stay_In_The_Know_Section_Social_Media_Container">
                             <a href="https://www.facebook.com/McCormacksPharmacy/" class="facebook"><i class="fab fa-2x fa-facebook fa-facebook-f"></i></a>
                             <a href="https://www.instagram.com/mccormackspharmacy/?hl=en" class="instagram"><i class="fab  fa-instagram2 fa-2x fa-instagram"></i></a>
-                            <a href="https://www.instagram.com/mccormackspharmacy/?hl=en" class="twitter"><i class="fab fa-2x fa-twitter"></i></a>
-                            <a href="https://www.instagram.com/mccormackspharmacy/?hl=en" class="pinterest"><i class="fab fa-2x fa-pinterest"></i></a>
+                            <a href="https://twitter.com/cormacks_mc?lang=en" class="twitter"><i class="fab fa-2x fa-twitter"></i></a>
+                            <a href="https://www.pinterest.ie/mccormackspharmacyonline/" class="pinterest"><i class="fab fa-2x fa-pinterest"></i></a>
                         </div>
                         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
                         <div class="elfsight-app-be5d8108-cc37-49af-a58d-a19916a81baf"></div>
@@ -432,7 +724,7 @@
 
                 </div>
 
-                <?php include("image-grid.php"); ?> 
+                
 
 				
         </div>

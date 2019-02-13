@@ -7,10 +7,6 @@
 
                         <span class="col-8 top-logo-and-tag center">
                             <a href="homepage.php">
-                                <!-- <div id="McCormacks_Header_Middle_Section">
-                                    <img id="Middle_Section_Image_Logo" src="Resources/Images/McCormacks.png">
-                                    <span id="McCormacks_Logo_Middle_Section">MC CORMACK'S </span><strong id="Pharmacy_Header_Name">PHARMACY</strong>
-                                </div> -->
                                 <img src="Resources/Images/MCLogoSmall.png">
                             </a>
                         </span>
@@ -48,7 +44,7 @@
                                 </a></li>
 
 
-                                <li><a href="#">BRANDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter fa-sort-down"></i></span>
+                                <li><a href="#">BRANDS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter fa-sort-down"></i></span>
                                         <ul class="Dropdown_Nav_Bar_Menu">
                                             <li><a href="brands.php">View All Brands</a></li>
                                         </ul>
@@ -57,7 +53,7 @@
 
 
 
-                                <li><a href="#">MAKEUP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
+                                <li><a href="#">MAKEUP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
                                     
                                     <ul class="Dropdown_Nav_Bar_Menu">
                                         <li><a href="#">Face&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
@@ -136,7 +132,7 @@
                                 </a></li>
 
 
-                                <li><a href="#">SKINCARE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x  first_sorter fa-sort-down"></i></span>
+                                <li><a href="#">SKINCARE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x  first_sorter fa-sort-down"></i></span>
                                     <ul class="Dropdown_Nav_Bar_Menu">
                                         <li><a href="#">Cleanse&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
 
@@ -339,7 +335,7 @@
 
 
 
-                                <li><a href="#">MEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
+                                <li><a href="#">MEN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter fa-sort-down"></i></span>
                             
                                     <ul class="Dropdown_Nav_Bar_Menu">
                                         <li><a href="#">Bath &amp; Shower&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas fa-2x first_sorter second_sorter fa-sort-down"></i></span>
@@ -410,7 +406,7 @@
                                 
                             
                                 </a></li>
-                                <li><a href="#">HEALTH &AMP; WELLBEING<span><i class="fas  fa-2x first_sorter long_word fa-sort-down"></i></span>
+                                <li><a href="#">HEALTH&AMP;WELLBEING&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><i class="fas  fa-2x first_sorter long_word fa-sort-down"></i></span>
                             
                             
                                     <ul class="Dropdown_Nav_Bar_Menu">
@@ -443,21 +439,10 @@
                         <div class="col-3 Social_Icon_Container right">
                             <a href="https://www.facebook.com/McCormacksPharmacy/"><i class="fab fa-2x fa-facebook-f"></i></a>
                             <a href="https://www.instagram.com/mccormackspharmacy/?hl=en"><i class="fab fa-2x fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-2x fa-snapchat-ghost"></i></a>
+                            <ah><i class="fab fa-2x fa-snapchat-ghost"></i></ah>
 					    </div>
 
                     </div>
-
-                    <div class="row hidden-sm large-hidden" id="Show">
-                        <div class="col-9"></div>
-                        <div class="col-3 Authorization_Links right hidden-sm">
-                            <a href="">Log In</a>
-                            <a href=""> Register</a>
-                        </div>
-                    </div>
-
-
-
 
                     <div class="row hidden-sm large-hidden" id="Show">
 
@@ -468,11 +453,7 @@
                             
                         <div class="col-10 top-logo-and-tag center">
                             <a href="homepage.php">
-                                <!-- <div id="McCormacks_Header_Middle_Section">
-                                    <img id="Middle_Section_Image_Logo" src="Resources/Images/McCormacks.png">
-                                    <span id="McCormacks_Logo_Middle_Section">MC CORMACK'S </span><strong id="Pharmacy_Header_Name">PHARMACY</strong>
-                                </div> -->
-                                <img src="Resources/Images/MCCLogoBig.png">
+                                <img src="Resources/Images/mclogobig.png">
                             </a>
 
 

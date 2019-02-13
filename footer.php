@@ -10,9 +10,9 @@
                             
 
                                 <section id="Footer_Top_Section1_Sub">
-                                        <img src="Resources/Images/McCormacks.png" alt="" id="Verify_Site_Image">
+                                        <img src="Resources/Images/McCNewLogo.jpg" alt="" id="Verify_Site_Image">
                                         <h2 id="Welcome_McCormacks_Heading">Welcome To McCormack's Pharmacy</h2>
-                                        <p id="Summary_McCormacks_Pharmacy">McCormacks Pharmacy is one of the leading online pharmacy stores in Ireland that offers a complete range of pharmaceutical drugs, health &amp; beauty products, fragrances for men &amp; women from leading brands, and much more! We have the most genuine prices from all other stores! Explore our pharmacy today and shop your way!</p>
+                                        <p id="Summary_McCormacks_Pharmacy">McCormacks Pharmacy is one of the leading online pharmacy stores in Ireland that offers a complete range of pharmaceutical drugs, health &amp; beauty products, fragrances for men &amp; women from leading brands, and much more! We have the most genuine prices from all other stores!<br> Explore our pharmacy today and shop your way!</p>
                                 </section>
 
                                 <section id="Footer_Top_Section5_Sub">
@@ -123,7 +123,7 @@
 
                                         <form action="#" method="post" id="Email_Notification_Form">
                                             <input type="email" name="Email_Input_Sign_Up" id="Email_Input_Sign_Up" placeholder="Enter Email..">
-                                            <button type="submit" id="Email_Button_Sign_Up">SIGN UP</button>
+                                            <button  id="Email_Button_Sign_Up">SIGN UP</button>
 
                                         </form>
                                     
@@ -135,12 +135,12 @@
                             <div class="row">
                                 <div class="col-12" id="Footer_Section_2_Middle">
                                     <h2 id="Section_Middle_Follow_Us">Follow Us!</h2>
-                                    <h3 id="Section_Middle_Perks">Exclusive promos, answers to your questions and inspiration<br> every day!</h3>
+                                    <h3 id="Section_Middle_Perks" >Exclusive promos, answers to your questions and inspiration<br> every day!</h3>
                                     <div id="Footer_Social_Icons">
                                         <div id="Footer_Social_Icon_Container">
                                             <a href="https://www.facebook.com/McCormacksPharmacy/"><i class="fab fa-2x fa-facebook-f" id="Footer_Facebook_Icon"></i></a>
                                             <a href="https://www.instagram.com/mccormackspharmacy/?hl=en"><i class="fab fa-2x fa-instagram" id="Footer_Instagram_Icon"></i></a>
-                                            <a href="#"><i class="fab fa-2x fa-snapchat-ghost" id="Footer_Snapchat_Icon"></i></a>
+                                            <a><i class="fab fa-2x fa-snapchat-ghost" id="Footer_Snapchat_Icon"></i></a>
                                         </div>
                                     </div>
                                     
@@ -181,7 +181,7 @@
                             <div class="row ">
                                 <div class="col-12" id="Footer_Section_1_Left">
 
-                                    <img id="Left_Section_Logo" src="Resources/Images/McCormacks.png">
+                                    <img id="Left_Section_Logo" src="Resources/Images/McCNewLogo.jpg">
                                     <h1 id="McCormacks_Logo_Left_Section">MC CORMACK'S <strong id="Footer_Left_Pharmacy_Header_Name">PHARMACY</strong></h1>
                                     <h3 id="McCormacks_Copyright_Left_Section">© 2018  McCormack's Pharmacy. All Rights Reserved</h3>
 
@@ -281,7 +281,7 @@
                     
 
                     <section id="Footer_Top_Section1_Sub">
-                        <img src="Resources/Images/McCormacks.png" alt="" id="Verify_Site_Image">
+                        <img src="Resources/Images/McCNewLogo.jpg" alt="" id="Verify_Site_Image">
                         <h2 id="Welcome_McCormacks_Heading">Welcome To McCormack's Pharmacy</h2>
                         <p id="Summary_McCormacks_Pharmacy">McCormacks Pharmacy is one of the leading online pharmacy stores<br> in Ireland that offers a complete range of pharmaceutical drugs,<br> health & beauty products, fragrances for men & women from leading<br> brands, and much more! We have the most genuine prices from all <br> other stores! Explore our pharmacy today and shop your way!</p>
                     </section>
@@ -310,8 +310,8 @@
                 <!-- This is the code for the left side of the footer  -->
                 <section id="Footer_Section_1_Left">
 
-                    <img id="Left_Section_Logo" src="Resources/Images/McCormacks.png">
-                    <h1 id="McCormacks_Logo_Left_Section">MC CORMACK'S <strong id="Footer_Left_Pharmacy_Header_Name">PHARMACY</strong></h1>
+                    <img id="Left_Section_Logo" src="Resources/Images/McCNewLogo.jpg">
+                    <h1 id="McCormacks_Logo_Left_Section" >MC CORMACK'S <strong id="Footer_Left_Pharmacy_Header_Name">PHARMACY</strong></h1>
                     <h3 id="McCormacks_Copyright_Left_Section">&copy; <?php echo date('Y'); ?>  McCormack's Pharmacy. All Rights Reserved</h3>
 
                 </section>
@@ -329,7 +329,7 @@
                             <div id="Footer_Social_Icon_Container">
                                 <a href="https://www.facebook.com/McCormacksPharmacy/"><i class="fab fa-2x fa-facebook-f" id="Footer_Facebook_Icon"></i></a>
                                 <a href="https://www.instagram.com/mccormackspharmacy/?hl=en"><i class="fab fa-2x fa-instagram" id="Footer_Instagram_Icon"></i></a>
-                                <a href="#"><i class="fab fa-2x fa-snapchat-ghost" id="Footer_Snapchat_Icon"></i></a>
+                                <a href><i class="fab fa-2x fa-snapchat-ghost" id="Footer_Snapchat_Icon"></i></a>
                             </div>
                         </div>
                         
@@ -369,7 +369,7 @@
                 <!-- This is the code for the right side of the footer -->
                 <section id="Footer_Section_3_Right">
                     <h2 id="Section_Right_Follow_Us">Your personalized newsletter</h2>
-                    <h3 id="Section_Right_Perks">Every week, receive your flyer, exclusive offers and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personalized tips.</h3>
+                    <h3 id="Section_Right_Perks" >Every week, receive your flyer, exclusive offers and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;personalized tips.</h3>
 
                     <form action="#" method="post" id="Email_Notification_Form">
                         <input type="email" name="Email_Input_Sign_Up" id="Email_Input_Sign_Up" placeholder="Enter Email..">
@@ -387,6 +387,83 @@
 
         
     </div>
+
+    <div id="snapchat_username">
+        <h3>Happy Snapping!</h3>
+        <h5>Username: &nbsp;&nbsp;&nbsp;&nbsp;mpharmacy23</h5>
+    </div>
+
+    <script>
+        
+        var popup = document.querySelector("#snapchat_username");
+        var ghost = document.querySelector(".fa-snachat-ghost");
+
+        ghost.addEventListener("click", getClickPosition, false);
+
+    function getClickPosition(e) {
+        var parentPosition = getPosition(e.currentTarget);
+        var xPosition = e.clientX - parentPosition.x - (popup.clientWidth / 2);
+        var yPosition = e.clientY - parentPosition.y - (popup.clientHeight / 2);
+        alert(xPosition , yPosition);
+
+        popup.style.display = "flex";
+        popup.style.left = xPosition + "px";
+        popup.style.top = yPosition + "px";
+    }    
+    
+    function getPosition(el){
+        var xPos = 10;
+        var yPos = 0;
+        
+        while (el) {
+            if (el.tagName == "BODY") {
+            // deal with browser quirks with body/window/document and page scroll
+            var xScroll = el.scrollLeft || document.documentElement.scrollLeft;
+            var yScroll = el.scrollTop || document.documentElement.scrollTop;
+                xPos += (el.offsetLeft - xScroll + el.clientLeft);
+                yPos += (el.offsetTop - yScroll + el.clientTop);
+            } else {
+            // for all other non-BODY elements
+                xPos += (el.offsetLeft - el.scrollLeft + el.clientLeft);
+                yPos += (el.offsetTop - el.scrollTop + el.clientTop);
+            }
+        
+            el = el.offsetParent;
+        }
+        return {
+            x: xPos,
+            y: yPos
+        }; 
+    };
+
+    
+
+    
+
+   
+
+    // deal with the page getting resized or scrolled
+    window.addEventListener("scroll", updatePosition, false);
+    window.addEventListener("resize", updatePosition, false);
+
+    function updatePosition() {
+        position = getPosition(myElement);
+    } 
+
+    
+    
+
+
+    
+    // var snapchat = this;
+
+        // var snapchat_username = document.getElementById('snapchat_username');
+        // snapchat_username.style.display = "flex";
+        // snapchat_username.style.position = "relative";
+        // snapchat_username.style.top = snapchat.pageYOffset;
+        // snapchat_username.style.left = snapchat.pageXOffset;
+    
+    </script>
 
 
 
